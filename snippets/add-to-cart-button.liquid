@@ -54,6 +54,11 @@
         <span>
           <span>
             {{- add_to_cart_text | default: default_add_to_cart_text -}}
+             {% render 'price',
+                show_unit_price: false,
+                product_resource: product,
+                show_sale_price_first: true
+              %}
           </span>
         </span>
       </span>
