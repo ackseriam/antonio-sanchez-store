@@ -108,6 +108,24 @@
                 "padding-inline-end": 0
               },
               "blocks": {
+                "ai_gen_block_fc574b1_e4wYzR": {
+                  "type": "ai_gen_block_fc574b1",
+                  "settings": {
+                    "home_text": "Inicio",
+                    "separator": "/",
+                    "font_size": 14,
+                    "spacing": 8,
+                    "padding_top": 16,
+                    "padding_bottom": 16,
+                    "desktop_width_percent": 100,
+                    "link_color": "#000000",
+                    "link_hover_color": "#666666",
+                    "current_color": "#666666",
+                    "separator_color": "#999999",
+                    "text_color": "#000000"
+                  },
+                  "blocks": {}
+                },
                 "text_xrnftG": {
                   "type": "text",
                   "name": "Product title",
@@ -158,6 +176,7 @@
                 }
               },
               "block_order": [
+                "ai_gen_block_fc574b1_e4wYzR",
                 "text_xrnftG",
                 "price_tVjtKg"
               ]
