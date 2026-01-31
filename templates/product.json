@@ -152,7 +152,7 @@
                       "type": "ai_gen_block_fc574b1",
                       "settings": {
                         "home_text": "Inicio",
-                        "separator": "/",
+                        "separator": ">",
                         "font_size": 10,
                         "spacing": 8,
                         "padding_top": 16,
