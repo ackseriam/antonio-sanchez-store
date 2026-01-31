@@ -32,7 +32,7 @@
             "media_radius": 0,
             "extend_media": true,
             "zoom": true,
-            "video_loop": false,
+            "video_loop": true,
             "hide_variants": true,
             "padding-block-start": 97,
             "padding-block-end": 37,
