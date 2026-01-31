@@ -51,15 +51,15 @@
         </span>
       {% endif %}
       <span class="add-to-cart-text__content{% if icon_only_on_mobile %} is-visually-hidden-mobile{% endif %}">
-        <span>
-          <span>
-            {{- add_to_cart_text | default: default_add_to_cart_text -}}
-             {% render 'price',
-                show_unit_price: false,
-                product_resource: product,
-                show_sale_price_first: true
-              %}
-          </span>
+        <span class="add-to-cart-text__label">
+          {{- add_to_cart_text | default: default_add_to_cart_text -}}
+        </span>
+        <span class="add-to-cart-text__price">
+          {% render 'price', 
+            show_unit_price: false,
+            product_resource: product,
+            show_sale_price_first: true
+          %}
         </span>
       </span>
     </span>
@@ -73,6 +73,38 @@
 </add-to-cart-component>
 
 {% stylesheet %}
+  add-to-cart-component {
+    display: block;
+    width: 100%;
+  }
+
+  add-to-cart-component .button {
+    width: 100%;
+  }
+
+  add-to-cart-component .button .add-to-cart-text {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  add-to-cart-component .button .add-to-cart-text__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: var(--gap-sm);
+  }
+
+  .add-to-cart-text__label {
+    flex-shrink: 0;
+  }
+
+  .add-to-cart-text__price {
+    flex-shrink: 0;
+  }
   .add-to-cart-button {
     --text-speed: 0.26;
     --base-delay: calc(var(--text-speed) * 0.25);
@@ -83,6 +115,7 @@
     --step-delay: 3;
     --speed: 1;
 
+    width: 100%;
     user-select: none;
     transition-property: color, box-shadow, background-color, scale, translate;
     transition-duration: var(--animation-speed);
