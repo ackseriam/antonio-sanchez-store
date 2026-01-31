@@ -1665,9 +1665,8 @@ media-gallery.media-gallery--grid .media-gallery__grid .product-media-container 
     --constrained-min-height: 500px;
   }
 
-  .product-media-container.constrain-height{
-    background-color: #9A9DB1;
-  }
+
+
 
   body:has(header-component[transparent]) .product-media-container.constrain-height {
     --viewport-offset: 0px;
