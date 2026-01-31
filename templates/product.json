@@ -108,23 +108,73 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "ai_gen_block_fc574b1_e4wYzR": {
-                  "type": "ai_gen_block_fc574b1",
+                "group_eyUbXr": {
+                  "type": "group",
+                  "name": "t:names.group",
                   "settings": {
-                    "home_text": "Inicio",
-                    "separator": "/",
-                    "font_size": 14,
-                    "spacing": 8,
-                    "padding_top": 16,
-                    "padding_bottom": 16,
-                    "desktop_width_percent": 100,
-                    "link_color": "#000000",
-                    "link_hover_color": "#666666",
-                    "current_color": "#666666",
-                    "separator_color": "#999999",
-                    "text_color": "#000000"
+                    "content_direction": "row",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 12,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "background_media": "none",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   },
-                  "blocks": {}
+                  "blocks": {
+                    "judge_me_reviews_preview_badge_MtQiD7": {
+                      "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+                      "settings": {}
+                    },
+                    "ai_gen_block_fc574b1_b3qQM4": {
+                      "type": "ai_gen_block_fc574b1",
+                      "settings": {
+                        "home_text": "Inicio",
+                        "separator": "/",
+                        "font_size": 14,
+                        "spacing": 8,
+                        "padding_top": 16,
+                        "padding_bottom": 16,
+                        "desktop_width_percent": 100,
+                        "link_color": "#000000",
+                        "link_hover_color": "#666666",
+                        "current_color": "#666666",
+                        "separator_color": "#999999",
+                        "text_color": "#000000"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "judge_me_reviews_preview_badge_MtQiD7",
+                    "ai_gen_block_fc574b1_b3qQM4"
+                  ]
                 },
                 "text_xrnftG": {
                   "type": "text",
@@ -279,7 +329,7 @@
                 }
               },
               "block_order": [
-                "ai_gen_block_fc574b1_e4wYzR",
+                "group_eyUbXr",
                 "text_xrnftG",
                 "group_fbhAYQ"
               ]
