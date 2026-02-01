@@ -2245,11 +2245,65 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "text_y7igar": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Botánicos activos, orígenes naturales, vitaminas nutritivas y otros fundamentos de cuidado de la piel buenos para ti. Formulamos con ingredientes naturales súper poderosos que realmente funcionan, y están diseñados para resolver tus principales preocupaciones de cuidado de la piel.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_RwiCG8": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Sin parabenos, sulfatos, ftalatos ni pruebas en animales. Nunca.</strong></p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "icon_tHwBQ4",
-        "text_xRNNEC"
+        "text_xRNNEC",
+        "text_y7igar",
+        "text_RwiCG8"
       ],
       "name": "t:names.custom_section",
       "settings": {
