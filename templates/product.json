@@ -514,7 +514,7 @@
                   "name": "t:names.video",
                   "settings": {
                     "source": "uploaded",
-                    "video": "shopify://files/videos/e94aa690d7a743bca3bc5d93eae1693f.mp4",
+                    "video": "shopify://files/videos/9b9f41ff-14c1-42d2-86f2-5f74e4b009f7_640.mp4",
                     "video_url": "",
                     "video_autoplay": false,
                     "video_loop": true,
