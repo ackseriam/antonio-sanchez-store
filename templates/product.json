@@ -562,7 +562,7 @@
                 "accordion_row_6MxDCX": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Política de devoluciones",
+                    "heading": "Beneficios",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -571,7 +571,7 @@
                     "text_GRFMEK": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Nuestro objetivo es que cada cliente quede totalmente satisfecho con su compra. Si no es así, cuéntanoslo y haremos todo lo posible para solucionarlo.</p>",
+                        "text": "<ul><li><strong>Ilumina los ojos</strong>: la crema correctora de color de tono amarillo elimina las ojeras y unifica el tono de la piel.</li><li><strong>Reduce la hinchazón</strong>: luce más despierto, incluso después de una noche nocturna.</li><li><strong>Hidrata</strong>: suaviza las líneas finas y mantiene la piel hidratada.</li><li><strong>Las noches sin dormir no tienen nada que ver con esto</strong>: despierta luciendo fresco, pase lo que pase</li><li><strong>Clínicamente probado</strong>: respaldado por la ciencia para reducir las ojeras, la hinchazón y los signos de envejecimiento</li><li><strong>Aplicación sin esfuerzo</strong>: póntelo y continúa con tu día</li></ul>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
