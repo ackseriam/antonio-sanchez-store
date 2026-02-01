@@ -79,7 +79,7 @@
               endif
             %}
 
-            <li class="variant-option__swatch">
+            <li class="variant-option__swatch variant-option__swatch--with-label">
               <label
                 data-media-id="{{ featured_media.id }}"
                 class="variant-option__button-label variant-option__button-label--has-swatch swatch-rounded"
@@ -102,11 +102,16 @@
                   data-variant-id="{{ first_available_variant.id | default: product_option_value.variant.id }}"
                   data-first-available-or-first-variant-id="{{ first_available_variant.id | default: product_option_value.variant.id }}"
                 >
-                {% render 'swatch',
-                  swatch: product_option_value.swatch,
-                  variant_image: featured_media,
-                %}
-                {% render 'strikethrough-variant', product_option: product_option_value %}
+                <span class="swatch-wrapper">
+                  {% render 'swatch',
+                    swatch: product_option_value.swatch,
+                    variant_image: featured_media,
+                    product: product_resource,
+                    option_value_name: product_option_value.name
+                  %}
+                  {% render 'strikethrough-variant', product_option: product_option_value %}
+                </span>
+                <span class="swatch-label">{{ product_option_value.name }}</span>
               </label>
             </li>
           {%- endfor -%}

@@ -37,8 +37,30 @@
         {%- liquid
           assign swatch_count = product_option.values | map: 'swatch' | compact | size
           assign variant_style = block_settings.variant_style
+          
+          assign has_metaobject_swatches = false
+        -%}
+        
+        {% if shop.metaobjects.sombras_opcion_variante %}
+          {% for option_value in product_option.values %}
+            {% for swatch_metaobject in shop.metaobjects.sombras_opcion_variante.values %}
+              {% if swatch_metaobject.nombre_de_opcion.value == option_value.name %}
+                {%- liquid
+                  assign has_metaobject_swatches = true
+                  assign variant_style = 'swatch'
+                -%}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+            {% if has_metaobject_swatches %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        
+        {%- liquid
 
-          if swatch_count > 0 and block_settings.show_swatches
+          if has_metaobject_swatches  and block_settings.show_swatches
             if block_settings.variant_style == 'dropdown'
               assign variant_style = 'swatch_dropdown'
             else
@@ -113,7 +135,9 @@
                   {% render 'swatch',
                     swatch: product_option_value.swatch,
                     variant_image: featured_media,
-                    mode: 'unscaled'
+                    mode: 'unscaled',
+                    product: product_resource,
+                    option_value_name: product_option_value.name
                   %}
                 {% else %}
                   {% if product_option_value.available == true %}

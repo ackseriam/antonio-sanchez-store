@@ -2172,6 +2172,83 @@ deferred-media[class] :is(.deferred-media__poster-button img, .deferred-media__p
   border-radius: var(--variant-picker-swatch-radius);
 }
 
+/* Swatches with labels (circular image swatches) */
+.variant-option__swatch--with-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.variant-option__swatch--with-label .variant-option__button-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.variant-option__swatch--with-label .swatch-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.variant-option__swatch--with-label .swatch {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
+  --swatch-width: 60px;
+  --swatch-height: 60px;
+  background-size: cover;
+  background-position: center;
+}
+
+.variant-option__swatch--with-label .swatch-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgb(var(--color-foreground-rgb));
+  text-align: center;
+  line-height: 1.2;
+  max-width: 80px;
+  word-wrap: break-word;
+}
+
+.variant-option__swatch--with-label input:checked + .swatch-wrapper {
+  border-color: rgb(var(--color-foreground-rgb));
+}
+
+.variant-option__swatch--with-label input:focus-visible + .swatch-wrapper {
+  outline: 2px solid rgb(var(--color-foreground-rgb));
+  outline-offset: 2px;
+}
+
+@media screen and (max-width: 749px) {
+  .variant-option__swatch--with-label .swatch {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    --swatch-width: 50px;
+    --swatch-height: 50px;
+  }
+  
+  .variant-option__swatch--with-label .swatch-label {
+    font-size: 0.75rem;
+    max-width: 70px;
+  }
+}
+
 .sticky-content {
   position: sticky;
   top: var(--sticky-header-offset, 0);
