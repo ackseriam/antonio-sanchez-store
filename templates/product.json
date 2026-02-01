@@ -1996,8 +1996,8 @@
           "settings": {
             "image": "shopify://shop_images/lumin-ingredient-coffee.webp",
             "link": "",
-            "image_ratio": "adapt",
-            "width": "fill",
+            "image_ratio": "square",
+            "width": "custom",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
