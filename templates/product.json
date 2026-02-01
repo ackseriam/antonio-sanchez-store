@@ -708,8 +708,8 @@
                 "accordion_row_4McA4z": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Fabricación",
-                    "open_by_default": false,
+                    "heading": "Cómo utilizar",
+                    "open_by_default": true,
                     "icon": "none",
                     "width": 20
                   },
