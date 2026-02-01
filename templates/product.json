@@ -467,6 +467,7 @@
                   "settings": {
                     "source": "uploaded",
                     "video": "shopify://files/videos/e94aa690d7a743bca3bc5d93eae1693f.mp4",
+                    "video_url": "",
                     "video_autoplay": false,
                     "video_loop": true,
                     "alt": "",
@@ -489,7 +490,8 @@
                   "name": "t:names.video",
                   "settings": {
                     "source": "uploaded",
-                    "video": "shopify://files/videos/e94aa690d7a743bca3bc5d93eae1693f.mp4",
+                    "video": "shopify://files/videos/c2efad68-09a9-44c7-bcc8-cc2b8bb32ebd_640.mp4",
+                    "video_url": "",
                     "video_autoplay": false,
                     "video_loop": true,
                     "alt": "",
@@ -513,6 +515,7 @@
                   "settings": {
                     "source": "uploaded",
                     "video": "shopify://files/videos/e94aa690d7a743bca3bc5d93eae1693f.mp4",
+                    "video_url": "",
                     "video_autoplay": false,
                     "video_loop": true,
                     "alt": "",
