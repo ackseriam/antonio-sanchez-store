@@ -611,7 +611,7 @@
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
-                        "content_direction": "column",
+                        "content_direction": "row",
                         "vertical_on_mobile": true,
                         "horizontal_alignment": "flex-start",
                         "vertical_alignment": "center",
@@ -653,7 +653,7 @@
                           "settings": {
                             "icon": "price_tag",
                             "image_upload": "shopify://shop_images/ReactNativeBlobUtilTmp_v0cbsputp7qnfjfykskvl.png",
-                            "width": 24,
+                            "width": 90,
                             "link": "",
                             "open_in_new_tab": false
                           },
