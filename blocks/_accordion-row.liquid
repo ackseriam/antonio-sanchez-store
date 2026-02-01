@@ -23,8 +23,8 @@
         class_name: 'details__icon'
       %}
       {{ block_settings.heading }}
-      <span class="svg-wrapper icon-caret icon-animated">
-        {{- 'icon-caret.svg' | inline_asset_content -}}
+      <span class="svg-wrapper icon-caret icon-animated accordion-pdp">
+        {{- 'icon-caret.svg' | inline_asset_content -}} 
       </span>
       <span class="svg-wrapper icon-plus">
         {{- 'icon-plus.svg' | inline_asset_content -}}
@@ -41,6 +41,14 @@
   .details__icon {
     height: auto;
     margin-inline-end: var(--margin-xs);
+  }
+
+  .icon-caret.accordion-pdp {
+    transform: rotate(-90deg);
+  }
+
+  details[open] .icon-caret.accordion-pdp {
+    transform: rotate(0deg);
   }
 {% endstylesheet %}
 
