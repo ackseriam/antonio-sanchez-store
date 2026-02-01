@@ -1875,7 +1875,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Ingredientes clave</h2>",
+                "text": "<p>Corrector Instantáneo de Ojeras</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1941,65 +1941,13 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p> <strong>Cafeína</strong></p><p>Trabajaremos para enviar tu pedido lo antes posible. Cuando se envíe, recibirás un correo electrónico con más información. Los tiempos de entrega varían según tu ubicación.</p>",
-                    "width": "fit-content",
+                    "text": "<p><strong>Apunta a las ojeras</strong></p><p>Trabajaremos para enviar tu pedido lo antes posible. Cuando se envíe, recibirás un correo electrónico con más información. Los tiempos de entrega varían según tu ubicación.</p>",
+                    "width": "100%",
                     "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
+                    "alignment": "center",
+                    "type_preset": "custom",
                     "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_MWTRjx": {
-                  "type": "text",
-                  "name": "t:names.heading",
-                  "settings": {
-                    "text": "<p><strong> Ácido Hialurónico</strong></p><p>Hidrata intensamente la piel y suaviza las líneas finas</p>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_XjhQw6": {
-                  "type": "text",
-                  "name": "t:names.heading",
-                  "settings": {
-                    "text": "<p><strong>Extracto De Raíz De Regaliz</strong></p><p>Reduce la apariencia de las ojeras, la decoloración y las manchas de la edad</p>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
+                    "font_size": "1.5rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
@@ -2017,9 +1965,7 @@
                 }
               },
               "block_order": [
-                "text_LtQ4eJ",
-                "text_MWTRjx",
-                "text_XjhQw6"
+                "text_LtQ4eJ"
               ]
             },
             "button_rWFN4n": {
