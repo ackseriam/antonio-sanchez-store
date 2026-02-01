@@ -1803,7 +1803,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 40,
-        "padding-block-end": 0
+        "padding-block-end": 40
       }
     },
     "section_3ngkVt": {
@@ -1991,17 +1991,20 @@
             "button_rWFN4n"
           ]
         },
-        "image_96dCDC": {
-          "type": "image",
+        "image_comparison_HtimVN": {
+          "type": "image-comparison",
+          "name": "Comparación de imágenes",
           "settings": {
-            "image": "shopify://shop_images/lumin-ingredient-coffee.webp",
-            "link": "",
-            "image_ratio": "square",
-            "width": "custom",
+            "image_before": "shopify://shop_images/idcc_pdp_before.webp",
+            "image_after": "shopify://shop_images/idcc_pdp_after.webp",
+            "show_labels": false,
+            "label_before": "Antes",
+            "label_after": "Después",
+            "image_ratio": "adapt",
+            "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
-            "height": "fit",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
@@ -2016,7 +2019,7 @@
       },
       "block_order": [
         "group_CmQ4db",
-        "image_96dCDC"
+        "image_comparison_HtimVN"
       ],
       "name": "t:names.image_with_text",
       "settings": {
