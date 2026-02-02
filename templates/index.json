@@ -591,17 +591,17 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "product_list_text_YFtzcL": {
-              "type": "_product-list-text",
-              "name": "t:names.collection_title",
+            "text_g8W9Xf": {
+              "type": "text",
+              "name": "t:names.text",
               "settings": {
-                "text": "<h3>{{ closest.collection.title }}</h3>",
-                "width": "fit-content",
+                "text": "<p><strong>Powered by Dragon’s Blood, hydrating and firming the under-eye area</strong></p>",
+                "width": "100%",
                 "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h4",
+                "alignment": "center",
+                "type_preset": "rte",
                 "font": "var(--font-body--family)",
-                "font_size": "",
+                "font_size": "1rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -633,7 +633,7 @@
             }
           },
           "block_order": [
-            "product_list_text_YFtzcL",
+            "text_g8W9Xf",
             "product_list_button_MWeP9V"
           ]
         },
