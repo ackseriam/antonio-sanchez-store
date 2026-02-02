@@ -291,7 +291,7 @@
             "autoplay_videos": true,
             "loop_videos": true,
             "mute_videos": true,
-            "show_video_controls": false,
+            "show_video_controls": true,
             "desktop_width_percent": 100,
             "slides_per_view": 3,
             "slides_per_view_mobile": "1",
