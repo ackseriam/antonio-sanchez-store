@@ -1,0 +1,120 @@
+{{ 'pdp-polaroid-section.css' | asset_url | stylesheet_tag }}
+
+<section id="shopify-section-{{ section.id }}" class="shopify-section">
+  <div class="polaroids text-center color-{{ section.settings.color_scheme }}" style="background-color: {{ section.settings.background_color }}; color: {{ section.settings.text_color }};">
+    {% if section.settings.overline != blank %}
+      <b class="polaroids__overline">{{ section.settings.overline }}</b>
+    {% endif %}
+    
+    {% if section.settings.title != blank %}
+      <h2 class="polaroids__title">{{ section.settings.title }}</h2>
+    {% endif %}
+    
+    {% if section.settings.description != blank %}
+      <p>{{ section.settings.description }}</p>
+    {% endif %}
+    
+    <div class="polaroids__images-wrap d-flex space-between mx-auto">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'image' %}
+            <div class="polaroids__img-container" {{ block.shopify_attributes }}>
+              {% if block.settings.image != blank %}
+                <img  
+                  src="{{ block.settings.image | image_url: width: 416 }}" 
+                  alt="{{ block.settings.image.alt | default: block.settings.alt_text }}"
+                  srcset="{{ block.settings.image | image_url: width: 416 }} 416w"
+                  width="{{ block.settings.image.width }}"
+                  height="{{ block.settings.image.height }}"
+                  loading="lazy"
+                  class="w-100 h-100 img-contain">
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Polaroid Gallery",
+  "tag": "section",
+  "class": "section-polaroid-gallery",
+  "settings": [
+    {
+      "type": "text",
+      "id": "overline",
+      "label": "Overline Text",
+      "default": "La prueba está en las fotos"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Prepárate para tu revelación instantánea"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Sí, eso es correcto. ¿Hay algo más en lo que pueda ayudarte?"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#FDD835"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Polaroid Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "alt_text",
+          "label": "Alt Text",
+          "info": "Describe the image for accessibility"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Polaroid Gallery",
+      "blocks": [
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
