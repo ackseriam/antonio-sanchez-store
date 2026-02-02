@@ -163,7 +163,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p>Browse our latest products</p>",
+                    "text": "<h1>Liquid Armor for Tired Eyes</h1>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -189,7 +189,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Creamos cosas que funcionan mejor y duran más. Nuestros productos resuelven problemas reales con un diseño limpio y materiales honestos.</p>",
+                    "text": "<p>DragonRay Eye Gel powered by Dragon’s Blood resin to hydrate, de-puff, and energize your eyes. Pair with The Luminator for firmer, faster results.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
