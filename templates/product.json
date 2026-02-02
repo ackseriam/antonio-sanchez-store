@@ -999,7 +999,7 @@
             "text_4A6WQR": {
               "type": "text",
               "settings": {
-                "text": "<ul><li><h5>Una solución rápida para las ojeras</h5></li><li><h5>Los pigmentos correctores de color amarillo borran los tonos azules debajo de los ojos.</h5></li><li><h5>Beber tu taza de café de la mañana ya no tiene consecuencias tan graves (al menos, no lo parecerá)</h5></li></ul>",
+                "text": "<ul><li><h4>Una solución rápida para las ojeras</h4></li><li><h4>Los pigmentos correctores de color amarillo borran los tonos azules debajo de los ojos.</h4></li><li><h4>Beber tu taza de café de la mañana ya no tiene consecuencias tan graves (al menos, no lo parecerá)</h4></li></ul>",
                 "width": "100%",
                 "max_width": "narrow",
                 "alignment": "left",
