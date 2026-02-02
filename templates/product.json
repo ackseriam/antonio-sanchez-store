@@ -2611,6 +2611,43 @@
         "padding-block-end": 48
       }
     },
+    "polaroid_gallery_tbmGWp": {
+      "type": "polaroid-gallery",
+      "blocks": {
+        "image_eFeJaR": {
+          "type": "image",
+          "settings": {
+            "alt_text": ""
+          }
+        },
+        "image_WXXzWR": {
+          "type": "image",
+          "settings": {
+            "alt_text": ""
+          }
+        },
+        "image_Y6jqn7": {
+          "type": "image",
+          "settings": {
+            "alt_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_eFeJaR",
+        "image_WXXzWR",
+        "image_Y6jqn7"
+      ],
+      "name": "Polaroid Gallery",
+      "settings": {
+        "overline": "La prueba está en las fotos",
+        "title": "Prepárate para tu revelación instantánea",
+        "description": "Sí, eso es correcto. ¿Hay algo más en lo que pueda ayudarte?",
+        "color_scheme": "scheme-5",
+        "background_color": "#333333",
+        "text_color": "#ffffff"
+      }
+    },
     "17698244691405aa6e": {
       "type": "_blocks",
       "blocks": {
@@ -2666,6 +2703,7 @@
     "section_fBy3za",
     "section_Kb6irQ",
     "section_gmDk4N",
+    "polaroid_gallery_tbmGWp",
     "17698244691405aa6e"
   ]
 }
