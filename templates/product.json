@@ -2617,6 +2617,7 @@
         "image_eFeJaR": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Polaroid_Cropped_1.png",
             "alt_text": ""
           }
         },
