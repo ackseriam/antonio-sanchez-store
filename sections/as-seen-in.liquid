@@ -1,0 +1,139 @@
+{{ 'as-seen-in.css' | asset_url | stylesheet_tag }}
+
+<section id="shopify-section-{{ section.id }}" class="shopify-section">
+  <div class="as-seen-in color-{{ section.settings.color_scheme }}" style="background-color: {{ section.settings.background_color }}; color: {{ section.settings.text_color }};">
+    <div class="as-seen-in__container">
+      {% if section.settings.title != blank %}
+        <h2 class="as-seen-in__title{% if section.settings.hide_title_mobile %} hidden-sm{% endif %}">
+          {{ section.settings.title }}
+        </h2>
+      {% endif %}
+      
+      <div class="as-seen-in__logos">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'logo' %}
+              <div class="as-seen-in__logo-item" {{ block.shopify_attributes }}>
+                {% if block.settings.link != blank %}
+                  <a href="{{ block.settings.link }}" 
+                     {% if block.settings.target_blank %}target="_blank" rel="noopener noreferrer"{% endif %}
+                     aria-label="{{ block.settings.alt_text | default: 'Logo' }}">
+                {% endif %}
+                
+                {% if block.settings.image != blank %}
+                  <img 
+                    src="{{ block.settings.image | image_url: width: 400 }}" 
+                    alt="{{ block.settings.image.alt | default: block.settings.alt_text }}"
+                    srcset="{{ block.settings.image | image_url: width: 200 }} 200w,
+                            {{ block.settings.image | image_url: width: 400 }} 400w,
+                            {{ block.settings.image | image_url: width: 600 }} 600w"
+                    width="{{ block.settings.image.width }}"
+                    height="{{ block.settings.image.height }}"
+                    loading="lazy">
+                {% else %}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+                
+                {% if block.settings.link != blank %}
+                  </a>
+                {% endif %}
+              </div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %} 
+{
+  "name": "As Seen In",
+  "tag": "section",
+  "class": "section-as-seen-in",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "As Seen In"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_title_mobile",
+      "label": "Hide title on mobile",
+      "default": true
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#f2f1ed"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Logo Image"
+        },
+        {
+          "type": "text",
+          "id": "alt_text",
+          "label": "Alt Text",
+          "info": "Describe the logo for accessibility"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link URL",
+          "info": "Optional link when logo is clicked"
+        },
+        {
+          "type": "checkbox",
+          "id": "target_blank",
+          "label": "Open link in new window",
+          "default": true
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "As Seen In", 
+      "blocks": [
+        {
+          "type": "logo"
+        },
+        {
+          "type": "logo"
+        },
+        {
+          "type": "logo"
+        },
+        {
+          "type": "logo"
+        },
+        {
+          "type": "logo"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

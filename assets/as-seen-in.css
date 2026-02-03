@@ -1,0 +1,104 @@
+.as-seen-in {
+    padding: 44px 40px;
+    overflow: hidden;
+}
+
+.as-seen-in__container {
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    flex-direction: column;
+}
+
+.as-seen-in__title {
+    flex-shrink: 0;
+    width: auto;
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.as-seen-in__logos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.as-seen-in__logo-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    height: 40px;
+}
+
+.as-seen-in__logo-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.as-seen-in__logo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: opacity 0.3s ease;
+}
+
+.as-seen-in__logo-item a:hover img {
+    opacity: 0.7;
+}
+
+/* Desktop layout */
+@media (min-width: 992px) {
+    .as-seen-in__container {
+        flex-direction: row;
+    }
+
+    .as-seen-in__logos {
+        flex-wrap: nowrap;
+        gap: 3rem;
+    }
+
+    .as-seen-in__logo-item {
+        height: 24px;
+    }
+}
+
+/* Mobile slider */
+@media (max-width: 991px) {
+    .as-seen-in {
+        padding: 24px 0;
+    }
+
+    .as-seen-in__title {
+        display: none;
+    }
+
+    .as-seen-in__logos {
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        gap: 100px;
+        justify-content: flex-start;
+        padding: 0 1rem;
+    }
+
+    .as-seen-in__logos::-webkit-scrollbar {
+        display: none;
+    }
+
+    .as-seen-in__logo-item {
+        flex-shrink: 0;
+        scroll-snap-align: center;
+        min-width: 30%;
+        height: 25px;
+    }
+}
