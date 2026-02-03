@@ -860,11 +860,11 @@
       },
       "name": "Featured collection",
       "settings": {
-        "collection": "all",
+        "collection": "productos",
         "layout_type": "carousel",
         "carousel_on_mobile": false,
         "max_products": 8,
-        "columns": 4,
+        "columns": 3,
         "mobile_columns": "2",
         "mobile_card_size": "60cqw",
         "columns_gap": 8,
@@ -1224,7 +1224,7 @@
         "image": "shopify://shop_images/lumin-homepage-imagewithtext-bg_733b513a-eb39-44dd-a7ff-6126e270e41e.webp",
         "image_alt": "",
         "color_scheme": "",
-        "background_color": "#FCDC00",
+        "background_color": "#fcdc00",
         "text_color": "#000000"
       }
     },
