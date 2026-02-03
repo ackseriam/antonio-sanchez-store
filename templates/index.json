@@ -1936,6 +1936,18 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "icon_rPciVt": {
+              "type": "icon",
+              "name": "t:names.icon",
+              "settings": {
+                "icon": "price_tag",
+                "image_upload": "shopify://shop_images/Lightbulb_d65d0165-b08d-4dfa-b52a-9ba15e5b351d.png",
+                "width": 60,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
             "text_KCtVzm": {
               "type": "text",
               "name": "t:names.heading",
@@ -2003,6 +2015,7 @@
             }
           },
           "block_order": [
+            "icon_rPciVt",
             "text_KCtVzm",
             "text_47tPYC",
             "button_37tWH6"
