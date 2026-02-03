@@ -560,6 +560,7 @@
         "logo_fPzTn3": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/MensHealth_black_addf58f6-b31d-440f-b36b-0398eb54ffbc.webp",
             "alt_text": "",
             "link": "",
             "target_blank": true
@@ -568,6 +569,7 @@
         "logo_YN7tJd": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/GQ_Logo_dfbc1b84-b28f-41c4-b41b-3f1ac2b677dc_1.webp",
             "alt_text": "",
             "link": "",
             "target_blank": true
@@ -576,6 +578,7 @@
         "logo_4yCAmU": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/forbes-logo-black-transparent.webp",
             "alt_text": "",
             "link": "",
             "target_blank": true
@@ -584,6 +587,7 @@
         "logo_6jdxPD": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/Logo-Gear-Patrol.webp",
             "alt_text": "",
             "link": "",
             "target_blank": true
@@ -592,6 +596,7 @@
         "logo_fnH63e": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/lumin-as-seen-in-spy.webp",
             "alt_text": "",
             "link": "",
             "target_blank": true
