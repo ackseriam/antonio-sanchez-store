@@ -2003,11 +2003,11 @@
             "text_47tPYC": {
               "type": "text",
               "settings": {
-                "text": "<h5>Dark circles disappear in seconds with our award-winning, color-correcting eye cream, now available in tones ranging from light to deep.</h5><p><a href=\"https://www.luminskin.com/es/products/instant-dark-circle-corrector\"><br/><br/></a></p>",
+                "text": "<p>Discover a community of men who are making the world a better place, and looking damn good while doing it. Click the button below to read up on useful tips, shop recommended products, and hear more from our spotlight Luminaries.</p>",
                 "width": "100%",
                 "max_width": "narrow",
-                "alignment": "left",
-                "type_preset": "h4",
+                "alignment": "center",
+                "type_preset": "paragraph",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
