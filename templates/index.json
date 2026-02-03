@@ -2028,7 +2028,7 @@
             "button_37tWH6": {
               "type": "button",
               "settings": {
-                "label": "Comprar ahora",
+                "label": "Explore",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
