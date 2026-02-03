@@ -1092,6 +1092,32 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "text_UFdMtB": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p><strong>MOST LOVED ITEMS</strong></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "text_PFjgGR": {
               "type": "text",
               "name": "t:names.text",
@@ -1120,6 +1146,7 @@
             }
           },
           "block_order": [
+            "text_UFdMtB",
             "text_PFjgGR"
           ]
         },
