@@ -1,0 +1,117 @@
+{{ 'why-section.css' | asset_url | stylesheet_tag }}
+
+<section id="shopify-section-{{ section.id }}" class="shopify-section">
+  <div class="why-section color-{{ section.settings.color_scheme }}" style="background-color: {{ section.settings.background_color }}; color: {{ section.settings.text_color }};">
+    <div class="why-section__container">
+      {% if section.settings.overline != blank %}
+        <p class="why-section__overline">
+          <strong>{{ section.settings.overline }}</strong>
+        </p>
+      {% endif %}
+      
+      {% if section.settings.title != blank %}
+        <h2 class="why-section__title">{{ section.settings.title }}</h2>
+      {% endif %}
+      
+      {% if section.settings.description != blank %}
+        <div class="why-section__description">
+          {{ section.settings.description }}
+        </div>
+      {% endif %}
+      
+      {% if section.settings.button_text != blank %}
+        <a href="{{ section.settings.button_link }}" class="why-section__button btn btn--primary">
+          {{ section.settings.button_text }}
+        </a>
+      {% endif %}
+      
+      {% if section.settings.image != blank %}
+        <div class="why-section__image">
+          <img 
+            src="{{ section.settings.image | image_url: width: 1500 }}" 
+            alt="{{ section.settings.image.alt | default: section.settings.image_alt }}"
+            srcset="{{ section.settings.image | image_url: width: 352 }} 352w,
+                    {{ section.settings.image | image_url: width: 832 }} 832w,
+                    {{ section.settings.image | image_url: width: 1200 }} 1200w,
+                    {{ section.settings.image | image_url: width: 1500 }} 1500w"
+            width="{{ section.settings.image.width }}"
+            height="{{ section.settings.image.height }}"
+            loading="lazy">
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Why Section",
+  "tag": "section",
+  "class": "section-why",
+  "settings": [
+    {
+      "type": "text",
+      "id": "overline",
+      "label": "Overline Text",
+      "default": "HERE'S THE DEAL"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "So, Why Lumin?"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>We get men, and we get skincare. Too many men are getting bummed out over pesky dark circles, unsightly breakouts, drying out their face with cheap soaps, and are overwhelmed by complicated skincare routines.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "TRY LUMIN FREE"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Side Image",
+      "info": "Image will overflow the container on the right side"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Image Alt Text"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#FCDC00"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Why Section" 
+    }
+  ]
+}
+{% endschema %}
