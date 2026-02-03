@@ -2731,7 +2731,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>ILLUMINATED THOUGHTS</p>",
+                "text": "<p><strong>Pensamientos iluminados</strong></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2757,7 +2757,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Meet Our Luminaries</h2>",
+                "text": "<h2>Conoce a nuestros expertos</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2782,7 +2782,7 @@
             "text_Xr7FVG": {
               "type": "text",
               "settings": {
-                "text": "<p>Discover a community of men who are making the world a better place, and looking damn good while doing it. Click the button below to read up on useful tips, shop recommended products, and hear more from our spotlight Luminaries.</p>",
+                "text": "<p>Descubre una comunidad de hombres que están haciendo del mundo un lugar mejor, y luciendo increíbles mientras lo hacen. Haz clic en el botón de abajo para leer consejos útiles, comprar productos recomendados y escuchar más de nuestros expertos destacados.</p>",
                 "width": "100%",
                 "max_width": "narrow",
                 "alignment": "center",
