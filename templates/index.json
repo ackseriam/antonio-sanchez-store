@@ -1196,13 +1196,12 @@
         "collection_list": [
           "hydrate",
           "defend",
-          "complete",
           "clean",
           "bundles"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
-        "columns": 5,
+        "columns": 4,
         "mobile_columns": "2",
         "mobile_card_size": "60cqw",
         "columns_gap": 8,
