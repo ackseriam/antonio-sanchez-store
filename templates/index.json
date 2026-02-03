@@ -1269,7 +1269,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Powered by Dragon’s Blood, hydrating and firming the under-eye area</p>",
+                "text": "<p><strong>MOST LOVED ITEMS</strong></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
