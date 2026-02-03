@@ -1009,6 +1009,22 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "why_section_b9EeVP": {
+      "type": "why-section",
+      "name": "Why Section",
+      "settings": {
+        "overline": "HERE'S THE DEAL",
+        "title": "So, Why Lumin?",
+        "description": "<p>We get men, and we get skincare. Too many men are getting bummed out over pesky dark circles, unsightly breakouts, drying out their face with cheap soaps, and are overwhelmed by complicated skincare routines.</p>",
+        "button_text": "TRY LUMIN FREE",
+        "button_link": "",
+        "image": "shopify://shop_images/lumin-homepage-imagewithtext-bg_733b513a-eb39-44dd-a7ff-6126e270e41e.webp",
+        "image_alt": "",
+        "color_scheme": "",
+        "background_color": "#FCDC00",
+        "text_color": "#000000"
+      }
     }
   },
   "order": [
@@ -1017,6 +1033,7 @@
     "section_AMdkgA",
     "as_seen_in_iK3mWE",
     "product_list_fa6P9H",
-    "section_fzUGYe"
+    "section_fzUGYe",
+    "why_section_b9EeVP"
   ]
 }
