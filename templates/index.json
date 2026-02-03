@@ -1096,10 +1096,10 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h3>Compra por colección</h3>",
-                "width": "fit-content",
+                "text": "<h2>Men Need Skincare, Too</h2>",
+                "width": "100%",
                 "max_width": "normal",
-                "alignment": "left",
+                "alignment": "center",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
