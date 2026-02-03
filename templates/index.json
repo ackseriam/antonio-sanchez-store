@@ -1061,7 +1061,7 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
             "width": "fill",
@@ -1143,11 +1143,27 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "button_bdWQ4j": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Comprar ahora",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_UFdMtB",
-            "text_PFjgGR"
+            "text_PFjgGR",
+            "button_bdWQ4j"
           ]
         },
         "static-collection-card": {
