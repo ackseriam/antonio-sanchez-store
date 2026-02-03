@@ -1875,6 +1875,28 @@
     "section_jpaRnx": {
       "type": "section",
       "blocks": {
+        "image_Er8Rf7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lumin_luminaries_hero_1.webp",
+            "link": "",
+            "image_ratio": "portrait",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "group_DR8YLz": {
           "type": "group",
           "settings": {
@@ -1985,33 +2007,11 @@
             "text_47tPYC",
             "button_37tWH6"
           ]
-        },
-        "image_Er8Rf7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lumin_home_hero_idcc_shades_launch_hq.webp",
-            "link": "",
-            "image_ratio": "portrait",
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
         }
       },
       "block_order": [
-        "group_DR8YLz",
-        "image_Er8Rf7"
+        "image_Er8Rf7",
+        "group_DR8YLz"
       ],
       "name": "t:names.image_with_text",
       "settings": {
