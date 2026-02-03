@@ -554,6 +554,66 @@
         "padding-block-end": 0
       }
     },
+    "as_seen_in_iK3mWE": {
+      "type": "as-seen-in",
+      "blocks": {
+        "logo_fPzTn3": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "",
+            "link": "",
+            "target_blank": true
+          }
+        },
+        "logo_YN7tJd": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "",
+            "link": "",
+            "target_blank": true
+          }
+        },
+        "logo_4yCAmU": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "",
+            "link": "",
+            "target_blank": true
+          }
+        },
+        "logo_6jdxPD": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "",
+            "link": "",
+            "target_blank": true
+          }
+        },
+        "logo_fnH63e": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "",
+            "link": "",
+            "target_blank": true
+          }
+        }
+      },
+      "block_order": [
+        "logo_fPzTn3",
+        "logo_YN7tJd",
+        "logo_4yCAmU",
+        "logo_6jdxPD",
+        "logo_fnH63e"
+      ],
+      "name": "As Seen In",
+      "settings": {
+        "title": "As Seen In",
+        "hide_title_mobile": true,
+        "color_scheme": "",
+        "background_color": "#f2f1ed",
+        "text_color": "#000000"
+      }
+    },
     "product_list_fa6P9H": {
       "type": "product-list",
       "blocks": {
@@ -780,6 +840,7 @@
     "hero_jVaWmY",
     "177000717951a2db4a",
     "section_AMdkgA",
+    "as_seen_in_iK3mWE",
     "product_list_fa6P9H"
   ]
 }
