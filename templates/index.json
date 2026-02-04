@@ -726,7 +726,7 @@
             "show_video_controls": true,
             "desktop_width_percent": 100,
             "slides_per_view": 3,
-            "slides_per_view_mobile": "1",
+            "slides_per_view_mobile": "2",
             "gap": 25,
             "section_padding": 40,
             "aspect_ratio": "125",
