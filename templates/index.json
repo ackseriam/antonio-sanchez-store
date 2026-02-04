@@ -554,6 +554,71 @@
         "padding-block-end": 0
       }
     },
+    "as_seen_in_iK3mWE": {
+      "type": "as-seen-in",
+      "blocks": {
+        "logo_fPzTn3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/MensHealth_black_addf58f6-b31d-440f-b36b-0398eb54ffbc.webp",
+            "alt_text": "",
+            "link": "",
+            "target_blank": true
+          }
+        },
+        "logo_YN7tJd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/GQ_Logo_dfbc1b84-b28f-41c4-b41b-3f1ac2b677dc_1.webp",
+            "alt_text": "",
+            "link": "",
+            "target_blank": true
+          }
+        },
+        "logo_4yCAmU": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/forbes-logo-black-transparent.webp",
+            "alt_text": "",
+            "link": "",
+            "target_blank": true
+          }
+        },
+        "logo_6jdxPD": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Logo-Gear-Patrol.webp",
+            "alt_text": "",
+            "link": "",
+            "target_blank": true
+          }
+        },
+        "logo_fnH63e": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/lumin-as-seen-in-spy.webp",
+            "alt_text": "",
+            "link": "",
+            "target_blank": true
+          }
+        }
+      },
+      "block_order": [
+        "logo_fPzTn3",
+        "logo_YN7tJd",
+        "logo_4yCAmU",
+        "logo_6jdxPD",
+        "logo_fnH63e"
+      ],
+      "name": "As Seen In",
+      "settings": {
+        "title": "As Seen In",
+        "hide_title_mobile": true,
+        "color_scheme": "",
+        "background_color": "#f2f1ed",
+        "text_color": "#000000"
+      }
+    },
     "carousel_ddT99y": {
       "type": "carousel",
       "blocks": {
@@ -919,71 +984,6 @@
         "icons_shape": "none",
         "padding-block-start": 0,
         "padding-block-end": 0
-      }
-    },
-    "as_seen_in_iK3mWE": {
-      "type": "as-seen-in",
-      "blocks": {
-        "logo_fPzTn3": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/MensHealth_black_addf58f6-b31d-440f-b36b-0398eb54ffbc.webp",
-            "alt_text": "",
-            "link": "",
-            "target_blank": true
-          }
-        },
-        "logo_YN7tJd": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/GQ_Logo_dfbc1b84-b28f-41c4-b41b-3f1ac2b677dc_1.webp",
-            "alt_text": "",
-            "link": "",
-            "target_blank": true
-          }
-        },
-        "logo_4yCAmU": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/forbes-logo-black-transparent.webp",
-            "alt_text": "",
-            "link": "",
-            "target_blank": true
-          }
-        },
-        "logo_6jdxPD": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Logo-Gear-Patrol.webp",
-            "alt_text": "",
-            "link": "",
-            "target_blank": true
-          }
-        },
-        "logo_fnH63e": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/lumin-as-seen-in-spy.webp",
-            "alt_text": "",
-            "link": "",
-            "target_blank": true
-          }
-        }
-      },
-      "block_order": [
-        "logo_fPzTn3",
-        "logo_YN7tJd",
-        "logo_4yCAmU",
-        "logo_6jdxPD",
-        "logo_fnH63e"
-      ],
-      "name": "As Seen In",
-      "settings": {
-        "title": "As Seen In",
-        "hide_title_mobile": true,
-        "color_scheme": "",
-        "background_color": "#f2f1ed",
-        "text_color": "#000000"
       }
     },
     "product_list_fa6P9H": {
@@ -2451,10 +2451,10 @@
   },
   "order": [
     "hero_jVaWmY",
+    "as_seen_in_iK3mWE",
     "177000717951a2db4a",
     "section_AMdkgA",
     "carousel_ddT99y",
-    "as_seen_in_iK3mWE",
     "product_list_fa6P9H",
     "section_fzUGYe",
     "collection_list_mAkLMa",
