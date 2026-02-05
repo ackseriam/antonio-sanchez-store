@@ -176,32 +176,6 @@
                     "judge_me_reviews_preview_badge_MtQiD7"
                   ]
                 },
-                "text_xrnftG": {
-                  "type": "text",
-                  "name": "Product title",
-                  "settings": {
-                    "text": "<h1>{{ closest.product.title }} </h1>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h3",
-                    "font": "var(--font-primary--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
                 "group_fbhAYQ": {
                   "type": "group",
                   "name": "t:names.group",
@@ -242,7 +216,91 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "group_J6fH8D": {
+                    "icon_PQb9zW": {
+                      "type": "icon",
+                      "name": "t:names.icon",
+                      "settings": {
+                        "icon": "price_tag",
+                        "image_upload": "shopify://shop_images/Lightbulb_d65d0165-b08d-4dfa-b52a-9ba15e5b351d.png",
+                        "width": 24,
+                        "link": "",
+                        "open_in_new_tab": false
+                      },
+                      "blocks": {}
+                    },
+                    "text_JVNYnU": {
+                      "type": "text",
+                      "name": "Product title",
+                      "settings": {
+                        "text": "<h1>{{ closest.product.title }} </h1>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "h3",
+                        "font": "var(--font-primary--family)",
+                        "font_size": "",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_PQb9zW",
+                    "text_JVNYnU"
+                  ]
+                },
+                "group_x9ptje": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "content_direction": "row",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "flex-start",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 12,
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "inherit_color_scheme": true,
+                    "color_scheme": "",
+                    "background_media": "none",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "placeholder": "",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {
+                    "group_aeU6RL": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
@@ -282,7 +340,7 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "price_9xB7pV": {
+                        "price_nzb7r6": {
                           "type": "price",
                           "settings": {
                             "show_sale_price_first": true,
@@ -306,10 +364,10 @@
                         }
                       },
                       "block_order": [
-                        "price_9xB7pV"
+                        "price_nzb7r6"
                       ]
                     },
-                    "icon_TYpWwa": {
+                    "icon_ThUycV": {
                       "type": "icon",
                       "name": "t:names.icon",
                       "settings": {
@@ -323,15 +381,15 @@
                     }
                   },
                   "block_order": [
-                    "group_J6fH8D",
-                    "icon_TYpWwa"
+                    "group_aeU6RL",
+                    "icon_ThUycV"
                   ]
                 }
               },
               "block_order": [
                 "group_eyUbXr",
-                "text_xrnftG",
-                "group_fbhAYQ"
+                "group_fbhAYQ",
+                "group_x9ptje"
               ]
             },
             "divider_VJhene": {
