@@ -18,7 +18,7 @@
           "type": "_announcement",
           "name": "t:names.announcement",
           "settings": {
-            "text": "¡Compra nuestras últimas novedades!",
+            "text": "Up to 30% Off Bundles",
             "link": "",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
@@ -31,7 +31,7 @@
         "announcement_BxgCk9": {
           "type": "_announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Try Lumin for Free. Take the Quiz",
             "link": "",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
