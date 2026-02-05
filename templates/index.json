@@ -2003,6 +2003,7 @@
         "testimonial_WLCzpR": {
           "type": "testimonial",
           "settings": {
+            "stars_image": "shopify://shop_images/Stars_9ce5d2ba-a0e1-44b3-8aeb-964fcaf73c74.png",
             "stars_alt": "5 stars",
             "title": "Me encanta",
             "content": "<p>Se lo compre a mi novio y el dice que su piel esta mas suave y limpia y hay una gran diferencia en las cicatrices del acne.</p>",
