@@ -1438,7 +1438,7 @@
             "height": "fit",
             "custom_height": 100,
             "inherit_color_scheme": true,
-            "color_scheme": "",
+            "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
             "background_media": "none",
             "video_position": "cover",
             "background_image_position": "cover",
@@ -1490,7 +1490,7 @@
               "name": "t:names.text",
               "settings": {
                 "text": "<h2>Men Need Skincare, Too</h2>",
-                "width": "100%",
+                "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "center",
                 "type_preset": "rte",
@@ -1518,7 +1518,7 @@
                 "label": "Comprar ahora",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
-                "style_class": "button-secondary",
+                "style_class": "button",
                 "width": "custom",
                 "custom_width": 25,
                 "width_mobile": "fit-content",
@@ -1622,7 +1622,7 @@
         "icons_shape": "none",
         "section_width": "page-width",
         "gap": 12,
-        "color_scheme": "",
+        "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
         "padding-block-start": 48,
         "padding-block-end": 48
       }
