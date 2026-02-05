@@ -1997,124 +1997,6 @@
         "padding-block-end": 48
       }
     },
-    "testimonials_slider_WmFrLF": {
-      "type": "testimonials-slider",
-      "blocks": {
-        "testimonial_WLCzpR": {
-          "type": "testimonial",
-          "settings": {
-            "stars_image": "shopify://shop_images/Stars_9ce5d2ba-a0e1-44b3-8aeb-964fcaf73c74.png",
-            "stars_alt": "5 stars",
-            "title": "Me encanta",
-            "content": "<p>Se lo compre a mi novio y el dice que su piel esta mas suave y limpia y hay una gran diferencia en las cicatrices del acne.</p>",
-            "location": "Bristol, Reino Unido",
-            "card_background": "#ffffff"
-          }
-        },
-        "testimonial_DN9qrK": {
-          "type": "testimonial",
-          "settings": {
-            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
-            "stars_alt": "5 stars",
-            "title": "Gran humectante",
-            "content": "<p>Me encantan los productos para la piel de Lumin. La crema hidratante ha sido parte de mi rutina durante mucho tiempo y realmente funciona en mi piel.</p>",
-            "location": "Paises Bajos",
-            "card_background": "#ffffff"
-          }
-        },
-        "testimonial_JXTdGz": {
-          "type": "testimonial",
-          "settings": {
-            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
-            "stars_alt": "5 stars",
-            "title": "Esceptico ahora convencido",
-            "content": "<p>Hice la prueba y al principio era bastante esceptico, pero rapidamente comence a amar los productos. El aroma de los productos junto con como se sienten en mi piel... ahora estoy obsesionado</p>",
-            "location": "Edmonton, Canada",
-            "card_background": "#ffffff"
-          }
-        },
-        "testimonial_RNrYYm": {
-          "type": "testimonial",
-          "settings": {
-            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
-            "stars_alt": "5 stars",
-            "title": "Verdaderamente excelente",
-            "content": "<p>He usado Cera Ve y Kiehl's pero nunca me han quitado toda la grasa del rostro. Esto lo elimina por completo, la crema hidratante parece devolverme todo lo que necesito.</p>",
-            "location": "Colorado, Estados Unidos",
-            "card_background": "#ffffff"
-          }
-        },
-        "testimonial_PUtAjj": {
-          "type": "testimonial",
-          "settings": {
-            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
-            "stars_alt": "5 stars",
-            "title": "Sin arrepentimientos",
-            "content": "<p>Tuve que hacer un cambio porque los productos que estaba usando no mejoraban el aspecto de mi piel. Estos productos marcaron la diferencia y resolvieron el problema que tenia con mi piel seca.</p>",
-            "location": "Nueva Jersey, Estados Unidos",
-            "card_background": "#ffffff"
-          }
-        },
-        "testimonial_Ga8GV7": {
-          "type": "testimonial",
-          "settings": {
-            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
-            "stars_alt": "5 stars",
-            "title": "2 meses y ya veo resultados",
-            "content": "<p>Mi piel esta mucho mas limpia y menos irritada. No podria estar mas contento con los resultados.</p>",
-            "location": "Utah, Estados Unidos",
-            "card_background": "#ffffff"
-          }
-        },
-        "testimonial_bfV4c4": {
-          "type": "testimonial",
-          "settings": {
-            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
-            "stars_alt": "5 stars",
-            "title": "Asombroso",
-            "content": "<p>Producto brillante, gran diferencia en mi piel.</p>",
-            "location": "Birmingham, Reino Unido",
-            "card_background": "#ffffff"
-          }
-        },
-        "testimonial_EtB8KN": {
-          "type": "testimonial",
-          "settings": {
-            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
-            "stars_alt": "5 stars",
-            "title": "El producto es bueno",
-            "content": "<p>Lumin es esencial, estoy viendo grandes cambios desde que uso el producto</p>",
-            "location": "Minnesota, Estados Unidos",
-            "card_background": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_WLCzpR",
-        "testimonial_DN9qrK",
-        "testimonial_JXTdGz",
-        "testimonial_RNrYYm",
-        "testimonial_PUtAjj",
-        "testimonial_Ga8GV7",
-        "testimonial_bfV4c4",
-        "testimonial_EtB8KN"
-      ],
-      "name": "Testimonials Slider",
-      "settings": {
-        "section_title": "Take It From Them",
-        "subtitle": "AVERAGE RATING:",
-        "rating_image": "shopify://shop_images/Stars_9ce5d2ba-a0e1-44b3-8aeb-964fcaf73c74.png",
-        "rating_alt": "4.5 Stars",
-        "background_image": "shopify://shop_images/lumin-homepage-testimonials-bg.webp",
-        "background_color": "#f2f1ed",
-        "slide_width_desktop": 25,
-        "slide_width_mobile": 85,
-        "show_navigation": true,
-        "show_pagination": true,
-        "padding_top": 80,
-        "padding_bottom": 30
-      }
-    },
     "slideshow_gPWNDk": {
       "type": "slideshow",
       "blocks": {
@@ -2477,6 +2359,124 @@
         "padding-block-end": 0
       }
     },
+    "testimonials_slider_WmFrLF": {
+      "type": "testimonials-slider",
+      "blocks": {
+        "testimonial_WLCzpR": {
+          "type": "testimonial",
+          "settings": {
+            "stars_image": "shopify://shop_images/Stars_9ce5d2ba-a0e1-44b3-8aeb-964fcaf73c74.png",
+            "stars_alt": "5 stars",
+            "title": "Me encanta",
+            "content": "<p>Se lo compre a mi novio y el dice que su piel esta mas suave y limpia y hay una gran diferencia en las cicatrices del acne.</p>",
+            "location": "Bristol, Reino Unido",
+            "card_background": "#ffffff"
+          }
+        },
+        "testimonial_DN9qrK": {
+          "type": "testimonial",
+          "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
+            "stars_alt": "5 stars",
+            "title": "Gran humectante",
+            "content": "<p>Me encantan los productos para la piel de Lumin. La crema hidratante ha sido parte de mi rutina durante mucho tiempo y realmente funciona en mi piel.</p>",
+            "location": "Paises Bajos",
+            "card_background": "#ffffff"
+          }
+        },
+        "testimonial_JXTdGz": {
+          "type": "testimonial",
+          "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
+            "stars_alt": "5 stars",
+            "title": "Esceptico ahora convencido",
+            "content": "<p>Hice la prueba y al principio era bastante esceptico, pero rapidamente comence a amar los productos. El aroma de los productos junto con como se sienten en mi piel... ahora estoy obsesionado</p>",
+            "location": "Edmonton, Canada",
+            "card_background": "#ffffff"
+          }
+        },
+        "testimonial_RNrYYm": {
+          "type": "testimonial",
+          "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
+            "stars_alt": "5 stars",
+            "title": "Verdaderamente excelente",
+            "content": "<p>He usado Cera Ve y Kiehl's pero nunca me han quitado toda la grasa del rostro. Esto lo elimina por completo, la crema hidratante parece devolverme todo lo que necesito.</p>",
+            "location": "Colorado, Estados Unidos",
+            "card_background": "#ffffff"
+          }
+        },
+        "testimonial_PUtAjj": {
+          "type": "testimonial",
+          "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
+            "stars_alt": "5 stars",
+            "title": "Sin arrepentimientos",
+            "content": "<p>Tuve que hacer un cambio porque los productos que estaba usando no mejoraban el aspecto de mi piel. Estos productos marcaron la diferencia y resolvieron el problema que tenia con mi piel seca.</p>",
+            "location": "Nueva Jersey, Estados Unidos",
+            "card_background": "#ffffff"
+          }
+        },
+        "testimonial_Ga8GV7": {
+          "type": "testimonial",
+          "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
+            "stars_alt": "5 stars",
+            "title": "2 meses y ya veo resultados",
+            "content": "<p>Mi piel esta mucho mas limpia y menos irritada. No podria estar mas contento con los resultados.</p>",
+            "location": "Utah, Estados Unidos",
+            "card_background": "#ffffff"
+          }
+        },
+        "testimonial_bfV4c4": {
+          "type": "testimonial",
+          "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
+            "stars_alt": "5 stars",
+            "title": "Asombroso",
+            "content": "<p>Producto brillante, gran diferencia en mi piel.</p>",
+            "location": "Birmingham, Reino Unido",
+            "card_background": "#ffffff"
+          }
+        },
+        "testimonial_EtB8KN": {
+          "type": "testimonial",
+          "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
+            "stars_alt": "5 stars",
+            "title": "El producto es bueno",
+            "content": "<p>Lumin es esencial, estoy viendo grandes cambios desde que uso el producto</p>",
+            "location": "Minnesota, Estados Unidos",
+            "card_background": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_WLCzpR",
+        "testimonial_DN9qrK",
+        "testimonial_JXTdGz",
+        "testimonial_RNrYYm",
+        "testimonial_PUtAjj",
+        "testimonial_Ga8GV7",
+        "testimonial_bfV4c4",
+        "testimonial_EtB8KN"
+      ],
+      "name": "Testimonials Slider",
+      "settings": {
+        "section_title": "Take It From Them",
+        "subtitle": "AVERAGE RATING:",
+        "rating_image": "shopify://shop_images/Stars_9ce5d2ba-a0e1-44b3-8aeb-964fcaf73c74.png",
+        "rating_alt": "4.5 Stars",
+        "background_image": "shopify://shop_images/lumin-homepage-testimonials-bg.webp",
+        "background_color": "#f2f1ed",
+        "slide_width_desktop": 25,
+        "slide_width_mobile": 85,
+        "show_navigation": true,
+        "show_pagination": true,
+        "padding_top": 80,
+        "padding_bottom": 30
+      }
+    },
     "section_jpaRnx": {
       "type": "section",
       "blocks": {
@@ -2683,7 +2683,7 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 51,
+        "padding-block-start": 0,
         "padding-block-end": 0
       }
     }
@@ -2699,8 +2699,8 @@
     "collection_list_mAkLMa",
     "why_section_b9EeVP",
     "product_list_iYKLwD",
-    "testimonials_slider_WmFrLF",
     "slideshow_gPWNDk",
+    "testimonials_slider_WmFrLF",
     "section_jpaRnx"
   ]
 }
