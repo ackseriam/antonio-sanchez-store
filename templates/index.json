@@ -2059,6 +2059,32 @@
                   },
                   "blocks": {}
                 },
+                "text_73nDFg": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<h2>Need an easy routine?</h2>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": true,
+                    "background_color": "#fcdc00",
+                    "corner_radius": 0,
+                    "padding-block-start": 10,
+                    "padding-block-end": 10,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "text_rG3Pcx": {
                   "type": "text",
                   "settings": {
@@ -2100,6 +2126,7 @@
               },
               "block_order": [
                 "spacer_9wiCA8",
+                "text_73nDFg",
                 "text_rG3Pcx",
                 "spacer_dtby8F"
               ]
