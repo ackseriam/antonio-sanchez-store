@@ -166,14 +166,16 @@
                       },
                       "blocks": {}
                     },
-                    "judge_me_reviews_preview_badge_MtQiD7": {
-                      "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-                      "settings": {}
+                    "okendo_star_rating_8yL9dj": {
+                      "type": "shopify://apps/okendo/blocks/star-rating/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+                      "settings": {
+                        "product": "{{closest.product}}"
+                      }
                     }
                   },
                   "block_order": [
                     "ai_gen_block_fc574b1_b3qQM4",
-                    "judge_me_reviews_preview_badge_MtQiD7"
+                    "okendo_star_rating_8yL9dj"
                   ]
                 },
                 "group_fbhAYQ": {
