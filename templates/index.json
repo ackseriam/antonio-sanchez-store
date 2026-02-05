@@ -2014,6 +2014,7 @@
         "testimonial_DN9qrK": {
           "type": "testimonial",
           "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
             "stars_alt": "5 stars",
             "title": "Gran humectante",
             "content": "<p>Me encantan los productos para la piel de Lumin. La crema hidratante ha sido parte de mi rutina durante mucho tiempo y realmente funciona en mi piel.</p>",
@@ -2024,6 +2025,7 @@
         "testimonial_JXTdGz": {
           "type": "testimonial",
           "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
             "stars_alt": "5 stars",
             "title": "Esceptico ahora convencido",
             "content": "<p>Hice la prueba y al principio era bastante esceptico, pero rapidamente comence a amar los productos. El aroma de los productos junto con como se sienten en mi piel... ahora estoy obsesionado</p>",
@@ -2034,6 +2036,7 @@
         "testimonial_RNrYYm": {
           "type": "testimonial",
           "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
             "stars_alt": "5 stars",
             "title": "Verdaderamente excelente",
             "content": "<p>He usado Cera Ve y Kiehl's pero nunca me han quitado toda la grasa del rostro. Esto lo elimina por completo, la crema hidratante parece devolverme todo lo que necesito.</p>",
