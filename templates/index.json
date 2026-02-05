@@ -1550,31 +1550,6 @@
             "border_radius": 0
           },
           "blocks": {
-            "collection_title_GVmdDw": {
-              "type": "collection-title",
-              "name": "t:names.collection_title",
-              "settings": {
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "paragraph",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground-heading)",
-                "background": true,
-                "background_color": "#ffffff01",
-                "corner_radius": 0,
-                "padding-block-start": 4,
-                "padding-block-end": 4,
-                "padding-inline-start": 8,
-                "padding-inline-end": 8
-              },
-              "blocks": {}
-            },
             "group_RkUKMh": {
               "type": "group",
               "name": "t:names.group",
@@ -1615,6 +1590,31 @@
                 "padding-inline-end": 0
               },
               "blocks": {
+                "collection_title_BTDwer": {
+                  "type": "collection-title",
+                  "name": "t:names.collection_title",
+                  "settings": {
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h4",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#ffffff",
+                    "corner_radius": 0,
+                    "padding-block-start": 4,
+                    "padding-block-end": 4,
+                    "padding-inline-start": 8,
+                    "padding-inline-end": 8
+                  },
+                  "blocks": {}
+                },
                 "button_DMtXHa": {
                   "type": "button",
                   "name": "t:names.button",
@@ -1632,6 +1632,7 @@
                 }
               },
               "block_order": [
+                "collection_title_BTDwer",
                 "button_DMtXHa"
               ]
             },
@@ -1654,7 +1655,6 @@
             }
           },
           "block_order": [
-            "collection_title_GVmdDw",
             "group_RkUKMh"
           ]
         }

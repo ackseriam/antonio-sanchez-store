@@ -337,7 +337,7 @@
           "primary_button_background": "#fcdc00",
           "primary_button_text": "#000000",
           "primary_button_border": "#000000",
-          "primary_button_hover_background": "rgba(0,0,0,0)",
+          "primary_button_hover_background": "#ffffff00",
           "primary_button_hover_text": "#000000",
           "primary_button_hover_border": "#333333",
           "secondary_button_background": "rgba(0,0,0,0)",
@@ -457,7 +457,7 @@
           "primary_button_hover_background": "#333333",
           "primary_button_hover_text": "#ffffff",
           "primary_button_hover_border": "#000000",
-          "secondary_button_background": "#ffffff",
+          "secondary_button_background": "rgba(0,0,0,0)",
           "secondary_button_text": "#000000",
           "secondary_button_border": "#000000",
           "secondary_button_hover_background": "#fafafa",
@@ -483,7 +483,7 @@
       },
       "scheme-b8c1c75f-7952-4c20-accb-bdf2d6dd5c88": {
         "settings": {
-          "background": "rgba(0,0,0,0)",
+          "background": "#ffffff00",
           "foreground_heading": "#ffffff",
           "foreground": "#ffffff",
           "primary": "#000000cf",
