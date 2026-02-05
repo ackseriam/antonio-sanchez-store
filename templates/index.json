@@ -2047,6 +2047,7 @@
         "testimonial_PUtAjj": {
           "type": "testimonial",
           "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
             "stars_alt": "5 stars",
             "title": "Sin arrepentimientos",
             "content": "<p>Tuve que hacer un cambio porque los productos que estaba usando no mejoraban el aspecto de mi piel. Estos productos marcaron la diferencia y resolvieron el problema que tenia con mi piel seca.</p>",
@@ -2057,6 +2058,7 @@
         "testimonial_Ga8GV7": {
           "type": "testimonial",
           "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
             "stars_alt": "5 stars",
             "title": "2 meses y ya veo resultados",
             "content": "<p>Mi piel esta mucho mas limpia y menos irritada. No podria estar mas contento con los resultados.</p>",
@@ -2067,6 +2069,7 @@
         "testimonial_bfV4c4": {
           "type": "testimonial",
           "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
             "stars_alt": "5 stars",
             "title": "Asombroso",
             "content": "<p>Producto brillante, gran diferencia en mi piel.</p>",
@@ -2077,6 +2080,7 @@
         "testimonial_EtB8KN": {
           "type": "testimonial",
           "settings": {
+            "stars_image": "shopify://shop_images/lumin-lp-stars-5.png",
             "stars_alt": "5 stars",
             "title": "El producto es bueno",
             "content": "<p>Lumin es esencial, estoy viendo grandes cambios desde que uso el producto</p>",
