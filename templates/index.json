@@ -1315,7 +1315,7 @@
               "name": "t:names.heading",
               "settings": {
                 "text": "<h2>Erase Dark Circles Instantly</h2>",
-                "width": "fit-content",
+                "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "h2",
