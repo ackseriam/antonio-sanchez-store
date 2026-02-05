@@ -1,0 +1,252 @@
+/* Testimonials Slider Section */
+.testimonials-section {
+  position: relative;
+  width: 100%;
+  padding: 80px 40px 30px 76px;
+  background: #f2f1ed;
+  text-align: center;
+}
+
+/* Background Image - Desktop Only */
+.testimonials-section__bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 534px;
+  height: 100%;
+  object-fit: contain;
+  object-position: left;
+  pointer-events: none;
+}
+
+/* Container */
+.testimonials-section__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 20px;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  position: relative;
+  z-index: 1;
+}
+
+/* Title */
+.testimonials-section__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Subtitle */
+.testimonials-section__subtitle {
+  font-size: 22px;
+  margin: 0;
+}
+
+/* Stars Rating Image */
+.testimonials-section__stars {
+  max-width: 140px;
+  height: auto;
+  display: block;
+}
+
+/* Slider Container */
+.testimonials-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.testimonials-slider__viewport {
+  width: 100%;
+  overflow: hidden;
+}
+
+.testimonials-slider__container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 50px 0 80px;
+  transition: transform 0.3s ease;
+}
+
+/* Individual Slide */
+.testimonials-slider__slide {
+  flex: 0 0 25%;
+  min-width: 0;
+}
+
+/* Testimonial Card */
+.testimonial-card {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1.875rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.testimonial-card__stars {
+  max-width: 96px;
+  height: auto;
+}
+
+.testimonial-card__title {
+  font-style: italic;
+  font-weight: 700;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.testimonial-card__content {
+  font-size: 18px;
+  max-width: 254px;
+  margin: 0;
+  line-height: 1.5;
+  flex-grow: 0;
+}
+
+.testimonial-card__spacer {
+  flex-grow: 1;
+}
+
+.testimonial-card__location {
+  font-weight: 700;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Pagination */
+.testimonials-slider__pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+
+.testimonials-slider__pagination-btn {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.3s ease;
+}
+
+.testimonials-slider__pagination-btn:hover,
+.testimonials-slider__pagination-btn.active {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Navigation Arrows */
+.testimonials-slider__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: background 0.3s ease;
+}
+
+.testimonials-slider__nav:hover {
+  background: #ffffff;
+}
+
+.testimonials-slider__nav--prev {
+  left: 10px;
+}
+
+.testimonials-slider__nav--next {
+  right: 10px;
+}
+
+.testimonials-slider__nav svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Responsive - Tablet */
+@media (max-width: 991px) {
+  .testimonials-section {
+    padding: 60px 10px 20px;
+  }
+
+  .testimonials-section__bg-image {
+    display: none;
+  }
+
+  .testimonials-section__title {
+    font-size: 34px;
+  }
+
+  .testimonials-section__subtitle {
+    font-size: 18px;
+  }
+
+  .testimonials-slider__container {
+    padding: 20px 0 80px;
+    gap: 10px;
+  }
+
+  .testimonials-slider__slide {
+    flex: 0 0 85%;
+  }
+
+  .testimonial-card__content {
+    max-width: 100%;
+  }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 768px) {
+  .testimonials-section {
+    padding: 40px 15px 20px;
+  }
+
+  .testimonials-slider__slide {
+    flex: 0 0 90%;
+  }
+}
+
+/* Touch/Drag Support */
+.testimonials-slider__viewport {
+  cursor: grab;
+}
+
+.testimonials-slider__viewport:active {
+  cursor: grabbing;
+}
+
+/* Accessibility */
+.testimonials-slider__slide[aria-hidden="true"] {
+  pointer-events: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

@@ -1,0 +1,506 @@
+{{ 'testimonials-slider.css' | asset_url | stylesheet_tag }}
+
+<section
+  class="testimonials-section"
+  style="
+    --section-bg: {{ section.settings.background_color }};
+    background: var(--section-bg);
+    {% if section.settings.padding_top != blank %}padding-top: {{ section.settings.padding_top }}px;{% endif %}
+    {% if section.settings.padding_bottom != blank %}padding-bottom: {{ section.settings.padding_bottom }}px;{% endif %}
+  "
+  aria-label="{{ section.settings.section_title | default: 'Customer Testimonials' }}"
+>
+  {%- if section.settings.background_image != blank -%}
+    <img
+      class="testimonials-section__bg-image"
+      src="{{ section.settings.background_image | image_url: width: 1068 }}"
+      alt="{{ section.settings.background_image.alt | default: 'Background image' }}"
+      loading="lazy"
+      width="534"
+      height="auto"
+    >
+  {%- endif -%}
+
+  <div class="testimonials-section__container">
+    {%- if section.settings.section_title != blank -%}
+      <h2 class="testimonials-section__title">{{ section.settings.section_title }}</h2>
+    {%- endif -%}
+
+    {%- if section.settings.subtitle != blank -%}
+      <p class="testimonials-section__subtitle">{{ section.settings.subtitle }}</p>
+    {%- endif -%}
+
+    {%- if section.settings.rating_image != blank -%}
+      <img
+        class="testimonials-section__stars"
+        src="{{ section.settings.rating_image | image_url: width: 280 }}"
+        alt="{{ section.settings.rating_alt | default: 'Average rating stars' }}"
+        loading="lazy"
+        width="140"
+        height="auto"
+      >
+    {%- endif -%}
+
+    {%- if section.blocks.size > 0 -%}
+      <div
+        class="testimonials-slider"
+        id="testimonials-slider-{{ section.id }}"
+        role="region"
+        aria-roledescription="carousel"
+        aria-label="{{ section.settings.section_title | default: 'Testimonials' }}"
+        data-slide-count="{{ section.blocks.size }}"
+      >
+        <div class="testimonials-slider__viewport" data-role="slides-viewport">
+          <ul
+            class="testimonials-slider__container"
+            data-role="slides-container"
+            style="
+              --slide-size-lg: {{ section.settings.slide_width_desktop }}%;
+              --slide-size-sm: {{ section.settings.slide_width_mobile }}%;
+            "
+          >
+            {%- for block in section.blocks -%}
+              <li
+                class="testimonials-slider__slide"
+                style="flex: 0 0 {{ section.settings.slide_width_desktop }}%;"
+                aria-hidden="{% if forloop.index > 4 %}true{% else %}false{% endif %}"
+                {{ block.shopify_attributes }}
+              >
+                <div
+                  class="testimonial-card"
+                  style="
+                    --card-bg: {{ block.settings.card_background | default: '#ffffff' }};
+                    background: var(--card-bg);
+                  "
+                >
+                  {%- if block.settings.stars_image != blank -%}
+                    <img
+                      class="testimonial-card__stars"
+                      src="{{ block.settings.stars_image | image_url: width: 192 }}"
+                      alt="{{ block.settings.stars_alt | default: '5 stars' }}"
+                      loading="lazy"
+                      width="96"
+                      height="auto"
+                    >
+                  {%- endif -%}
+
+                  {%- if block.settings.title != blank -%}
+                    <p class="testimonial-card__title">
+                      <em><strong>{{ block.settings.title }}</strong></em>
+                    </p>
+                  {%- endif -%}
+
+                  {%- if block.settings.content != blank -%}
+                    <div class="testimonial-card__content">
+                      {{ block.settings.content }}
+                    </div>
+                  {%- endif -%}
+
+                  <div class="testimonial-card__spacer"></div>
+
+                  {%- if block.settings.location != blank -%}
+                    <p class="testimonial-card__location">
+                      <strong>{{ block.settings.location }}</strong>
+                    </p>
+                  {%- endif -%}
+                </div>
+              </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+
+        {%- if section.settings.show_navigation -%}
+          <button
+            type="button"
+            class="testimonials-slider__nav testimonials-slider__nav--prev"
+            aria-label="Previous slide"
+            data-action="prev"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          <button
+            type="button"
+            class="testimonials-slider__nav testimonials-slider__nav--next"
+            aria-label="Next slide"
+            data-action="next"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        {%- endif -%}
+
+        {%- if section.settings.show_pagination -%}
+          <nav class="testimonials-slider__pagination" aria-label="Slide pagination">
+            {%- assign total_pages = section.blocks.size | divided_by: 4 | ceil -%}
+            {%- if total_pages < 1 -%}
+              {%- assign total_pages = 1 -%}
+            {%- endif -%}
+            {%- for i in (1..total_pages) -%}
+              <button
+                type="button"
+                class="testimonials-slider__pagination-btn {% if forloop.first %}active{% endif %}"
+                aria-label="Go to slide {{ forloop.index }} of {{ total_pages }}"
+                data-slide="{{ forloop.index0 }}"
+                {% if forloop.first %}aria-current="true"{% endif %}
+              ></button>
+            {%- endfor -%}
+          </nav>
+        {%- endif -%}
+
+        <p class="visually-hidden" aria-live="polite" aria-atomic="true" data-role="slider-status">
+          Slide 1 of {{ section.blocks.size }}
+        </p>
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const slider = document.getElementById('testimonials-slider-{{ section.id }}');
+    if (!slider) return;
+
+    const container = slider.querySelector('[data-role="slides-container"]');
+    const slides = slider.querySelectorAll('.testimonials-slider__slide');
+    const prevBtn = slider.querySelector('[data-action="prev"]');
+    const nextBtn = slider.querySelector('[data-action="next"]');
+    const paginationBtns = slider.querySelectorAll('.testimonials-slider__pagination-btn');
+    const statusEl = slider.querySelector('[data-role="slider-status"]');
+
+    let currentIndex = 0;
+    let slidesPerView = window.innerWidth >= 992 ? 4 : 1;
+    let slideWidth = 100 / slidesPerView;
+    let maxIndex = Math.max(0, slides.length - slidesPerView);
+
+    let isDragging = false;
+    let startX = 0;
+    let scrollLeft = 0;
+
+    function updateSlider() {
+      const translateX = -currentIndex * (slideWidth + (20 / container.offsetWidth * 100));
+      container.style.transform = `translateX(${translateX}%)`;
+
+      slides.forEach((slide, index) => {
+        const isVisible = index >= currentIndex && index < currentIndex + slidesPerView;
+        slide.setAttribute('aria-hidden', !isVisible);
+        if (isVisible) {
+          slide.removeAttribute('inert');
+        } else {
+          slide.setAttribute('inert', '');
+        }
+      });
+
+      if (statusEl) {
+        statusEl.textContent = `Slide ${currentIndex + 1} of ${slides.length}`;
+      }
+
+      paginationBtns.forEach((btn, index) => {
+        const isActive = index === Math.floor(currentIndex / slidesPerView);
+        btn.classList.toggle('active', isActive);
+        btn.setAttribute('aria-current', isActive);
+      });
+    }
+
+    function goToSlide(index) {
+      currentIndex = Math.max(0, Math.min(index, maxIndex));
+      updateSlider();
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1));
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1));
+    }
+
+    paginationBtns.forEach((btn, index) => {
+      btn.addEventListener('click', () => goToSlide(index * slidesPerView));
+    });
+
+    // Touch/drag support
+    const viewport = slider.querySelector('.testimonials-slider__viewport');
+
+    viewport.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      startX = e.pageX - viewport.offsetLeft;
+      scrollLeft = currentIndex;
+    });
+
+    viewport.addEventListener('mouseleave', () => {
+      isDragging = false;
+    });
+
+    viewport.addEventListener('mouseup', () => {
+      isDragging = false;
+    });
+
+    viewport.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      e.preventDefault();
+      const x = e.pageX - viewport.offsetLeft;
+      const walk = (x - startX) / viewport.offsetWidth;
+      if (Math.abs(walk) > 0.1) {
+        goToSlide(scrollLeft + (walk > 0 ? -1 : 1));
+        isDragging = false;
+      }
+    });
+
+    // Touch events
+    viewport.addEventListener('touchstart', (e) => {
+      isDragging = true;
+      startX = e.touches[0].pageX - viewport.offsetLeft;
+      scrollLeft = currentIndex;
+    });
+
+    viewport.addEventListener('touchend', () => {
+      isDragging = false;
+    });
+
+    viewport.addEventListener('touchmove', (e) => {
+      if (!isDragging) return;
+      const x = e.touches[0].pageX - viewport.offsetLeft;
+      const walk = (x - startX) / viewport.offsetWidth;
+      if (Math.abs(walk) > 0.15) {
+        goToSlide(scrollLeft + (walk > 0 ? -1 : 1));
+        isDragging = false;
+      }
+    });
+
+    // Resize handler
+    window.addEventListener('resize', () => {
+      slidesPerView = window.innerWidth >= 992 ? 4 : 1;
+      slideWidth = 100 / slidesPerView;
+      maxIndex = Math.max(0, slides.length - slidesPerView);
+      currentIndex = Math.min(currentIndex, maxIndex);
+      updateSlider();
+    });
+
+    updateSlider();
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Testimonials Slider",
+  "tag": "section",
+  "class": "section-testimonials",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Take It From Them"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "AVERAGE RATING:"
+    },
+    {
+      "type": "image_picker",
+      "id": "rating_image",
+      "label": "Rating Stars Image"
+    },
+    {
+      "type": "text",
+      "id": "rating_alt",
+      "label": "Rating Image Alt Text",
+      "default": "4.5 Stars"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image (Desktop)"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#f2f1ed"
+    },
+    {
+      "type": "header",
+      "content": "Slider Settings"
+    },
+    {
+      "type": "range",
+      "id": "slide_width_desktop",
+      "label": "Slide Width Desktop (%)",
+      "min": 15,
+      "max": 50,
+      "step": 1,
+      "default": 25,
+      "unit": "%"
+    },
+    {
+      "type": "range",
+      "id": "slide_width_mobile",
+      "label": "Slide Width Mobile (%)",
+      "min": 70,
+      "max": 100,
+      "step": 5,
+      "default": 85,
+      "unit": "%"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_navigation",
+      "label": "Show Navigation Arrows",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_pagination",
+      "label": "Show Pagination Dots",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "default": 80,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "default": 30,
+      "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "stars_image",
+          "label": "Stars Image"
+        },
+        {
+          "type": "text",
+          "id": "stars_alt",
+          "label": "Stars Alt Text",
+          "default": "5 stars"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Me encanta"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Testimonial Content",
+          "default": "<p>Se lo compre a mi novio y el dice que su piel esta mas suave y limpia y hay una gran diferencia en las cicatrices del acne.</p>"
+        },
+        {
+          "type": "text",
+          "id": "location",
+          "label": "Location",
+          "default": "Bristol, Reino Unido"
+        },
+        {
+          "type": "color",
+          "id": "card_background",
+          "label": "Card Background Color",
+          "default": "#ffffff"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials Slider",
+      "category": "Social proof",
+      "blocks": [
+        {
+          "type": "testimonial",
+          "settings": {
+            "title": "Me encanta",
+            "content": "<p>Se lo compre a mi novio y el dice que su piel esta mas suave y limpia y hay una gran diferencia en las cicatrices del acne.</p>",
+            "location": "Bristol, Reino Unido"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "title": "Gran humectante",
+            "content": "<p>Me encantan los productos para la piel de Lumin. La crema hidratante ha sido parte de mi rutina durante mucho tiempo y realmente funciona en mi piel.</p>",
+            "location": "Paises Bajos"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "title": "Esceptico ahora convencido",
+            "content": "<p>Hice la prueba y al principio era bastante esceptico, pero rapidamente comence a amar los productos. El aroma de los productos junto con como se sienten en mi piel... ahora estoy obsesionado</p>",
+            "location": "Edmonton, Canada"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "title": "Verdaderamente excelente",
+            "content": "<p>He usado Cera Ve y Kiehl's pero nunca me han quitado toda la grasa del rostro. Esto lo elimina por completo, la crema hidratante parece devolverme todo lo que necesito.</p>",
+            "location": "Colorado, Estados Unidos"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "title": "Sin arrepentimientos",
+            "content": "<p>Tuve que hacer un cambio porque los productos que estaba usando no mejoraban el aspecto de mi piel. Estos productos marcaron la diferencia y resolvieron el problema que tenia con mi piel seca.</p>",
+            "location": "Nueva Jersey, Estados Unidos"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "title": "2 meses y ya veo resultados",
+            "content": "<p>Mi piel esta mucho mas limpia y menos irritada. No podria estar mas contento con los resultados.</p>",
+            "location": "Utah, Estados Unidos"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "title": "Asombroso",
+            "content": "<p>Producto brillante, gran diferencia en mi piel.</p>",
+            "location": "Birmingham, Reino Unido"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "title": "El producto es bueno",
+            "content": "<p>Lumin es esencial, estoy viendo grandes cambios desde que uso el producto</p>",
+            "location": "Minnesota, Estados Unidos"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
