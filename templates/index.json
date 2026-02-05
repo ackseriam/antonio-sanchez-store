@@ -1575,6 +1575,21 @@
               },
               "blocks": {}
             },
+            "button_FGLdKG": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Shop",
+                "link": "{{ closest.collection.url }}",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
             "collection-card-image": {
               "type": "_collection-card-image",
               "name": "t:names.collection_card_image",
@@ -1594,7 +1609,8 @@
             }
           },
           "block_order": [
-            "collection_title_GVmdDw"
+            "collection_title_GVmdDw",
+            "button_FGLdKG"
           ]
         }
       },
