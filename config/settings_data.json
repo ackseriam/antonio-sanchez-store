@@ -12,6 +12,7 @@
     "logo": "shopify://shop_images/Framed.avif",
     "logo_height": 36,
     "logo_height_mobile": 28,
+    "favicon": "shopify://shop_images/Lightbulb_d65d0165-b08d-4dfa-b52a-9ba15e5b351d.png",
     "type_body_font": "inter_n4",
     "type_subheading_font": "inter_n5",
     "type_heading_font": "inter_n7",
