@@ -48,12 +48,13 @@
       ],
       "name": "t:names.announcement_bar",
       "settings": {
+        "device_visibility": "mobile",
         "speed": 5,
         "section_width": "page-width",
         "color_scheme": "scheme-93406ea1-d915-4ce5-8266-cb85ec154c03",
         "divider_width": 2,
-        "padding-block-start": 15,
-        "padding-block-end": 15
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "header_section": {
