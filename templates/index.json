@@ -1541,7 +1541,7 @@
             "placement": "below_image",
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "flex-start",
-            "collection_card_gap": 8,
+            "collection_card_gap": 19,
             "inherit_color_scheme": false,
             "color_scheme": "scheme-93406ea1-d915-4ce5-8266-cb85ec154c03",
             "border": "none",
@@ -1629,11 +1629,26 @@
                     "custom_width_mobile": 100
                   },
                   "blocks": {}
+                },
+                "spacer_dccBip": {
+                  "type": "spacer",
+                  "name": "t:names.spacer",
+                  "settings": {
+                    "size": "percent",
+                    "percent_size": 100,
+                    "pixel_size": 120,
+                    "custom_mobile_size": false,
+                    "size_mobile": "percent",
+                    "percent_size_mobile": 100,
+                    "pixel_size_mobile": 120
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
                 "collection_title_BTDwer",
-                "button_DMtXHa"
+                "button_DMtXHa",
+                "spacer_dccBip"
               ]
             },
             "collection-card-image": {
