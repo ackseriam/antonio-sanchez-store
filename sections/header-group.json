@@ -34,7 +34,7 @@
             "text": "Try Lumin for Free. Take the Quiz",
             "link": "",
             "font": "var(--font-body--family)",
-            "font_size": "1rem",
+            "font_size": "0.75rem",
             "weight": "",
             "letter_spacing": "normal",
             "case": "none"
@@ -47,7 +47,7 @@
             "text": "Free shipping for orders $75+",
             "link": "",
             "font": "var(--font-body--family)",
-            "font_size": "1rem",
+            "font_size": "0.75rem",
             "weight": "",
             "letter_spacing": "normal",
             "case": "none"
