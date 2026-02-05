@@ -2780,6 +2780,18 @@
     },
     "17698244691405aa6e": {
       "type": "_blocks",
+      "blocks": {
+        "okendo_reviews_widget_yJgWeh": {
+          "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{closest.product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_widget_yJgWeh"
+      ],
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
