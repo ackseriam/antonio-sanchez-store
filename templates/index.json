@@ -2059,15 +2059,15 @@
                   },
                   "blocks": {}
                 },
-                "text_73nDFg": {
+                "text_UJNrD4": {
                   "type": "text",
-                  "name": "t:names.text",
+                  "name": "t:names.heading",
                   "settings": {
                     "text": "<h2>Need an easy routine?</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "h4",
+                    "type_preset": "h3",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -2075,11 +2075,11 @@
                     "case": "none",
                     "wrap": "pretty",
                     "color": "var(--color-foreground)",
-                    "background": true,
-                    "background_color": "#fcdc00",
+                    "background": false,
+                    "background_color": "#00000026",
                     "corner_radius": 0,
-                    "padding-block-start": 10,
-                    "padding-block-end": 10,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
@@ -2126,7 +2126,7 @@
               },
               "block_order": [
                 "spacer_9wiCA8",
-                "text_73nDFg",
+                "text_UJNrD4",
                 "text_rG3Pcx",
                 "spacer_dtby8F"
               ]
