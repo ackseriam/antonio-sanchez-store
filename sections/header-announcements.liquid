@@ -17,6 +17,10 @@
   {%- assign device_class = 'announcement-bar--desktop-only' -%}
 {%- endif -%}
 
+{%- if section.settings.sticky_top -%}
+  {%- assign device_class = device_class | append: ' announcement-bar--sticky-top' -%}
+{%- endif -%}
+
 <aside
   class="announcement-bar {{ device_class }} spacing-style section section--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }}"
   style="{% render 'spacing-padding', settings: section.settings %}; --border-bottom-width: {{ section.settings.divider_width }}px;"
@@ -146,6 +150,13 @@
       display: none;
     }
   }
+
+  .announcement-bar--sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: top 0.3s ease;
+  }
 {% endstylesheet %}
 
 {% schema %}
@@ -192,6 +203,12 @@
       "max": 10,
       "default": 5,
       "unit": "sec"
+    },
+    {
+      "type": "checkbox",
+      "id": "sticky_top",
+      "label": "Stick to top",
+      "default": false
     },
     {
       "type": "header",
