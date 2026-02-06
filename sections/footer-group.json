@@ -78,8 +78,8 @@
               "type": "menu",
               "name": "t:names.menu",
               "settings": {
-                "menu": "ahop",
-                "heading": "SHOP",
+                "menu": "abouy",
+                "heading": "ABOUT",
                 "menu_spacing": 12,
                 "show_as_accordion": false,
                 "accordion_icon": "caret",
@@ -100,7 +100,7 @@
               "name": "t:names.menu",
               "settings": {
                 "menu": "ahop",
-                "heading": "ABOUT",
+                "heading": "HELP",
                 "menu_spacing": 12,
                 "show_as_accordion": false,
                 "accordion_icon": "caret",
