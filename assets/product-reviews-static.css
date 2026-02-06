@@ -780,12 +780,20 @@
     gap: 20px;
   }
 
+  .oke-mediaCarousel-slide-static.oke-mediaCarousel-slide-static--video {
+    display: none;
+  }
+
   .oke-w-header-content-block--oneThird {
     flex: 1 1 100%;
   }
 
   .oke-w-header-content-block--twoThirds {
     flex: 1 1 100%;
+  }
+
+  .oke-w-header-content-block--twoThirds {
+    max-width: 242px !important;
   }
 
   .oke-w-review {
