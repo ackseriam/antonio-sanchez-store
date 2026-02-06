@@ -1707,10 +1707,10 @@
       "type": "why-section",
       "name": "Why Section",
       "settings": {
-        "overline": "HERE'S THE DEAL",
+        "overline": "ESTE ES EL ACUERDO",
         "title": "Entonces, Por Que Lumin?",
         "description": "<p>Entendemos a los hombres y entendemos el cuidado de la piel. Demasiados hombres estan frustrados por las molestas ojeras, los brotes antiestéticos, se resecan la cara con jabones baratos y se sienten abrumados por rutinas complicadas de cuidado de la piel.</p>",
-        "button_text": "TRY LUMIN FREE",
+        "button_text": "PRUEBA LUMIN GRATIS",
         "button_link": "",
         "image": "shopify://shop_images/lumin-homepage-imagewithtext-bg_733b513a-eb39-44dd-a7ff-6126e270e41e.webp",
         "image_alt": "",
@@ -2463,7 +2463,7 @@
       ],
       "name": "Testimonials Slider",
       "settings": {
-        "section_title": "Take It From Them",
+        "section_title": "Tómalo de ellas",
         "subtitle": "AVERAGE RATING:",
         "rating_image": "shopify://shop_images/Stars_9ce5d2ba-a0e1-44b3-8aeb-964fcaf73c74.png",
         "rating_alt": "4.5 Stars",
