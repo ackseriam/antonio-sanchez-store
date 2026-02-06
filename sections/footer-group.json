@@ -251,7 +251,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<h2>Entrar #Lumin</h2>",
+                    "text": "<h3>Entrar #Lumin</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
