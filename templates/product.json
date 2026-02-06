@@ -2794,6 +2794,7 @@
       "block_order": [
         "okendo_reviews_widget_yJgWeh"
       ],
+      "disabled": true,
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -2821,6 +2822,16 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "product_reviews_static_37Dnfd": {
+      "type": "product-reviews-static",
+      "name": "Product Reviews (Static)",
+      "settings": {
+        "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
+        "section_width": "full-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -2834,6 +2845,7 @@
     "section_gmDk4N",
     "polaroid_gallery_tbmGWp",
     "section_ig6BEn",
-    "17698244691405aa6e"
+    "17698244691405aa6e",
+    "product_reviews_static_37Dnfd"
   ]
 }
