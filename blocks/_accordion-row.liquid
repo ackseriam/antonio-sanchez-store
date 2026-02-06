@@ -24,7 +24,7 @@
       %}
       {{ block_settings.heading }}
       <span class="svg-wrapper icon-caret icon-animated accordion-pdp">
-        {{- 'icon-caret.svg' | inline_asset_content -}} 
+       {%  render 'icon-bombillo' %}  
       </span>
       <span class="svg-wrapper icon-plus">
         {{- 'icon-plus.svg' | inline_asset_content -}}
@@ -43,9 +43,7 @@
     margin-inline-end: var(--margin-xs);
   }
 
-  .icon-caret.accordion-pdp {
-    transform: rotate(-90deg);
-  }
+
 
   details[open] .icon-caret.accordion-pdp {
     transform: rotate(0deg);
