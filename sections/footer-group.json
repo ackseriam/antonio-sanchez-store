@@ -238,7 +238,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>Free carbon-neutral shipping on all orders</p>",
+                        "text": "<h6>Free carbon-neutral shipping on all orders</h6>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -366,7 +366,7 @@
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "rte",
+                    "type_preset": "paragraph",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
