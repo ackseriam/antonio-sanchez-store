@@ -131,40 +131,45 @@
         </div>
 
         <script>
-          (function() {
+          document.addEventListener('DOMContentLoaded', function() {
             var container = document.querySelector('.oke-mediaCarousel-container');
             if (!container) return;
             var track = container.querySelector('.oke-mediaCarousel-track');
             var prevBtn = container.querySelector('.oke-mediaCarousel-prev');
             var nextBtn = container.querySelector('.oke-mediaCarousel-next');
-            var slideWidth = 124; // 120px + 4px gap
-            var currentOffset = 0;
+            var slides = track.querySelectorAll('.oke-mediaCarousel-slide-static');
+            var slideWidth = 124; // 120px slide + 4px gap
+            var currentIndex = 0;
 
-            function getMaxOffset() {
-              return Math.max(0, track.scrollWidth - container.offsetWidth + 56);
+            function getVisibleCount() {
+              return Math.floor(container.offsetWidth / slideWidth);
             }
 
-            function updateButtons() {
-              prevBtn.disabled = currentOffset <= 0;
-              nextBtn.disabled = currentOffset >= getMaxOffset();
+            function getMaxIndex() {
+              return Math.max(0, slides.length - getVisibleCount());
+            }
+
+            function updateCarousel() {
+              var offset = currentIndex * slideWidth;
+              track.style.transform = 'translateX(-' + offset + 'px)';
+              prevBtn.disabled = currentIndex <= 0;
+              nextBtn.disabled = currentIndex >= getMaxIndex();
             }
 
             nextBtn.addEventListener('click', function() {
-              var visibleWidth = container.offsetWidth - 56;
-              currentOffset = Math.min(currentOffset + visibleWidth, getMaxOffset());
-              track.style.transform = 'translateX(-' + currentOffset + 'px)';
-              updateButtons();
+              var step = getVisibleCount();
+              currentIndex = Math.min(currentIndex + step, getMaxIndex());
+              updateCarousel();
             });
 
             prevBtn.addEventListener('click', function() {
-              var visibleWidth = container.offsetWidth - 56;
-              currentOffset = Math.max(currentOffset - visibleWidth, 0);
-              track.style.transform = 'translateX(-' + currentOffset + 'px)';
-              updateButtons();
+              var step = getVisibleCount();
+              currentIndex = Math.max(currentIndex - step, 0);
+              updateCarousel();
             });
 
-            updateButtons();
-          })();
+            updateCarousel();
+          });
         </script>
       </div>
 

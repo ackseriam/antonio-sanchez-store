@@ -37,6 +37,8 @@
 
 .oke-w-header-content-block--twoThirds {
   flex: 1;
+  min-width: 0;
+  overflow: hidden;
 }
 
 /* Rating Average */
@@ -184,6 +186,8 @@
 
 .oke-w-mediaCarouselModule {
   margin-top: 12px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .oke-mediaCarousel-static {
