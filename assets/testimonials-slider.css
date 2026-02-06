@@ -221,7 +221,7 @@
   }
 
   .testimonials-slider__slide {
-    flex: 0 0 90%;
+    flex: 0 0 90% !important;
   }
 }
 
