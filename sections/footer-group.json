@@ -150,7 +150,7 @@
                 "link": "",
                 "open_in_new_tab": false,
                 "placeholder": "",
-                "padding-block-start": 0,
+                "padding-block-start": 25,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -200,8 +200,8 @@
                     "custom_width_mobile": 100,
                     "height": "fit",
                     "custom_height": 100,
-                    "inherit_color_scheme": true,
-                    "color_scheme": "",
+                    "inherit_color_scheme": false,
+                    "color_scheme": "scheme-4810b27d-cd4a-49c3-8258-a428cfc8f55c",
                     "background_media": "none",
                     "video_position": "cover",
                     "background_image_position": "cover",
@@ -216,8 +216,8 @@
                     "link": "",
                     "open_in_new_tab": false,
                     "placeholder": "",
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
+                    "padding-block-start": 20,
+                    "padding-block-end": 20,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
@@ -227,7 +227,8 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "price_tag",
-                        "width": 24,
+                        "image_upload": "shopify://shop_images/planet-badge-logo.webp",
+                        "width": 46,
                         "link": "",
                         "open_in_new_tab": false
                       },
