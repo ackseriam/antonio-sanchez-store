@@ -2823,16 +2823,6 @@
       }
     }
   },
-    "static_reviews_section": {
-      "type": "product-reviews-static",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "section_width": "page-width",
-        "padding-block-start": 0,
-        "padding-block-end": 40
-      }
-    }
-  },
   "order": [
     "main",
     "section_VBdEAz",
@@ -2844,7 +2834,6 @@
     "section_gmDk4N",
     "polaroid_gallery_tbmGWp",
     "section_ig6BEn",
-    "static_reviews_section",
     "17698244691405aa6e"
   ]
 }
