@@ -1,0 +1,772 @@
+/* ==========================================================================
+   Product Reviews Static Section - Okendo-style Reviews Widget
+   ========================================================================== */
+
+.oke-reviews-widget {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.oke-reviews-widget *,
+.oke-reviews-widget *::before,
+.oke-reviews-widget *::after {
+  box-sizing: border-box;
+}
+
+/* --------------------------------------------------------------------------
+   Header
+   -------------------------------------------------------------------------- */
+
+.oke-w-header {
+  margin-bottom: 24px;
+}
+
+.oke-w-header-content {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.oke-w-header-content-block--oneThird {
+  flex: 0 0 280px;
+}
+
+.oke-w-header-content-block--twoThirds {
+  flex: 1;
+}
+
+/* Rating Average */
+
+.oke-w-ratingAverageModule {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.oke-w-ratingAverageModule-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.oke-w-ratingAverageModule-rating-average {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.oke-w-ratingAverageModule-count {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Stars */
+
+.oke-stars-static {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.oke-stars-static .oke-star {
+  width: 16px;
+  height: 16px;
+  color: #000;
+}
+
+.oke-stars-static .oke-star--empty {
+  color: #ccc;
+}
+
+.oke-stars-static .oke-star svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+.oke-stars-static--small .oke-star {
+  width: 14px;
+  height: 14px;
+}
+
+.oke-stars-static--review .oke-star {
+  width: 14px;
+  height: 14px;
+}
+
+/* Breakdown Distribution */
+
+.oke-w-breakdownModule {
+  margin-bottom: 8px;
+}
+
+.oke-w-breakdownModule-distribution {
+  display: grid;
+  grid-template-columns: 30px auto 40px;
+  gap: 6px 8px;
+  align-items: center;
+}
+
+.oke-w-breakdownModule-distribution-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: #333;
+}
+
+.oke-w-breakdownModule-distribution-label-number {
+  font-weight: 600;
+}
+
+.oke-w-breakdownModule-distribution-label-star {
+  display: inline-flex;
+}
+
+.oke-w-breakdownModule-distribution-label-star .oke-star {
+  width: 12px;
+  height: 12px;
+  color: #000;
+}
+
+.oke-w-breakdownModule-distribution-label-star .oke-star svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+.oke-w-breakdownModule-distribution-bar {
+  height: 8px;
+  background-color: #ccc;
+  border-radius: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.oke-w-breakdownModule-distribution-bar-fill {
+  height: 100%;
+  background-color: #000;
+  border-radius: 0;
+  transition: width 0.3s ease;
+}
+
+.oke-w-breakdownModule-distribution-count {
+  font-size: 13px;
+  color: #555;
+  text-align: right;
+}
+
+/* Recommends Module */
+
+.oke-w-recommendsModule {
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.oke-w-recommendsModule-value {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+  margin-right: 4px;
+}
+
+.oke-w-recommendsModule-text {
+  color: #555;
+}
+
+/* Media Carousel */
+
+.oke-w-mediaCarouselModule {
+  margin-top: 12px;
+}
+
+.oke-mediaCarousel-static {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scrollbar-width: thin;
+}
+
+.oke-mediaCarousel-static::-webkit-scrollbar {
+  height: 4px;
+}
+
+.oke-mediaCarousel-static::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.oke-mediaCarousel-static::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 2px;
+}
+
+.oke-mediaCarousel-slide-static {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.oke-mediaCarousel-slide-static img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* --------------------------------------------------------------------------
+   Navigation / Tabs
+   -------------------------------------------------------------------------- */
+
+.oke-w-controls {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 16px;
+}
+
+.oke-w-navBar {
+  display: flex;
+  gap: 0;
+}
+
+.oke-w-navBar-item {
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #555;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.oke-w-navBar-item:hover {
+  color: #000;
+}
+
+.oke-w-navBar-item--active {
+  color: #000;
+  border-bottom-color: #000;
+  font-weight: 600;
+}
+
+.oke-w-navBar-item-count {
+  font-weight: 400;
+  color: #888;
+  margin-left: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   Reviews Controls (Filters + Sort)
+   -------------------------------------------------------------------------- */
+
+.oke-w-reviews-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.oke-w-reviews-filterToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  background: none;
+  border: 1px solid #333;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.2s;
+}
+
+.oke-w-reviews-filterToggle:hover {
+  background-color: #f5f5f5;
+}
+
+.oke-w-reviews-filterToggle .oke-icon-filter {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+}
+
+.oke-w-reviews-writeReview {
+  margin-left: auto;
+}
+
+.oke-w-writeReview {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  background: none;
+  border: 1px solid #333;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.oke-w-writeReview:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.oke-w-reviews-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.oke-w-reviews-count {
+  font-size: 14px;
+  color: #555;
+}
+
+.oke-w-reviews-sort {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.oke-sortSelect-label {
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+}
+
+.oke-sortSelect-sort {
+  font-size: 14px;
+  color: #333;
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 16px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23333'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+/* --------------------------------------------------------------------------
+   Review Cards
+   -------------------------------------------------------------------------- */
+
+.oke-w-reviews-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.oke-w-reviews-list-item {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 24px 0;
+}
+
+.oke-w-reviews-list-item:first-child {
+  padding-top: 0;
+}
+
+.oke-w-review {
+  display: flex;
+  gap: 24px;
+}
+
+/* Review Side (Reviewer Info) */
+
+.oke-w-review-side {
+  flex: 0 0 200px;
+}
+
+.oke-w-reviewer-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.oke-w-reviewer-verified {
+  font-size: 12px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.oke-w-reviewer-verified-icon::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%234CAF50'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.oke-w-reviewerRecommendation {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.oke-w-reviewerRecommendation--yes::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/%3E%3C/svg%3E");
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+.oke-w-reviewerRecommendation-text {
+  font-size: 12px;
+  color: #333;
+}
+
+/* Select Attributes (Age, Skin Type) */
+
+.oke-w-selectAttr {
+  margin-top: 12px;
+}
+
+.oke-w-selectAttr-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.oke-w-selectAttr-item-title {
+  font-weight: 700;
+  color: #000;
+}
+
+.oke-w-selectAttr-item-value {
+  color: #555;
+  text-align: right;
+}
+
+/* Review Main (Content) */
+
+.oke-w-review-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.oke-reviewContent-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.oke-reviewContent-date {
+  font-size: 13px;
+  color: #888;
+}
+
+.oke-reviewContent-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 8px 0;
+}
+
+.oke-reviewContent-body {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.oke-reviewContent-body p {
+  margin: 0 0 8px 0;
+}
+
+.oke-reviewContent-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer Badges (Verified by shop) */
+
+.oke-w-review-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.oke-footerBadges {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.oke-tag-static {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  font-size: 11px;
+  color: #555;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background: none;
+}
+
+.oke-tag-static svg {
+  height: 10px;
+  width: auto;
+}
+
+/* Helpful Votes */
+
+.oke-w-review-helpful {
+  margin-left: auto;
+}
+
+.oke-helpful {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.oke-helpful-label {
+  font-size: 13px;
+  color: #888;
+}
+
+.oke-helpful-vote {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.oke-helpful-vote-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  font-size: 13px;
+  color: #888;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.2s;
+}
+
+.oke-helpful-vote-button:hover {
+  color: #333;
+}
+
+.oke-helpful-vote-button--positive::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'%3E%3Cpath d='M14 9V5a3 3 0 00-6 0v4H5a2 2 0 00-2 2v7a2 2 0 002 2h10.5a2.5 2.5 0 002.45-2L19.5 11a2 2 0 00-2-2H14z'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.oke-helpful-vote-button--negative::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'%3E%3Cpath d='M10 15V19a3 3 0 006 0v-4h3a2 2 0 002-2V6a2 2 0 00-2-2H8.5A2.5 2.5 0 006.05 6L4.5 13a2 2 0 002 2H10z'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Review Reply */
+
+.oke-w-review-reply {
+  margin-top: 16px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.oke-w-reviewReply-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 2px;
+}
+
+.oke-w-reviewReply-date {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.oke-w-reviewReply-body {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  max-height: 80px;
+  overflow: hidden;
+  position: relative;
+}
+
+.oke-w-reviewReply-body.oke-expanded {
+  max-height: none;
+}
+
+.oke-w-reviewReply-body p {
+  margin: 0 0 8px 0;
+}
+
+.oke-w-reviewReply-body p:last-child {
+  margin-bottom: 0;
+}
+
+.oke-w-reviewReply-readMore {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  font-family: inherit;
+}
+
+/* Show More Button */
+
+.oke-w-reviews-footer {
+  text-align: center;
+  padding-top: 24px;
+}
+
+.oke-showMore-button {
+  display: inline-block;
+  padding: 12px 32px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  background: none;
+  border: 1px solid #333;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.oke-showMore-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* --------------------------------------------------------------------------
+   SVG Star Definitions (Hidden)
+   -------------------------------------------------------------------------- */
+
+.oke-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .oke-w-header-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .oke-w-header-content-block--oneThird {
+    flex: 1 1 100%;
+  }
+
+  .oke-w-header-content-block--twoThirds {
+    flex: 1 1 100%;
+  }
+
+  .oke-w-review {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .oke-w-review-side {
+    flex: 1 1 100%;
+  }
+
+  .oke-w-reviews-head {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .oke-w-reviews-writeReview {
+    margin-left: 0;
+  }
+
+  .oke-w-writeReview {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .oke-w-reviews-controls {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+  .oke-w-review-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .oke-w-review-helpful {
+    margin-left: 0;
+  }
+}

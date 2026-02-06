@@ -1,0 +1,568 @@
+{{ 'product-reviews-static.css' | asset_url | stylesheet_tag }}
+
+<!-- SVG Star Definitions -->
+<svg xmlns="http://www.w3.org/2000/svg" class="oke-sr-only" aria-hidden="true">
+  <defs>
+    <symbol id="oke-star-svg" viewBox="0 0 14 14">
+      <path d="M7 0l2.163 4.382 4.837.703-3.5 3.412.826 4.817L7 10.882l-4.326 2.432.826-4.817-3.5-3.412 4.837-.703z"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="oke-reviews-widget" aria-label="Rated 3.6 out of 5 stars Based on 359 reviews" role="region">
+
+  <!-- ===== HEADER ===== -->
+  <div class="oke-w-header">
+    <div class="oke-w-header-content">
+
+      <!-- Left Column: Rating + Breakdown -->
+      <div class="oke-w-header-content-block oke-w-header-content-block--oneThird">
+
+        <!-- Rating Average -->
+        <div class="oke-w-ratingAverageModule">
+          <div class="oke-w-ratingAverageModule-rating">
+            <span class="oke-w-ratingAverageModule-rating-average">3.6</span>
+            <span class="oke-stars-static">
+              <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              <span class="oke-star oke-star--empty"><svg><use href="#oke-star-svg"></use></svg></span>
+              <span class="oke-star oke-star--empty"><svg><use href="#oke-star-svg"></use></svg></span>
+            </span>
+          </div>
+          <div class="oke-w-ratingAverageModule-count">Based on 359 reviews</div>
+        </div>
+
+        <!-- Star Breakdown -->
+        <div class="oke-w-breakdownModule">
+          <div class="oke-w-breakdownModule-distribution">
+            <!-- 5 Stars -->
+            <div class="oke-w-breakdownModule-distribution-label">
+              <span class="oke-w-breakdownModule-distribution-label-number">5</span>
+              <span class="oke-w-breakdownModule-distribution-label-star">
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              </span>
+            </div>
+            <div class="oke-w-breakdownModule-distribution-bar">
+              <div class="oke-w-breakdownModule-distribution-bar-fill" style="width: 46.24%;"></div>
+            </div>
+            <div class="oke-w-breakdownModule-distribution-count">166</div>
+
+            <!-- 4 Stars -->
+            <div class="oke-w-breakdownModule-distribution-label">
+              <span class="oke-w-breakdownModule-distribution-label-number">4</span>
+              <span class="oke-w-breakdownModule-distribution-label-star">
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              </span>
+            </div>
+            <div class="oke-w-breakdownModule-distribution-bar">
+              <div class="oke-w-breakdownModule-distribution-bar-fill" style="width: 13.93%;"></div>
+            </div>
+            <div class="oke-w-breakdownModule-distribution-count">50</div>
+
+            <!-- 3 Stars -->
+            <div class="oke-w-breakdownModule-distribution-label">
+              <span class="oke-w-breakdownModule-distribution-label-number">3</span>
+              <span class="oke-w-breakdownModule-distribution-label-star">
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              </span>
+            </div>
+            <div class="oke-w-breakdownModule-distribution-bar">
+              <div class="oke-w-breakdownModule-distribution-bar-fill" style="width: 13.37%;"></div>
+            </div>
+            <div class="oke-w-breakdownModule-distribution-count">48</div>
+
+            <!-- 2 Stars -->
+            <div class="oke-w-breakdownModule-distribution-label">
+              <span class="oke-w-breakdownModule-distribution-label-number">2</span>
+              <span class="oke-w-breakdownModule-distribution-label-star">
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              </span>
+            </div>
+            <div class="oke-w-breakdownModule-distribution-bar">
+              <div class="oke-w-breakdownModule-distribution-bar-fill" style="width: 6.69%;"></div>
+            </div>
+            <div class="oke-w-breakdownModule-distribution-count">24</div>
+
+            <!-- 1 Star -->
+            <div class="oke-w-breakdownModule-distribution-label">
+              <span class="oke-w-breakdownModule-distribution-label-number">1</span>
+              <span class="oke-w-breakdownModule-distribution-label-star">
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              </span>
+            </div>
+            <div class="oke-w-breakdownModule-distribution-bar">
+              <div class="oke-w-breakdownModule-distribution-bar-fill" style="width: 19.78%;"></div>
+            </div>
+            <div class="oke-w-breakdownModule-distribution-count">71</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Recommends + Media -->
+      <div class="oke-w-header-content-block oke-w-header-content-block--twoThirds">
+        <div class="oke-w-recommendsModule">
+          <strong class="oke-w-recommendsModule-value">60%</strong>
+          <span class="oke-w-recommendsModule-text">would recommend this product</span>
+        </div>
+
+        <!-- Media Carousel -->
+        <div class="oke-w-mediaCarouselModule">
+          <div class="oke-mediaCarousel-static">
+            <div class="oke-mediaCarousel-slide-static">
+              <img src="https://d3g5hqndtiniji.cloudfront.net/images/77565570-bbcd-487a-bd38-381941c8e749/d2a85f21-5b01-46f5-8875-f34ec6f90ca5.jpg?d=400x400&crop=center" alt="Customer-uploaded image" loading="lazy">
+            </div>
+            <div class="oke-mediaCarousel-slide-static">
+              <img src="https://d3g5hqndtiniji.cloudfront.net/images/77565570-bbcd-487a-bd38-381941c8e749/cbcaa97e-57b3-4834-828d-64b738ca3bfb.jpg?d=400x400&crop=center" alt="Customer-uploaded image" loading="lazy">
+            </div>
+            <div class="oke-mediaCarousel-slide-static">
+              <img src="https://d4yxl4pe8dqlj.cloudfront.net/77565570-bbcd-487a-bd38-381941c8e749/271cdab2-caab-4232-9dfb-30dd1f38af35/thumb-00001.jpg" alt="Customer-uploaded video thumbnail" loading="lazy">
+            </div>
+            <div class="oke-mediaCarousel-slide-static">
+              <img src="https://d3g5hqndtiniji.cloudfront.net/images/77565570-bbcd-487a-bd38-381941c8e749/ab8678c3-3596-4590-acc2-c90150135302.jpg?d=400x400&crop=center" alt="Customer-uploaded image" loading="lazy">
+            </div>
+            <div class="oke-mediaCarousel-slide-static">
+              <img src="https://d3g5hqndtiniji.cloudfront.net/images/77565570-bbcd-487a-bd38-381941c8e749/fb47e220-6ad0-4ad0-992a-e3b61838e4e5.jpg?d=400x400&crop=center" alt="Customer-uploaded image" loading="lazy">
+            </div>
+            <div class="oke-mediaCarousel-slide-static">
+              <img src="https://d3g5hqndtiniji.cloudfront.net/images/77565570-bbcd-487a-bd38-381941c8e749/2dc56d3e-53bd-4cd9-8b39-24c7f1b2bc0b.jpg?d=400x400&crop=center" alt="Customer-uploaded image" loading="lazy">
+            </div>
+            <div class="oke-mediaCarousel-slide-static">
+              <img src="https://d4yxl4pe8dqlj.cloudfront.net/77565570-bbcd-487a-bd38-381941c8e749/55cca9c1-7636-4505-8d8a-c809929c84e7/thumb-00001.jpg" alt="Customer-uploaded video thumbnail" loading="lazy">
+            </div>
+            <div class="oke-mediaCarousel-slide-static">
+              <img src="https://d3g5hqndtiniji.cloudfront.net/images/77565570-bbcd-487a-bd38-381941c8e749/5ecd9de0-f844-421e-9c39-1a36abac775d.jpg?d=400x400&crop=center" alt="Customer-uploaded image" loading="lazy">
+            </div>
+            <div class="oke-mediaCarousel-slide-static">
+              <img src="https://d3g5hqndtiniji.cloudfront.net/images/77565570-bbcd-487a-bd38-381941c8e749/bc3cda29-ec14-49de-9413-68fd63e11b6b.jpg?d=400x400&crop=center" alt="Customer-uploaded image" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== TABS ===== -->
+  <div class="oke-w-controls">
+    <div class="oke-w-navBar">
+      <button type="button" class="oke-w-navBar-item oke-w-navBar-item--active">
+        Reviews <span class="oke-w-navBar-item-count">(359)</span>
+      </button>
+      <button type="button" class="oke-w-navBar-item">
+        Questions <span class="oke-w-navBar-item-count">(6)</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ===== REVIEWS PANEL ===== -->
+  <div class="oke-w-reviews">
+
+    <!-- Head: Filters + Write a Review -->
+    <div class="oke-w-reviews-head">
+      <button type="button" class="oke-w-reviews-filterToggle">
+        <svg class="oke-icon-filter" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="4" y1="6" x2="20" y2="6"></line>
+          <line x1="7" y1="12" x2="17" y2="12"></line>
+          <line x1="10" y1="18" x2="14" y2="18"></line>
+        </svg>
+        <span>Filters</span>
+      </button>
+      <div class="oke-w-reviews-writeReview">
+        <a href="#" class="oke-w-writeReview">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+            <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"></path>
+            <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+          </svg>
+          Write a Review
+        </a>
+      </div>
+    </div>
+
+    <!-- Sort Controls -->
+    <div class="oke-w-reviews-controls">
+      <div class="oke-w-reviews-count">359 reviews</div>
+      <div class="oke-w-reviews-sort">
+        <label class="oke-sortSelect-label" for="oke-sort-reviews">Sort</label>
+        <select id="oke-sort-reviews" class="oke-sortSelect-sort">
+          <option value="featured" selected>Featured</option>
+          <option value="recent">Most Recent</option>
+          <option value="oldest">Oldest</option>
+          <option value="helpful">Most Helpful</option>
+          <option value="photos">Photos &amp; Videos</option>
+          <option value="highest">Highest Rating</option>
+          <option value="lowest">Lowest Rating</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- ===== REVIEWS LIST ===== -->
+    <ul class="oke-w-reviews-list">
+
+      <!-- Review 1: Kelton -->
+      <li class="oke-w-reviews-list-item">
+        <div class="oke-w-review">
+          <div class="oke-w-review-side">
+            <div class="oke-w-reviewer-name">Kelton</div>
+            <div class="oke-w-reviewerRecommendation oke-w-reviewerRecommendation--yes">
+              <span class="oke-w-reviewerRecommendation-text">I recommend this product</span>
+            </div>
+          </div>
+          <div class="oke-w-review-main">
+            <div class="oke-reviewContent-top">
+              <div class="oke-stars-static oke-stars-static--review">
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              </div>
+              <div class="oke-reviewContent-date">Yesterday</div>
+            </div>
+            <h3 class="oke-reviewContent-title">5 Stars</h3>
+            <div class="oke-reviewContent-body">
+              <p>GREAT product &amp; it actually does what it says it's gonna do!!!!</p>
+            </div>
+            <div class="oke-w-review-footer">
+              <div class="oke-footerBadges">
+                <span class="oke-tag-static">
+                  <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 16"><path d="M6.6 12.33H5.18L2.32 3.79h1.33L5.84 11l2.18-7.2h1.33L6.6 12.32Zm5.4.19c-1.7 0-2.84-1.23-2.84-3.04 0-1.7 1.14-3.03 2.84-3.03 1.43 0 2.56 1.04 2.56 2.94v.47H10.4c.1 1.05.57 1.71 1.61 1.71.76 0 1.24-.47 1.33-.85h1.23c-.28 1.04-1.23 1.8-2.56 1.8ZM10.4 9.1h2.94c0-.95-.57-1.52-1.42-1.52-.95-.1-1.42.57-1.52 1.52Zm6.64 3.22h-1.14V6.64h1.14v1.52c.38-1.14 1.14-1.52 2.27-1.52v1.14c-1.32 0-2.27.38-2.27 1.8v2.75Zm3.8-6.83c-.48 0-.86-.28-.86-.85s.28-.76.85-.76c.48 0 .86.28.86.76 0 .47-.38.85-.86.85Zm.56 6.83h-1.23V6.64h1.23v5.69Zm3.5 0h-1.22V7.68h-1.24V6.64h1.24v-.57c0-1.61.75-2.37 2.18-2.28h.38v1.05h-.2c-.85 0-1.13.28-1.13 1.14v.75h1.42v1.05H24.9v4.55Zm3.14-6.83c-.48 0-.86-.28-.86-.85s.29-.76.86-.76c.47 0 .85.28.85.76 0 .47-.38.85-.85.85Zm.57 6.83h-1.24V6.64h1.24v5.69Zm4.17.19c-1.7 0-2.85-1.23-2.85-3.04 0-1.7 1.14-3.03 2.85-3.03 1.42 0 2.56 1.04 2.56 2.94v.47h-4.17c.1 1.05.57 1.71 1.61 1.71.76 0 1.23-.47 1.33-.85h1.23c-.19 1.04-1.14 1.8-2.56 1.8ZM31.25 9.1h2.94c0-.95-.57-1.52-1.42-1.52-.95-.1-1.42.57-1.52 1.52Zm7.78 3.4c-1.52 0-2.56-1.22-2.56-3.03 0-1.8 1.04-3.03 2.56-3.03.76 0 1.61.38 1.99 1.04V3.7h1.23v8.63h-1.23v-.95a2.23 2.23 0 0 1-2 1.14Zm.28-1.03c1.05 0 1.71-.76 1.71-2 0-1.23-.66-1.99-1.7-1.99-.96 0-1.62.76-1.62 2 0 1.23.66 1.99 1.61 1.99Zm10.43 1.04c-.75 0-1.6-.38-1.99-1.04v.94h-1.23V3.7h1.23v3.89c.38-.67 1.24-1.05 2-1.05 1.51 0 2.55 1.14 2.55 3.04-.09 1.8-1.04 2.94-2.56 2.94Zm-.28-1.04c.95 0 1.61-.76 1.61-2 0-1.23-.66-1.99-1.61-1.99-1.04 0-1.7.76-1.7 2-.1 1.23.66 1.99 1.7 1.99Zm3.8 3.13v-1.05c.85 0 1.13-.1 1.51-1.04l-2.09-5.88h1.33L55.43 11l1.43-4.36h1.23l-2.18 6.07c-.57 1.52-1.23 1.9-2.66 1.9Zm11.09-6.07c-1.05-.2-1.52-.29-1.52-.76 0-.38.28-.57.95-.57.57 0 .95.28 1.33.76 0 0 .1.1.1 0l1.22-.57s.1-.1 0-.1c-.47-.85-1.42-1.32-2.65-1.32-1.61 0-2.56.75-2.56 2.08s1.23 1.7 2.27 1.9c1.05.19 1.52.28 1.52.76 0 .38-.38.57-1.04.57-.67 0-1.14-.29-1.42-.86 0 0-.1-.1-.1 0l-1.23.48s-.1.1 0 .1c.47.94 1.42 1.5 2.75 1.5 1.7 0 2.65-.75 2.65-2.08 0-1.32-1.23-1.7-2.27-1.9Zm6.45-2.66c-.67 0-1.33.29-1.71.66h-.1V3.8c0-.09 0-.09-.1-.09h-1.5c-.1 0-.1 0-.1.1v8.53c0 .1 0 .1.1.1h1.5c.1 0 .1 0 .1-.1v-3.8c0-.75.57-1.32 1.33-1.32.76 0 1.33.57 1.33 1.33v3.79c0 .1 0 .1.1.1h1.51c.1 0 .1 0 .1-.1v-3.8c0-1.51-1.05-2.65-2.56-2.65Zm5.6-.19c-.86 0-1.62.29-2.19.57 0 0-.1.1 0 .1l.66 1.13s.1.1.1 0c.38-.28.85-.38 1.42-.38 1.33 0 2.28.95 2.28 2.18 0 1.05-.76 1.8-1.8 1.8-.76 0-1.33-.47-1.33-1.13 0-.38.19-.67.57-.95 0 0 .1-.1 0-.1l-.67-1.04s-.1-.1-.1 0c-.85.29-1.42 1.05-1.42 2.09 0 1.52 1.24 2.65 2.94 2.65 2 0 3.42-1.32 3.42-3.32 0-2.08-1.61-3.6-3.89-3.6Zm8.34.2c-.76 0-1.43.28-2 .75h-.1v-.57c0-.1 0-.1-.09-.1h-1.51c-.1 0-.1 0-.1.1v8.54c0 .09 0 .09.1.09h1.51c.1 0 .1 0 .1-.1v-2.84s0-.1.1 0c.47.47 1.13.76 1.9.76 1.8 0 3.12-1.42 3.12-3.32s-1.23-3.32-3.03-3.32ZM84.45 11c-1.04 0-1.8-.76-1.8-1.9 0-1.13.76-1.9 1.8-1.9s1.8.77 1.8 1.9c0 1.14-.76 1.9-1.8 1.9Z"></path></svg>
+                  Verified by shop
+                </span>
+              </div>
+              <div class="oke-w-review-helpful">
+                <div class="oke-helpful">
+                  <span class="oke-helpful-label">Was this helpful?</span>
+                  <div class="oke-helpful-vote">
+                    <button type="button" class="oke-helpful-vote-button oke-helpful-vote-button--positive">
+                      <span>0</span>
+                    </button>
+                    <button type="button" class="oke-helpful-vote-button oke-helpful-vote-button--negative">
+                      <span>0</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Review 2: Lyndon -->
+      <li class="oke-w-reviews-list-item">
+        <div class="oke-w-review">
+          <div class="oke-w-review-side">
+            <div class="oke-w-reviewer-name">Lyndon</div>
+            <div class="oke-w-reviewerRecommendation oke-w-reviewerRecommendation--yes">
+              <span class="oke-w-reviewerRecommendation-text">I recommend this product</span>
+            </div>
+          </div>
+          <div class="oke-w-review-main">
+            <div class="oke-reviewContent-top">
+              <div class="oke-stars-static oke-stars-static--review">
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              </div>
+              <div class="oke-reviewContent-date">1 week ago</div>
+            </div>
+            <h3 class="oke-reviewContent-title">5 Stars</h3>
+            <div class="oke-reviewContent-body">
+              <p>Good</p>
+            </div>
+            <div class="oke-w-review-footer">
+              <div class="oke-footerBadges">
+                <span class="oke-tag-static">
+                  <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 16"><path d="M6.6 12.33H5.18L2.32 3.79h1.33L5.84 11l2.18-7.2h1.33L6.6 12.32Zm5.4.19c-1.7 0-2.84-1.23-2.84-3.04 0-1.7 1.14-3.03 2.84-3.03 1.43 0 2.56 1.04 2.56 2.94v.47H10.4c.1 1.05.57 1.71 1.61 1.71.76 0 1.24-.47 1.33-.85h1.23c-.28 1.04-1.23 1.8-2.56 1.8ZM10.4 9.1h2.94c0-.95-.57-1.52-1.42-1.52-.95-.1-1.42.57-1.52 1.52Zm6.64 3.22h-1.14V6.64h1.14v1.52c.38-1.14 1.14-1.52 2.27-1.52v1.14c-1.32 0-2.27.38-2.27 1.8v2.75Zm3.8-6.83c-.48 0-.86-.28-.86-.85s.28-.76.85-.76c.48 0 .86.28.86.76 0 .47-.38.85-.86.85Zm.56 6.83h-1.23V6.64h1.23v5.69Zm3.5 0h-1.22V7.68h-1.24V6.64h1.24v-.57c0-1.61.75-2.37 2.18-2.28h.38v1.05h-.2c-.85 0-1.13.28-1.13 1.14v.75h1.42v1.05H24.9v4.55Zm3.14-6.83c-.48 0-.86-.28-.86-.85s.29-.76.86-.76c.47 0 .85.28.85.76 0 .47-.38.85-.85.85Zm.57 6.83h-1.24V6.64h1.24v5.69Zm4.17.19c-1.7 0-2.85-1.23-2.85-3.04 0-1.7 1.14-3.03 2.85-3.03 1.42 0 2.56 1.04 2.56 2.94v.47h-4.17c.1 1.05.57 1.71 1.61 1.71.76 0 1.23-.47 1.33-.85h1.23c-.19 1.04-1.14 1.8-2.56 1.8ZM31.25 9.1h2.94c0-.95-.57-1.52-1.42-1.52-.95-.1-1.42.57-1.52 1.52Zm7.78 3.4c-1.52 0-2.56-1.22-2.56-3.03 0-1.8 1.04-3.03 2.56-3.03.76 0 1.61.38 1.99 1.04V3.7h1.23v8.63h-1.23v-.95a2.23 2.23 0 0 1-2 1.14Zm.28-1.03c1.05 0 1.71-.76 1.71-2 0-1.23-.66-1.99-1.7-1.99-.96 0-1.62.76-1.62 2 0 1.23.66 1.99 1.61 1.99Zm10.43 1.04c-.75 0-1.6-.38-1.99-1.04v.94h-1.23V3.7h1.23v3.89c.38-.67 1.24-1.05 2-1.05 1.51 0 2.55 1.14 2.55 3.04-.09 1.8-1.04 2.94-2.56 2.94Zm-.28-1.04c.95 0 1.61-.76 1.61-2 0-1.23-.66-1.99-1.61-1.99-1.04 0-1.7.76-1.7 2-.1 1.23.66 1.99 1.7 1.99Zm3.8 3.13v-1.05c.85 0 1.13-.1 1.51-1.04l-2.09-5.88h1.33L55.43 11l1.43-4.36h1.23l-2.18 6.07c-.57 1.52-1.23 1.9-2.66 1.9Zm11.09-6.07c-1.05-.2-1.52-.29-1.52-.76 0-.38.28-.57.95-.57.57 0 .95.28 1.33.76 0 0 .1.1.1 0l1.22-.57s.1-.1 0-.1c-.47-.85-1.42-1.32-2.65-1.32-1.61 0-2.56.75-2.56 2.08s1.23 1.7 2.27 1.9c1.05.19 1.52.28 1.52.76 0 .38-.38.57-1.04.57-.67 0-1.14-.29-1.42-.86 0 0-.1-.1-.1 0l-1.23.48s-.1.1 0 .1c.47.94 1.42 1.5 2.75 1.5 1.7 0 2.65-.75 2.65-2.08 0-1.32-1.23-1.7-2.27-1.9Zm6.45-2.66c-.67 0-1.33.29-1.71.66h-.1V3.8c0-.09 0-.09-.1-.09h-1.5c-.1 0-.1 0-.1.1v8.53c0 .1 0 .1.1.1h1.5c.1 0 .1 0 .1-.1v-3.8c0-.75.57-1.32 1.33-1.32.76 0 1.33.57 1.33 1.33v3.79c0 .1 0 .1.1.1h1.51c.1 0 .1 0 .1-.1v-3.8c0-1.51-1.05-2.65-2.56-2.65Zm5.6-.19c-.86 0-1.62.29-2.19.57 0 0-.1.1 0 .1l.66 1.13s.1.1.1 0c.38-.28.85-.38 1.42-.38 1.33 0 2.28.95 2.28 2.18 0 1.05-.76 1.8-1.8 1.8-.76 0-1.33-.47-1.33-1.13 0-.38.19-.67.57-.95 0 0 .1-.1 0-.1l-.67-1.04s-.1-.1-.1 0c-.85.29-1.42 1.05-1.42 2.09 0 1.52 1.24 2.65 2.94 2.65 2 0 3.42-1.32 3.42-3.32 0-2.08-1.61-3.6-3.89-3.6Zm8.34.2c-.76 0-1.43.28-2 .75h-.1v-.57c0-.1 0-.1-.09-.1h-1.51c-.1 0-.1 0-.1.1v8.54c0 .09 0 .09.1.09h1.51c.1 0 .1 0 .1-.1v-2.84s0-.1.1 0c.47.47 1.13.76 1.9.76 1.8 0 3.12-1.42 3.12-3.32s-1.23-3.32-3.03-3.32ZM84.45 11c-1.04 0-1.8-.76-1.8-1.9 0-1.13.76-1.9 1.8-1.9s1.8.77 1.8 1.9c0 1.14-.76 1.9-1.8 1.9Z"></path></svg>
+                  Verified by shop
+                </span>
+              </div>
+              <div class="oke-w-review-helpful">
+                <div class="oke-helpful">
+                  <span class="oke-helpful-label">Was this helpful?</span>
+                  <div class="oke-helpful-vote">
+                    <button type="button" class="oke-helpful-vote-button oke-helpful-vote-button--positive">
+                      <span>0</span>
+                    </button>
+                    <button type="button" class="oke-helpful-vote-button oke-helpful-vote-button--negative">
+                      <span>0</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Review 3: Michele O. -->
+      <li class="oke-w-reviews-list-item">
+        <div class="oke-w-review">
+          <div class="oke-w-review-side">
+            <div class="oke-w-reviewer-name">Michele O.</div>
+            <div class="oke-w-reviewer-verified">Verified Buyer</div>
+            <div class="oke-w-reviewerRecommendation oke-w-reviewerRecommendation--yes">
+              <span class="oke-w-reviewerRecommendation-text">I recommend this product</span>
+            </div>
+            <div class="oke-w-selectAttr">
+              <div class="oke-w-selectAttr-item">
+                <strong class="oke-w-selectAttr-item-title">Age</strong>
+                <span class="oke-w-selectAttr-item-value">55 to 64</span>
+              </div>
+              <div class="oke-w-selectAttr-item">
+                <strong class="oke-w-selectAttr-item-title">Skin Type</strong>
+                <span class="oke-w-selectAttr-item-value">Dry</span>
+              </div>
+            </div>
+          </div>
+          <div class="oke-w-review-main">
+            <div class="oke-reviewContent-top">
+              <div class="oke-stars-static oke-stars-static--review">
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              </div>
+              <div class="oke-reviewContent-date">1 week ago</div>
+            </div>
+            <h3 class="oke-reviewContent-title">Great Pro6</h3>
+            <div class="oke-reviewContent-body">
+              <p>I am a woman but I chose this product because it's not makeup. It is not a concealer. It is actual skin care that just highlights the eyes so the dark circles are on as prevalent. It actually works!</p>
+            </div>
+            <div class="oke-w-review-footer">
+              <div class="oke-footerBadges"></div>
+              <div class="oke-w-review-helpful">
+                <div class="oke-helpful">
+                  <span class="oke-helpful-label">Was this helpful?</span>
+                  <div class="oke-helpful-vote">
+                    <button type="button" class="oke-helpful-vote-button oke-helpful-vote-button--positive">
+                      <span>0</span>
+                    </button>
+                    <button type="button" class="oke-helpful-vote-button oke-helpful-vote-button--negative">
+                      <span>0</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Brand Reply -->
+            <div class="oke-w-review-reply">
+              <div class="oke-w-reviewReply-title">Lumin</div>
+              <div class="oke-w-reviewReply-date">1 week ago</div>
+              <div class="oke-w-reviewReply-body">
+                <p>Hi Michele,</p>
+                <p>That's fantastic to hear that the Instant Dark Circle Corrector is working so well for you! We're thrilled that you appreciate how it's actual skincare rather than just makeup, and that it effectively highlights your eyes while making those dark circles less prominent.</p>
+                <p>Best,<br>Team Lumin</p>
+              </div>
+              <button type="button" class="oke-w-reviewReply-readMore">Read More</button>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Review 4: Courtney R. -->
+      <li class="oke-w-reviews-list-item">
+        <div class="oke-w-review">
+          <div class="oke-w-review-side">
+            <div class="oke-w-reviewer-name">Courtney R.</div>
+            <div class="oke-w-reviewer-verified">Verified Buyer</div>
+            <div class="oke-w-reviewerRecommendation oke-w-reviewerRecommendation--yes">
+              <span class="oke-w-reviewerRecommendation-text">I recommend this product</span>
+            </div>
+            <div class="oke-w-selectAttr">
+              <div class="oke-w-selectAttr-item">
+                <strong class="oke-w-selectAttr-item-title">Age</strong>
+                <span class="oke-w-selectAttr-item-value">35 to 44</span>
+              </div>
+              <div class="oke-w-selectAttr-item">
+                <strong class="oke-w-selectAttr-item-title">Skin Type</strong>
+                <span class="oke-w-selectAttr-item-value">Normal / Combination</span>
+              </div>
+            </div>
+          </div>
+          <div class="oke-w-review-main">
+            <div class="oke-reviewContent-top">
+              <div class="oke-stars-static oke-stars-static--review">
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              </div>
+              <div class="oke-reviewContent-date">2 weeks ago</div>
+            </div>
+            <h3 class="oke-reviewContent-title">Great product!</h3>
+            <div class="oke-reviewContent-body">
+              <p>My boyfriend really loves this under eye color corrector stuff!!!</p>
+            </div>
+            <div class="oke-w-review-footer">
+              <div class="oke-footerBadges"></div>
+              <div class="oke-w-review-helpful">
+                <div class="oke-helpful">
+                  <span class="oke-helpful-label">Was this helpful?</span>
+                  <div class="oke-helpful-vote">
+                    <button type="button" class="oke-helpful-vote-button oke-helpful-vote-button--positive">
+                      <span>0</span>
+                    </button>
+                    <button type="button" class="oke-helpful-vote-button oke-helpful-vote-button--negative">
+                      <span>0</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Brand Reply -->
+            <div class="oke-w-review-reply">
+              <div class="oke-w-reviewReply-title">Lumin</div>
+              <div class="oke-w-reviewReply-date">1 week ago</div>
+              <div class="oke-w-reviewReply-body">
+                <p>Hi Courtney,</p>
+                <p>That's so wonderful to hear that your boyfriend is really loving the Instant Dark Circle Corrector! We're thrilled that he's having such a great experience with it and that you're both so happy with the product!</p>
+                <p>Best,<br>Team Lumin</p>
+              </div>
+              <button type="button" class="oke-w-reviewReply-readMore">Read More</button>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Review 5: Bryan H. -->
+      <li class="oke-w-reviews-list-item">
+        <div class="oke-w-review">
+          <div class="oke-w-review-side">
+            <div class="oke-w-reviewer-name">Bryan H.</div>
+            <div class="oke-w-reviewer-verified">Verified Buyer</div>
+            <div class="oke-w-reviewerRecommendation oke-w-reviewerRecommendation--yes">
+              <span class="oke-w-reviewerRecommendation-text">I recommend this product</span>
+            </div>
+            <div class="oke-w-selectAttr">
+              <div class="oke-w-selectAttr-item">
+                <strong class="oke-w-selectAttr-item-title">Age</strong>
+                <span class="oke-w-selectAttr-item-value">45 to 54</span>
+              </div>
+              <div class="oke-w-selectAttr-item">
+                <strong class="oke-w-selectAttr-item-title">Skin Type</strong>
+                <span class="oke-w-selectAttr-item-value">Normal / Combination</span>
+              </div>
+            </div>
+          </div>
+          <div class="oke-w-review-main">
+            <div class="oke-reviewContent-top">
+              <div class="oke-stars-static oke-stars-static--review">
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+                <span class="oke-star"><svg><use href="#oke-star-svg"></use></svg></span>
+              </div>
+              <div class="oke-reviewContent-date">3 weeks ago</div>
+            </div>
+            <h3 class="oke-reviewContent-title">Great Product</h3>
+            <div class="oke-reviewContent-body">
+              <p>I've used other concealers in the past and stopped using them as I felt they were quite conspicuous on my skin. Not so with this one. It has a creamy texture and is more moisturising than correctors I've previously used.</p>
+              <p>I don't use it every day, but when I do, I feel more comfortable</p>
+            </div>
+            <div class="oke-w-review-footer">
+              <div class="oke-footerBadges"></div>
+              <div class="oke-w-review-helpful">
+                <div class="oke-helpful">
+                  <span class="oke-helpful-label">Was this helpful?</span>
+                  <div class="oke-helpful-vote">
+                    <button type="button" class="oke-helpful-vote-button oke-helpful-vote-button--positive">
+                      <span>0</span>
+                    </button>
+                    <button type="button" class="oke-helpful-vote-button oke-helpful-vote-button--negative">
+                      <span>0</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Brand Reply -->
+            <div class="oke-w-review-reply">
+              <div class="oke-w-reviewReply-title">Lumin</div>
+              <div class="oke-w-reviewReply-date">2 weeks ago</div>
+              <div class="oke-w-reviewReply-body">
+                <p>Hi Bryan,</p>
+                <p>Awesome to hear that the Instant Dark Circle Corrector has been such a game-changer for you! It's wonderful to know that you've found it to be so much more natural-looking and comfortable compared to other concealers you've tried in the past. We're especially pleased that you love the creamy, moisturizing texture - that's exactly what we were aiming for when developing this product. It's fantastic that it gives you that extra confidence and comfort whenever you choose to use it!</p>
+                <p>Best,<br>Team Lumin</p>
+              </div>
+              <button type="button" class="oke-w-reviewReply-readMore">Read More</button>
+            </div>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+
+    <!-- Show More -->
+    <div class="oke-w-reviews-footer">
+      <button type="button" class="oke-showMore-button">Show More</button>
+    </div>
+
+  </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "Product Reviews (Static)",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:settings.color_scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "select",
+      "id": "section_width",
+      "label": "t:settings.width",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:options.page"
+        },
+        {
+          "value": "full-width",
+          "label": "t:options.full"
+        }
+      ],
+      "default": "page-width"
+    },
+    {
+      "type": "header",
+      "content": "t:content.padding"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-start",
+      "label": "t:settings.top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-block-end",
+      "label": "t:settings.bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Reviews (Static)",
+      "category": "t:categories.layout"
+    }
+  ]
+}
+{% endschema %}
