@@ -219,7 +219,7 @@
                     "padding-block-start": 20,
                     "padding-block-end": 20,
                     "padding-inline-start": 10,
-                    "padding-inline-end": 25
+                    "padding-inline-end": 10
                   },
                   "blocks": {
                     "icon_zMgPEa": {
@@ -242,7 +242,7 @@
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "rte",
+                        "type_preset": "paragraph",
                         "font": "var(--font-body--family)",
                         "font_size": "1rem",
                         "line_height": "normal",
