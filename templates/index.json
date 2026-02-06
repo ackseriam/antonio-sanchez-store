@@ -335,7 +335,7 @@
       ],
       "name": "As Seen In",
       "settings": {
-        "title": "As Seen In",
+        "title": "Visto En",
         "hide_title_mobile": true,
         "color_scheme": "",
         "background_color": "#f2f1ed",
@@ -1489,7 +1489,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h2>Men Need Skincare, Too</h2>",
+                "text": "<h2>Los Hombres Tambien Necesitan Cuidado de la Piel</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1619,7 +1619,7 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "label": "Shop {{ closest.collection.title }}",
+                    "label": "Comprar {{ closest.collection.title }}",
                     "link": "{{ closest.collection.url }}",
                     "open_in_new_tab": false,
                     "style_class": "button-secondary",
@@ -1708,8 +1708,8 @@
       "name": "Why Section",
       "settings": {
         "overline": "HERE'S THE DEAL",
-        "title": "So, Why Lumin?",
-        "description": "<p>We get men, and we get skincare. Too many men are getting bummed out over pesky dark circles, unsightly breakouts, drying out their face with cheap soaps, and are overwhelmed by complicated skincare routines.</p>",
+        "title": "Entonces, Por Que Lumin?",
+        "description": "<p>Entendemos a los hombres y entendemos el cuidado de la piel. Demasiados hombres estan frustrados por las molestas ojeras, los brotes antiestéticos, se resecan la cara con jabones baratos y se sienten abrumados por rutinas complicadas de cuidado de la piel.</p>",
         "button_text": "TRY LUMIN FREE",
         "button_link": "",
         "image": "shopify://shop_images/lumin-homepage-imagewithtext-bg_733b513a-eb39-44dd-a7ff-6126e270e41e.webp",
@@ -1726,7 +1726,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "Shop All Best Sellers",
+            "label": "Comprar Todos los Mas Vendidos",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button",
@@ -1775,7 +1775,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><strong>MOST LOVED ITEMS</strong></p>",
+                "text": "<p><strong>ARTICULOS MAS QUERIDOS</strong></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1801,7 +1801,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>COMPLETE YOUR ROUTINE</h2><p></p>",
+                "text": "<h2>COMPLETA TU RUTINA</h2><p></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -2081,7 +2081,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Need an easy routine?</h2>",
+                    "text": "<h2>Necesitas una rutina facil?</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -2106,7 +2106,7 @@
                 "text_rG3Pcx": {
                   "type": "text",
                   "settings": {
-                    "text": "<h3><strong>An on-the-go lifestyle leaves little room for extra baggage.</strong></h3>",
+                    "text": "<h3><strong>Un estilo de vida activo deja poco espacio para equipaje extra.</strong></h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "center",
@@ -2205,7 +2205,7 @@
                 "text_gVyNMr": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Build your own routine with the ultimate men's facial care kit. Complete with<strong>Charcoal Face Wash Daily Detox</strong>,<strong>Daily Face Moisturizer</strong>, and</p>",
+                    "text": "<p>Crea tu propia rutina con el kit definitivo de cuidado facial para hombres. Incluye <strong>Charcoal Face Wash Daily Detox</strong>, <strong>Daily Face Moisturizer</strong> y</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "center",
@@ -2557,7 +2557,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>ILLUMINATED THOUGHTS</p>",
+                "text": "<p>PENSAMIENTOS ILUMINADOS</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2583,7 +2583,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Meet Our Luminaries</h2>",
+                "text": "<h2>Conoce a Nuestros Luminarios</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2608,7 +2608,7 @@
             "text_47tPYC": {
               "type": "text",
               "settings": {
-                "text": "<p>Discover a community of men who are making the world a better place, and looking damn good while doing it. Click the button below to read up on useful tips, shop recommended products, and hear more from our spotlight Luminaries.</p>",
+                "text": "<p>Descubre una comunidad de hombres que estan haciendo del mundo un lugar mejor, y luciendo increible mientras lo hacen. Haz clic en el boton de abajo para leer consejos utiles, comprar productos recomendados y conocer mas sobre nuestros Luminarios destacados.</p>",
                 "width": "100%",
                 "max_width": "narrow",
                 "alignment": "center",
@@ -2633,7 +2633,7 @@
             "button_37tWH6": {
               "type": "button",
               "settings": {
-                "label": "EXPLORE",
+                "label": "EXPLORAR",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
