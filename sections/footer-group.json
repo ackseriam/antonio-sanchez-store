@@ -178,7 +178,7 @@
           "type": "footer-policy-list",
           "settings": {
             "font_size": "0.875rem",
-            "case": "none"
+            "case": "uppercase"
           },
           "blocks": {}
         },
