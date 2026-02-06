@@ -1463,7 +1463,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p><strong>MOST LOVED ITEMS</strong></p>",
+                "text": "<p><strong> ARTÍCULOS MÁS POPULARES</strong></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
