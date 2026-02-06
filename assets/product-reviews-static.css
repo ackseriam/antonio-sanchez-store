@@ -186,25 +186,17 @@
   margin-top: 12px;
 }
 
-.oke-mediaCarousel-static {
+.oke-mediaCarousel-container {
+  position: relative;
+  height: 120px;
+  overflow: hidden;
+}
+
+.oke-mediaCarousel-track {
   display: flex;
   gap: 4px;
-  overflow-x: auto;
-  padding-bottom: 8px;
-  scrollbar-width: thin;
-}
-
-.oke-mediaCarousel-static::-webkit-scrollbar {
-  height: 4px;
-}
-
-.oke-mediaCarousel-static::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-.oke-mediaCarousel-static::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 2px;
+  transition: transform 0.3s ease;
+  height: 100%;
 }
 
 .oke-mediaCarousel-slide-static {
@@ -213,6 +205,7 @@
   height: 120px;
   border-radius: 0;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .oke-mediaCarousel-slide-static img {
@@ -220,6 +213,75 @@
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.oke-mediaCarousel-slide-static--video {
+  position: relative;
+}
+
+.oke-mediaCarousel-slide-static--video::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 32px;
+  height: 32px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpolygon points='8,5 19,12 8,19'/%3E%3C/svg%3E");
+  background-size: 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.oke-mediaCarousel-prev,
+.oke-mediaCarousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+.oke-mediaCarousel-prev:hover,
+.oke-mediaCarousel-next:hover {
+  background: #fff;
+}
+
+.oke-mediaCarousel-prev:disabled,
+.oke-mediaCarousel-next:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.oke-mediaCarousel-prev {
+  left: 0;
+}
+
+.oke-mediaCarousel-next {
+  right: 0;
+}
+
+.oke-mediaCarousel-prev svg,
+.oke-mediaCarousel-next svg {
+  width: 12px;
+  height: 12px;
+  fill: none;
+  stroke: #333;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 /* --------------------------------------------------------------------------
