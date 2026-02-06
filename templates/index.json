@@ -1053,7 +1053,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h4>The New DragonRay Eye Gel</h4><p></p>",
+                "text": "<h3><strong>El nuevo gel para ojos DragonRay</strong></h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
