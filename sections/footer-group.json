@@ -336,7 +336,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<h3>Entrar #Lumin</h3>",
+                    "text": "<h4>Suscríbete para recibir ofertas y consejos</h4>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
