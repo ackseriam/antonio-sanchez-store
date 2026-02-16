@@ -104,7 +104,7 @@
                 "placeholder": "",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
-                "padding-inline-start": 0,
+                "padding-inline-start": 10,
                 "padding-inline-end": 0
               },
               "blocks": {
@@ -144,7 +144,7 @@
                     "placeholder": "",
                     "padding-block-start": 0,
                     "padding-block-end": 0,
-                    "padding-inline-start": 0,
+                    "padding-inline-start": 10,
                     "padding-inline-end": 0
                   },
                   "blocks": {
@@ -223,7 +223,6 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "price_tag",
-                        "image_upload": "shopify://shop_images/Lightbulb_d65d0165-b08d-4dfa-b52a-9ba15e5b351d.png",
                         "width": 24,
                         "link": "",
                         "open_in_new_tab": false
@@ -1395,7 +1394,7 @@
                         "corner_radius": 0,
                         "padding-block-start": 0,
                         "padding-block-end": 0,
-                        "padding-inline-start": 10,
+                        "padding-inline-start": 0,
                         "padding-inline-end": 0
                       },
                       "blocks": {}
