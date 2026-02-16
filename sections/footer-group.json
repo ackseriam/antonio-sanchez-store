@@ -59,7 +59,7 @@
               "settings": {
                 "menu": "ahop",
                 "heading": "SHOP",
-                "menu_spacing": 12,
+                "menu_spacing": 7,
                 "show_as_accordion": false,
                 "accordion_icon": "caret",
                 "accordion_dividers": false,
