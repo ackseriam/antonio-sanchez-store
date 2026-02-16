@@ -1043,7 +1043,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/Instant_Dark_Circle_Corrector_Cropped.webp",
+                "image": "shopify://shop_images/imgi_7_O1CN01nGPZe51XuGUkebysW__2219225912983-0-cib.jpg",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -1672,11 +1672,11 @@
         "image_qqEmWi": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/lumin-ingredient-coffee.webp",
+            "image": "shopify://shop_images/imgi_68_5ba594b7-8ae1-4c84-ab3d-ac2aa68a8270.png",
             "link": "",
             "image_ratio": "adapt",
-            "width": "fill",
-            "custom_width": 100,
+            "width": "custom",
+            "custom_width": 74,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fit",
