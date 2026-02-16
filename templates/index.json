@@ -753,7 +753,7 @@
         "ai_gen_block_f34f89c_b6nTVt"
       ],
       "settings": {
-        "content_direction": "row",
+        "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
