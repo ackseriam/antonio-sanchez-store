@@ -1043,7 +1043,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/imgi_7_O1CN01nGPZe51XuGUkebysW__2219225912983-0-cib.jpg",
+                "image": "shopify://shop_images/main_imageAddbdb42ffb8946669efb49cce3649d3dn.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "custom",
@@ -2062,7 +2062,7 @@
             "text_teXttB": {
               "type": "text",
               "settings": {
-                "text": "<p>¿Qué tienen en común las arrugas, las líneas finas y las ojeras? Todos apestan. Pero eso no significa que no puedan ser atendidos. Nuestras soluciones proactivas de productos para la piel masculina Defend se adaptan exclusivamente a su tipo de piel y cuentan con fórmulas que abordan los problemas de su piel de frente.<br/><br/></p>",
+                "text": "<p>¿Qué tienen en común las arrugas, las líneas finas y las ojeras? Todos apestan. Pero eso no significa que no puedan ser atendidos. Nuestras soluciones proactivas de productos para la piel masculina se adaptan exclusivamente a su tipo de piel y cuentan con fórmulas que abordan los problemas de su piel de frente.</p><p></p>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -2143,7 +2143,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>En Lumin, destacamos…</h2>",
+            "text": "<h2>En O'Cheal, destacamos…</h2>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
