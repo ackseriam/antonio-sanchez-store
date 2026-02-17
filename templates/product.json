@@ -872,7 +872,7 @@
           "settings": {
             "image": "shopify://shop_images/freepik__whatever__8611.png",
             "link": "",
-            "image_ratio": "portrait",
+            "image_ratio": "adapt",
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
