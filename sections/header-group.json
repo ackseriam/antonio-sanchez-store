@@ -40,6 +40,7 @@
       "settings": {
         "device_visibility": "desktop",
         "speed": 5,
+        "sticky_top": false,
         "section_width": "page-width",
         "color_scheme": "scheme-93406ea1-d915-4ce5-8266-cb85ec154c03",
         "divider_width": 0,
@@ -100,6 +101,7 @@
       "settings": {
         "device_visibility": "mobile",
         "speed": 5,
+        "sticky_top": false,
         "section_width": "page-width",
         "color_scheme": "scheme-93406ea1-d915-4ce5-8266-cb85ec154c03",
         "divider_width": 2,
