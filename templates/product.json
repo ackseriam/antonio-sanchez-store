@@ -1617,7 +1617,59 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p><strong>Extracto De Raíz De Regaliz</strong></p><p>Reduce la apariencia de las ojeras, la decoloración y las manchas de la edad</p>",
+                    "text": "<p><strong>Retinol</strong></p><p>Reduce la apariencia de las ojeras, la decoloración y las manchas de la edad</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_hKfHKQ": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "text": "<p><strong>Extracto de Centella Asiática</strong></p><p>Reduce la apariencia de las ojeras, la decoloración y las manchas de la edad</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_TyFm8m": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "text": "<p><strong>Colágeno</strong></p><p>Reduce la apariencia de las ojeras, la decoloración y las manchas de la edad</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1643,7 +1695,9 @@
               "block_order": [
                 "text_XGprMi",
                 "text_MCFVrB",
-                "text_TQXpLB"
+                "text_TQXpLB",
+                "text_hKfHKQ",
+                "text_TyFm8m"
               ]
             },
             "button_4QkWHC": {
