@@ -754,45 +754,6 @@
                     "group_bYgMVr"
                   ]
                 },
-                "accordion_row_4McA4z": {
-                  "type": "_accordion-row",
-                  "settings": {
-                    "heading": "Fabricación",
-                    "open_by_default": false,
-                    "icon": "none",
-                    "width": 20
-                  },
-                  "blocks": {
-                    "text_8tggJj": {
-                      "type": "text",
-                      "settings": {
-                        "text": "<p>Nuestros productos se fabrican tanto localmente como globalmente. Seleccionamos cuidadosamente a nuestros socios de fabricación para garantizar alta calidad y un precio justo.</p>",
-                        "width": "100%",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_8tggJj"
-                  ]
-                },
                 "accordion_row_teQKt8": {
                   "type": "_accordion-row",
                   "settings": {
@@ -836,7 +797,6 @@
               "block_order": [
                 "accordion_row_6MxDCX",
                 "accordion_row_JDgEjW",
-                "accordion_row_4McA4z",
                 "accordion_row_teQKt8"
               ]
             }
