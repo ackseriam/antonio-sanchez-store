@@ -525,7 +525,7 @@
                   "name": "t:names.video",
                   "settings": {
                     "source": "uploaded",
-                    "video": "shopify://files/videos/f0f57f08-ad38-4a7f-a272-350edd26e134_640.mp4",
+                    "video": "shopify://files/videos/e94aa690d7a743bca3bc5d93eae1693f.mp4",
                     "video_url": "",
                     "video_autoplay": false,
                     "video_loop": true,
@@ -549,7 +549,7 @@
                   "name": "t:names.video",
                   "settings": {
                     "source": "uploaded",
-                    "video": "shopify://files/videos/c2efad68-09a9-44c7-bcc8-cc2b8bb32ebd_640.mp4",
+                    "video": "shopify://files/videos/263e66f7a1564b2bb7feed262c9eeac7.SD-480p-0.9Mbps-58757512.mp4",
                     "video_url": "",
                     "video_autoplay": false,
                     "video_loop": true,
