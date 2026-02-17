@@ -2115,7 +2115,7 @@
             "text_teXttB": {
               "type": "text",
               "settings": {
-                "text": "<h4>¿Qué tienen en común las arrugas, las líneas finas y las ojeras? Todos apestan. Pero eso no significa que no puedan ser atendidos. Nuestras soluciones proactivas de productos para la piel masculina se adaptan exclusivamente a su tipo de piel y cuentan con fórmulas que abordan los problemas de su piel de frente.</h4><p></p>",
+                "text": "<p>¿Qué tienen en común las arrugas, las líneas finas y las ojeras? Todos apestan. Pero eso no significa que no puedan ser atendidos. Nuestras soluciones proactivas de productos para la piel masculina se adaptan exclusivamente a su tipo de piel y cuentan con fórmulas que abordan los problemas de su piel de frente.</p><p></p>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
