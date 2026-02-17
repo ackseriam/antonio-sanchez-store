@@ -1106,10 +1106,10 @@
                   "name": "t:names.text",
                   "settings": {
                     "text": "<p><strong>Resultados clínicos</strong></p>",
-                    "width": "100%",
+                    "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "rte",
+                    "type_preset": "custom",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
