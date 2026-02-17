@@ -1209,7 +1209,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<p>agree that Instant Dark Circle Corrector <strong>instantly improves</strong> the appearance of <strong>dark circles*</strong></p><p></p>",
+                        "text": "<p>Está de acuerdo en que el corrector de O'Cheal mejora instantáneamente la apariencia de las ojeras*</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1293,7 +1293,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<p>agreethat Instant Dark Circle Corrector<strong>applies and blends quickly*</strong></p>",
+                        "text": "<p>De acuerdo en que el Corrector Instantáneo de Ojeras se aplica y difumina rápidamente*</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -1377,7 +1377,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<p>agree that Instant Dark Circle Corrector <strong>instantly improves</strong> the appearance of <strong>dark circles*</strong></p><p></p>",
+                        "text": "<p>Está de acuerdo en que el corrector de O'Cheal mejora instantáneamente la apariencia de las ojeras*</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
