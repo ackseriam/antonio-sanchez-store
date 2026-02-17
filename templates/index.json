@@ -1254,7 +1254,7 @@
           "settings": {
             "image": "shopify://shop_images/lumin_home_hero_idcc_shades_launch_hq.webp",
             "link": "",
-            "image_ratio": "portrait",
+            "image_ratio": "adapt",
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
