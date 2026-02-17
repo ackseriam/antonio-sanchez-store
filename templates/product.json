@@ -1565,7 +1565,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p> <strong>Cafeína</strong></p><p>Trabajaremos para enviar tu pedido lo antes posible. Cuando se envíe, recibirás un correo electrónico con más información. Los tiempos de entrega varían según tu ubicación.</p>",
+                    "text": "<h4> <strong>Cafeína</strong></h4><h5>Trabajaremos para enviar tu pedido lo antes posible. Cuando se envíe, recibirás un correo electrónico con más información. Los tiempos de entrega varían según tu ubicación.</h5>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1591,7 +1591,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p><strong> Ácido Hialurónico</strong></p><p>Hidrata intensamente la piel y suaviza las líneas finas.</p>",
+                    "text": "<h4><strong> Ácido Hialurónico</strong></h4><h5>Hidrata intensamente la piel y suaviza las líneas finas.</h5>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1617,7 +1617,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p><strong>Retinol</strong></p><p>Reduce arrugas y líneas de expresión, mejora la textura de la piel y unifica el tono al estimular la renovación celular y el colágeno. Además, ayuda a combatir el acné y a que la piel se vea más firme y luminosa.</p>",
+                    "text": "<h4><strong>Retinol</strong></h4><h5>Reduce arrugas y líneas de expresión, mejora la textura de la piel y unifica el tono al estimular la renovación celular y el colágeno. Además, ayuda a combatir el acné y a que la piel se vea más firme y luminosa.</h5>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1643,7 +1643,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p><strong>Extracto de Centella Asiática</strong></p><p>Calma la piel, reduce rojeces e inflamación y favorece la cicatrización. Además, ayuda a reforzar la barrera cutánea y mejora la hidratación y elasticidad.</p>",
+                    "text": "<h4><strong>Extracto de Centella Asiática</strong></h4><h5>Calma la piel, reduce rojeces e inflamación y favorece la cicatrización. Además, ayuda a reforzar la barrera cutánea y mejora la hidratación y elasticidad.</h5>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1669,7 +1669,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p><strong>Colágeno</strong></p><p>Ayuda a mejorar la firmeza y elasticidad de la piel, aportando un aspecto más terso y suave. Además, contribuye a mantener la hidratación y a reducir visualmente las líneas de expresión.</p>",
+                    "text": "<h4><strong>Colágeno</strong></h4><h5>Ayuda a mejorar la firmeza y elasticidad de la piel, aportando un aspecto más terso y suave. Además, contribuye a mantener la hidratación y a reducir visualmente las líneas de expresión.</h5>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
