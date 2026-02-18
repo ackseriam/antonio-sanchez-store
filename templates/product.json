@@ -1038,6 +1038,29 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "image_8ykFeL": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/freepik__whatever__8616.png",
+                "link": "",
+                "image_ratio": "adapt",
+                "width": "custom",
+                "custom_width": 35,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "group_V3FR4Q": {
               "type": "group",
               "name": "t:names.group",
@@ -1390,34 +1413,11 @@
                 "group_JAQHbF",
                 "group_EhRhXa"
               ]
-            },
-            "image_8ykFeL": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/freepik__whatever__8616.png",
-                "link": "",
-                "image_ratio": "adapt",
-                "width": "custom",
-                "custom_width": 35,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "group_V3FR4Q",
-            "image_8ykFeL"
+            "image_8ykFeL",
+            "group_V3FR4Q"
           ]
         }
       },
