@@ -531,7 +531,7 @@
                     "video_loop": true,
                     "alt": "",
                     "custom_width": 100,
-                    "custom_width_mobile": 100,
+                    "custom_width_mobile": 48,
                     "aspect_ratio": "auto",
                     "border": "solid",
                     "border_width": 1,
