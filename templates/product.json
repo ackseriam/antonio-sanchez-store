@@ -1404,6 +1404,32 @@
                     "icon_fJDF3F",
                     "text_gEFPke"
                   ]
+                },
+                "text_YMeKzX": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "text": "<h6></h6><h6></h6><h6></h6><h6></h6><h6>*Basado en un estudio de consumidores de 3 semanas con 24 participantes</h6>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
@@ -1411,7 +1437,8 @@
                 "text_NERqLi",
                 "group_TrBrjd",
                 "group_JAQHbF",
-                "group_EhRhXa"
+                "group_EhRhXa",
+                "text_YMeKzX"
               ]
             }
           },
