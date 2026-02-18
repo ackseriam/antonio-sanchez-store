@@ -1047,7 +1047,7 @@
                 "image_ratio": "adapt",
                 "width": "custom",
                 "custom_width": 35,
-                "width_mobile": "fill",
+                "width_mobile": "fit-content",
                 "custom_width_mobile": 100,
                 "height": "fit",
                 "border": "none",
