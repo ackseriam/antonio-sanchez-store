@@ -1462,6 +1462,7 @@
             "text_UFdMtB": {
               "type": "text",
               "name": "t:names.text",
+              "disabled": true,
               "settings": {
                 "text": "<p><strong> ARTÍCULOS MÁS POPULARES</strong></p>",
                 "width": "100%",
@@ -1516,7 +1517,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "Comprar ahora",
-                "link": "shopify://collections/all",
+                "link": "shopify://products/sin-nombre-20ene_1-03",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "custom",
@@ -1536,6 +1537,7 @@
         "static-collection-card": {
           "type": "_collection-card",
           "name": "t:names.collection_card",
+          "disabled": true,
           "static": true,
           "settings": {
             "placement": "below_image",
@@ -1654,6 +1656,7 @@
             "collection-card-image": {
               "type": "_collection-card-image",
               "name": "t:names.collection_card_image",
+              "disabled": true,
               "static": true,
               "settings": {
                 "image_ratio": "adapt",
