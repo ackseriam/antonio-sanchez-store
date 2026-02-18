@@ -1038,29 +1038,6 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "image_8ykFeL": {
-              "type": "image",
-              "name": "t:names.image",
-              "settings": {
-                "image": "shopify://shop_images/freepik__whatever__8616.png",
-                "link": "",
-                "image_ratio": "adapt",
-                "width": "custom",
-                "custom_width": 35,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
             "group_V3FR4Q": {
               "type": "group",
               "name": "t:names.group",
@@ -1106,9 +1083,9 @@
                   "name": "t:names.text",
                   "settings": {
                     "text": "<p><strong>Resultados clínicos</strong></p>",
-                    "width": "fit-content",
+                    "width": "100%",
                     "max_width": "normal",
-                    "alignment": "left",
+                    "alignment": "center",
                     "type_preset": "custom",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
@@ -1149,6 +1126,29 @@
                     "padding-block-start": 0,
                     "padding-block-end": 0,
                     "padding-inline-start": 10,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "image_KpBJUD": {
+                  "type": "image",
+                  "name": "t:names.image",
+                  "settings": {
+                    "image": "shopify://shop_images/freepik__whatever__8616.png",
+                    "link": "",
+                    "image_ratio": "adapt",
+                    "width": "custom",
+                    "custom_width": 35,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
                   "blocks": {}
@@ -1409,6 +1409,7 @@
               "block_order": [
                 "text_xarBFY",
                 "text_NERqLi",
+                "image_KpBJUD",
                 "group_TrBrjd",
                 "group_JAQHbF",
                 "group_EhRhXa"
@@ -1416,7 +1417,6 @@
             }
           },
           "block_order": [
-            "image_8ykFeL",
             "group_V3FR4Q"
           ]
         }
