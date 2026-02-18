@@ -2218,6 +2218,7 @@
         },
         "slide_xGUHgy": {
           "type": "_slide",
+          "disabled": true,
           "settings": {
             "media_type_1": "image",
             "content_direction": "column",
