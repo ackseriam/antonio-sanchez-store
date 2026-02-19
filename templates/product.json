@@ -2410,7 +2410,7 @@
             "accordion_row_aFwG6m": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "¿Qué causa los ojos hinchados en los hombres?",
+                "heading": "¿En cuánto tiempo se notan los resultados?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -2419,8 +2419,8 @@
                 "text_8ULTPa": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Nuestro objetivo es que cada cliente quede totalmente satisfecho con su compra. Si no es así, cuéntanoslo y haremos todo lo posible para solucionarlo.</p>",
-                    "width": "100%",
+                    "text": "<p>Los primeros efectos de hidratación y frescor pueden notarse desde las primeras aplicaciones. Los resultados visibles en el aspecto de ojeras y arrugas mejoran con el uso continuado.</p>",
+                    "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "rte",
