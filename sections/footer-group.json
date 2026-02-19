@@ -238,7 +238,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<h6>Free carbon-neutral shipping on all orders</h6>",
+                        "text": "<p>Envío gratuito con huella de carbono neutra en todos los pedidos</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
