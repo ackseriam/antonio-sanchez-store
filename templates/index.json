@@ -137,7 +137,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>NUEVO DE LUMIN'S LABS</p>",
+                    "text": "<p><em><strong>O'CHEAL</strong></em></p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -189,7 +189,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Gel para el contorno de ojos DragonRay, formulado con resina de sangre de dragón para hidratar, reducir la hinchazón y revitalizar la mirada. Combínalo con The Luminator para obtener resultados más firmes y rápidos.</p>",
+                    "text": "<p>O’CHEAL es una crema anti-arrugas y anti-ojeras diseñada para cuidar el contorno de ojos día a día.<br/>Ayuda a reducir visiblemente ojeras, líneas finas y signos de cansancio, aportando hidratación, suavidad y un aspecto más fresco y descansado. Su textura ligera se absorbe rápido y deja un acabado natural, ideal para uso diario.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
