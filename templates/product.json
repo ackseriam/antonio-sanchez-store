@@ -2449,7 +2449,7 @@
             "accordion_row_mLWcAe": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "¿Funcionará la crema correctora de color en las bolsas debajo de los ojos?",
+                "heading": "¿Es apta para todo tipo de piel?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -2458,7 +2458,7 @@
                 "text_nWRcjp": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>No podemos aceptar devoluciones de ciertos artículos. Se marcarán claramente antes de la compra.</p>",
+                    "text": "<p>Sí, su fórmula está pensada para adaptarse a todo tipo de piel, incluidas pieles normales, secas y mixtas. En pieles sensibles se recomienda realizar una prueba previa.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -2489,7 +2489,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "¿En qué se diferencia el IDCC de un corrector?",
+                "heading": "¿Se puede usar a diario?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -2499,7 +2499,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Trabajaremos para enviar tu pedido lo antes posible. Cuando se envíe, recibirás un correo electrónico con más información. Los tiempos de entrega varían según tu ubicación.</p>",
+                    "text": "<p>Sí, O’CHEAL es apta para uso diario y puede aplicarse tanto por la mañana como por la noche.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -2566,13 +2566,139 @@
               "block_order": [
                 "text_FzAMFD"
               ]
+            },
+            "accordion_row_Pz8dhT": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "¿Ayuda con las bolsas bajo los ojos?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_8eDniD": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>O’CHEAL ayuda a mejorar el aspecto general del contorno de ojos, incluyendo signos de cansancio como bolsas y ojeras, especialmente con un uso continuado.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_8eDniD"
+              ]
+            },
+            "accordion_row_7Gzxn8": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "¿Puedo usarla antes del maquillaje?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_AMxBdj": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>Sí. Gracias a su rápida absorción, puede aplicarse antes del maquillaje sin afectar al acabado.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_AMxBdj"
+              ]
+            },
+            "accordion_row_gJNkTD": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "¿Es una crema solo para hombres o unisex?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_g4Ah6T": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>O’CHEAL es una crema unisex, adecuada para cualquier persona que quiera cuidar y mejorar el aspecto del contorno de ojos.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_g4Ah6T"
+              ]
             }
           },
           "block_order": [
             "accordion_row_aFwG6m",
             "accordion_row_mLWcAe",
             "accordion_row_MHdfjY",
-            "accordion_row_TkAPTx"
+            "accordion_row_TkAPTx",
+            "accordion_row_Pz8dhT",
+            "accordion_row_7Gzxn8",
+            "accordion_row_gJNkTD"
           ]
         }
       },
