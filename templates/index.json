@@ -1338,7 +1338,7 @@
               "type": "button",
               "settings": {
                 "label": "Comprar ahora",
-                "link": "shopify://collections/all",
+                "link": "shopify://products/sin-nombre-20ene_1-03",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "custom",
