@@ -189,7 +189,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>O’CHEAL es una crema anti-arrugas y anti-ojeras diseñada para cuidar el contorno de ojos día a día.<br/>Ayuda a reducir visiblemente ojeras, líneas finas y signos de cansancio, aportando hidratación, suavidad y un aspecto más fresco y descansado. Su textura ligera se absorbe rápido y deja un acabado natural, ideal para uso diario.</p>",
+                    "text": "<p>Nuestra crema está diseñada para cuidar el contorno de los ojos día a día.<br/>Ayuda a reducir visiblemente ojeras, líneas finas y signos de cansancio, aportando hidratación, suavidad y un aspecto más fresco y descansado. Su textura ligera se absorbe rápido y deja un acabado natural, ideal para uso diario.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
