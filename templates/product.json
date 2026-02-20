@@ -2766,9 +2766,7 @@
         "image_WXXzWR",
         "image_Y6jqn7"
       ],
-      "custom_css": [
-        "h2, .banner__heading {font-size: 24px !important; /* Ajusta este número según necesites */line-height: 1.2 !important;padding-left: 20px !important;padding-right: 20px !important; }"
-      ],
+      "custom_css": [],
       "name": "Polaroid Gallery",
       "settings": {
         "overline": "La prueba está en las fotos",
