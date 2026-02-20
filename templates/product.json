@@ -1776,6 +1776,9 @@
         "group_ThLyxU",
         "image_qqEmWi"
       ],
+      "custom_css": [
+        "/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */@media screen and (max-width: 768px) {/* Contenedor principal de la sección */ .ingredients, .key-ingredients, .results, .clinical-results {display: flex; flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x mandatory; gap: 16px; padding-bottom: 10px; } /* Cada bloque (imagen + texto) */ .ingredients > div, .key-ingredients > div, .results > div, .clinical-results > div {min-width: 85%; scroll-snap-align: start; flex-shrink: 0; }}"
+      ],
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
