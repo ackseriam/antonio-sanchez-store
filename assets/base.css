@@ -4102,3 +4102,697 @@ text-component {
     font-size: max(1rem, 100%);
   }
 }
+/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}
+/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}
+/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}
+/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}
+/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+  /* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+  /* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+     /* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}
+/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+}/* ===== SOLO MÓVIL – Carrusel imagen + texto ===== */
+@media screen and (max-width: 768px) {
+
+  /* Contenedor principal de la sección */
+  .ingredients,
+  .key-ingredients,
+  .results,
+  .clinical-results {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  /* Cada bloque (imagen + texto) */
+  .ingredients > div,
+  .key-ingredients > div,
+  .results > div,
+  .clinical-results > div {
+    min-width: 85%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+  }
+
+  /* Ocultar scroll feo */
+  .ingredients::-webkit-scrollbar,
+  .key-ingredients::-webkit-scrollbar,
+  .results::-webkit-scrollbar,
+  .clinical-results::-webkit-scrollbar {
+    display: none;
+  }
+  .ingredients,
+  .key-ingredients,
+  .results,
+  clinical-results {
+    display: flex;
+    flex-warp: nowrap;
+    overflox-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+    }
+    .ingredients > div,
+    .key-ingredients > div,
+    .results > div,
+  clinical-results {
+    .clinical-results > div 
+    min-width: 85%
+    scroll-snap-align: start; 
+    flex-shrink: 0;
+    }
+    .ingredients:: -webkit-scrollbar,
+    .key-ingredients:: -webkit-scrollbar,
+    .results:: -webki-scrollbar,
+    .clinical-results:: -webkit-scrollbar {
+      display: none;
+      }
+      }
