@@ -4796,3 +4796,9 @@ text-component {
       display: none;
       }
       }
+/* Ocultar carousel en escritorio, visible solo en móvil */
+@media (min-width: 768px) {
+  #shopify-section-template--28642725036362__carousel_jBULaf {
+    display: none !important;
+  }
+}
