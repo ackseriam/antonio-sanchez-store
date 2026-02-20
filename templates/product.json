@@ -1462,7 +1462,6 @@
       "block_order": [
         "group_QzRmkd"
       ],
-      "disabled": true,
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "row",
@@ -1800,6 +1799,7 @@
         "group_ErCGDU",
         "image_tM4mzC"
       ],
+      "disabled": true,
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
