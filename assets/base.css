@@ -4802,3 +4802,9 @@ text-component {
     display: none !important;
   }
 }
+/* Ocultar slideshow en escritorio, visible solo en móvil */
+@media (min-width: 768px) {
+  #shopify-section-template--28642725036362__slideshow_RKmjzN {
+    display: none !important;
+  }
+}
