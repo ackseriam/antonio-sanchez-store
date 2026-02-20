@@ -2766,7 +2766,9 @@
         "image_WXXzWR",
         "image_Y6jqn7"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".card__media,.media img,.custom-polaroid-class {object-fit: contain !important; border-radius: 8px !important; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important; transform: scale(0.9); }"
+      ],
       "name": "Polaroid Gallery",
       "settings": {
         "overline": "La prueba está en las fotos",
