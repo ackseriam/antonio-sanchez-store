@@ -1123,7 +1123,7 @@
                   "settings": {
                     "image": "shopify://shop_images/IMAGEN_OTRO.jpg",
                     "link": "",
-                    "image_ratio": "adapt",
+                    "image_ratio": "landscape",
                     "width": "custom",
                     "custom_width": 48,
                     "width_mobile": "fill",
@@ -1231,10 +1231,11 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/IMAGEN.jpg",
                     "link": "",
-                    "image_ratio": "adapt",
-                    "width": "fill",
-                    "custom_width": 100,
+                    "image_ratio": "landscape",
+                    "width": "custom",
+                    "custom_width": 48,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
                     "height": "fit",
