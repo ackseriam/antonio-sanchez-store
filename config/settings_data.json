@@ -847,5 +847,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* Ajuste para centrar y reducir imágenes en móvil */@media screen and (max-width: 749px) {/* 1. Contenedor principal: lo centramos y limitamos el ancho */ .collage-item, .multicolumn-list__item, .media-with-text__media {display: flex !important; justify-content: center !important; align-items: center !important; margin: 0 auto !important; width: 85% !important; /* Esto hace que no toquen los bordes */ max-width: 300px !important; /* Evita que crezcan demasiado */ } .card__media, .media img, .custom-polaroid-class {object-fit: contain !important; border-radius: 8px !important; box-shadow: 0 4px 10px rgba(0,0,0,0.1) !important; transform: scale(0.9); } .banner__box, .rich-text__blocks {text-align: center !important; padding-left: 20px !important; padding-right: 20px !important; }}"
+    ]
   }
 }
