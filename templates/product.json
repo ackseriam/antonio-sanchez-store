@@ -3053,7 +3053,9 @@
           "settings": {
             "show_sample_reviews": true,
             "reviews_selection": "all",
-            "products": [],
+            "products": [
+              "sin-nombre-20ene_1-03"
+            ],
             "star_rating": "all",
             "show_review_media": true,
             "display_order": "media_first",
@@ -3075,7 +3077,7 @@
             "stars_color": "",
             "arrows_color": "#000000",
             "transition_speed": 5,
-            "header_text": "Customers are saying",
+            "header_text": "¡Esto es lo que están Diciendo Nuestros Clientes!",
             "show_average_rating": true
           }
         },
