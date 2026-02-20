@@ -1009,14 +1009,6 @@
     "section_VUd7jH": {
       "type": "section",
       "blocks": {
-        "custom_liquid_FxqLFV": {
-          "type": "custom-liquid",
-          "name": "t:names.custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          },
-          "blocks": {}
-        },
         "group_QzRmkd": {
           "type": "group",
           "name": "t:names.group",
@@ -1468,7 +1460,6 @@
         }
       },
       "block_order": [
-        "custom_liquid_FxqLFV",
         "group_QzRmkd"
       ],
       "disabled": true,
@@ -1497,6 +1488,18 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "custom_liquid_FKXDXn": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<style>\n/* CONTENEDOR GENERAL */\n.hero-ingredients {\n  width: 100%;\n  background: #FFD800;\n  padding: 40px 20px;\n  box-sizing: border-box;\n}\n\n/* ---------- DESKTOP ---------- */\n.hero-desktop {\n  display: flex;\n  align-items: center;\n  gap: 40px;\n}\n\n.hero-desktop img {\n  width: 50%;\n  max-width: 500px;\n}\n\n.hero-desktop-text {\n  width: 50%;\n}\n\n/* ---------- MOBILE ---------- */\n.hero-mobile {\n  display: none;\n}\n\n.slider {\n  display: flex;\n  overflow-x: auto;\n  scroll-snap-type: x mandatory;\n  -webkit-overflow-scrolling: touch;\n}\n\n.slide {\n  min-width: 100%;\n  scroll-snap-align: center;\n  text-align: center;\n  padding: 0 10px;\n  box-sizing: border-box;\n}\n\n.slide img {\n  width: 80%;\n  max-width: 260px;\n  margin: 0 auto 20px;\n  display: block;\n}\n\n.slide h2 {\n  font-size: 26px;\n  margin-bottom: 10px;\n}\n\n.slide h3 {\n  font-size: 18px;\n  margin-bottom: 10px;\n}\n\n.slide p {\n  font-size: 16px;\n  line-height: 1.4;\n}\n\n/* DOTS */\n.dots {\n  display: flex;\n  justify-content: center;\n  gap: 10px;\n  margin-top: 20px;\n}\n\n.dot {\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n  background: rgba(255,255,255,0.4);\n}\n\n.dot.active {\n  background: #fff;\n}\n\n/* RESPONSIVE */\n@media (max-width: 768px) {\n  .hero-desktop {\n    display: none;\n  }\n  .hero-mobile {\n    display: block;\n  }\n}\n</style>\n\n<div class=\"hero-ingredients\">\n\n  <!-- DESKTOP -->\n  <div class=\"hero-desktop\">\n    <img src=\"PEGA_AQUI_IMAGEN_DESKTOP\">\n    <div class=\"hero-desktop-text\">\n      <h2>Ingredientes clave</h2>\n      <h3>Cafeína</h3>\n      <p>Ayuda a aumentar la fuerza de la barrera de la piel y reduce visiblemente los poros.</p>\n    </div>\n  </div>\n\n  <!-- MOBILE -->\n  <div class=\"hero-mobile\">\n\n    <div class=\"slider\" id=\"ingredientSlider\">\n\n      <div class=\"slide\">\n        <img src=\"PEGA_AQUI_IMAGEN_1\">\n        <h2>Ingredientes clave</h2>\n        <h3>Cafeína</h3>\n        <p>Ayuda a aumentar la fuerza de la barrera de la piel, reduce visiblemente los poros dilatados y mejora la opacidad.</p>\n      </div>\n\n      <div class=\"slide\">\n        <img src=\"PEGA_AQUI_IMAGEN_2\">\n        <h2>Ingredientes clave</h2>\n        <h3>Niacinamida</h3>\n        <p>Unifica el tono de la piel y mejora la textura del contorno de ojos.</p>\n      </div>\n\n      <div class=\"slide\">\n        <img src=\"PEGA_AQUI_IMAGEN_3\">\n        <h2>Ingredientes clave</h2>\n        <h3>Ácido hialurónico</h3>\n        <p>Hidrata intensamente y suaviza las líneas de expresión.</p>\n      </div>\n\n    </div>\n\n    <div class=\"dots\" id=\"dots\">\n      <div class=\"dot active\"></div>\n      <div class=\"dot\"></div>\n      <div class=\"dot\"></div>\n    </div>\n\n  </div>\n\n</div>\n\n<script>\nconst slider = document.getElementById('ingredientSlider');\nconst dots = document.querySelectorAll('.dot');\n\nslider.addEventListener('scroll', () => {\n  const index = Math.round(slider.scrollLeft / slider.offsetWidth);\n  dots.forEach(dot => dot.classList.remove('active'));\n  if (dots[index]) dots[index].classList.add('active');\n});\n</script>",
+        "color_scheme": "",
+        "section_width": "page-width",
         "padding-block-start": 0,
         "padding-block-end": 0
       }
@@ -3195,6 +3198,7 @@
     "custom_liquid_cMmQgG",
     "section_VBdEAz",
     "section_VUd7jH",
+    "custom_liquid_FKXDXn",
     "section_bakpDE",
     "section_3ngkVt",
     "section_fBy3za",
