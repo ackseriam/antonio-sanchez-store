@@ -1493,6 +1493,17 @@
         "padding-block-end": 0
       }
     },
+    "custom_liquid_McJ9eA": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "custom_liquid_ACD4NP": {
       "type": "custom-liquid",
       "name": "t:names.custom_liquid",
@@ -3210,6 +3221,7 @@
     "custom_liquid_cMmQgG",
     "section_VBdEAz",
     "section_VUd7jH",
+    "custom_liquid_McJ9eA",
     "custom_liquid_ACD4NP",
     "custom_liquid_tBaptm",
     "section_bakpDE",
