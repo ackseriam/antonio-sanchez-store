@@ -1970,7 +1970,7 @@ deferred-media {
     }
   }
 }
-
+ 
 .deferred-media__poster-button {
   width: 100%;
   height: 100%;
@@ -1980,6 +1980,10 @@ deferred-media {
 .deferred-media__poster-button.deferred-media__playing {
   opacity: 0;
   transition: opacity 0.3s ease;
+}
+
+.deferred-media__poster-button.video-pdp {
+  max-height: 178px;
 }
 
 deferred-media img {
