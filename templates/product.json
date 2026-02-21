@@ -1526,17 +1526,6 @@
         "padding-block-end": 0
       }
     },
-    "custom_liquid_tBaptm": {
-      "type": "custom-liquid",
-      "name": "t:names.custom_liquid",
-      "settings": {
-        "custom_liquid": "<style>\n  .split-banner-wrapper {\n    display: flex;\n    flex-wrap: wrap;\n    min-height: 550px; /* Altura ajustada para que luzca más editorial */\n    width: 100%;\n    margin: 0;\n    overflow: hidden;\n  }\n\n  .split-banner-image, \n  .split-banner-content {\n    flex: 0 0 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  @media (min-width: 750px) {\n    .split-banner-image, \n    .split-banner-content {\n      flex: 0 0 50%;\n    }\n  }\n\n  .split-banner-image img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n\n  .split-banner-content {\n    background-color: #f4f4f4; \n    padding: 60px 40px;\n    box-sizing: border-box;\n  }\n\n  .content-box {\n    max-width: 500px;\n    /* CAMBIO CLAVE: Alineación centrada */\n    text-align: center; \n    display: flex;\n    flex-direction: column;\n    align-items: center;\n  }\n\n  .subheading { \n    text-transform: uppercase; \n    letter-spacing: 3px; \n    font-size: 13px; \n    margin-bottom: 15px; \n    color: #666; \n    font-weight: 500;\n  }\n\n  .heading { \n    font-size: clamp(30px, 4vw, 48px); /* Tamaño fluido */\n    margin-bottom: 20px; \n    line-height: 1.2; \n    color: #000;\n    font-weight: 600;\n    text-transform: none;\n  }\n\n  .description { \n    margin-bottom: 35px; \n    font-size: 17px; \n    color: #444; \n    line-height: 1.6;\n  }\n\n  .primary-button {\n    display: inline-block;\n    padding: 16px 45px;\n    background: #000;\n    color: #fff;\n    text-decoration: none;\n    font-weight: bold;\n    font-size: 14px;\n    letter-spacing: 1px;\n    transition: transform 0.2s ease, opacity 0.2s ease;\n  }\n\n  .primary",
-        "color_scheme": "",
-        "section_width": "page-width",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
     "section_bakpDE": {
       "type": "section",
       "blocks": {
@@ -1863,6 +1852,17 @@
         "padding-block-end": 40
       }
     },
+    "custom_liquid_tBaptm": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .split-banner-wrapper {\n    display: flex;\n    flex-wrap: wrap;\n    min-height: 550px; /* Altura ajustada para que luzca más editorial */\n    width: 100%;\n    margin: 0;\n    overflow: hidden;\n  }\n\n  .split-banner-image, \n  .split-banner-content {\n    flex: 0 0 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  @media (min-width: 750px) {\n    .split-banner-image, \n    .split-banner-content {\n      flex: 0 0 50%;\n    }\n  }\n\n  .split-banner-image img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n\n  .split-banner-content {\n    background-color: #f4f4f4; \n    padding: 60px 40px;\n    box-sizing: border-box;\n  }\n\n  .content-box {\n    max-width: 500px;\n    /* CAMBIO CLAVE: Alineación centrada */\n    text-align: center; \n    display: flex;\n    flex-direction: column;\n    align-items: center;\n  }\n\n  .subheading { \n    text-transform: uppercase; \n    letter-spacing: 3px; \n    font-size: 13px; \n    margin-bottom: 15px; \n    color: #666; \n    font-weight: 500;\n  }\n\n  .heading { \n    font-size: clamp(30px, 4vw, 48px); /* Tamaño fluido */\n    margin-bottom: 20px; \n    line-height: 1.2; \n    color: #000;\n    font-weight: 600;\n    text-transform: none;\n  }\n\n  .description { \n    margin-bottom: 35px; \n    font-size: 17px; \n    color: #444; \n    line-height: 1.6;\n  }\n\n  .primary-button {\n    display: inline-block;\n    padding: 16px 45px;\n    background: #000;\n    color: #fff;\n    text-decoration: none;\n    font-weight: bold;\n    font-size: 14px;\n    letter-spacing: 1px;\n    transition: transform 0.2s ease, opacity 0.2s ease;\n  }\n\n  .primary",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "section_3ngkVt": {
       "type": "section",
       "blocks": {
@@ -1953,32 +1953,6 @@
               },
               "blocks": {}
             },
-            "text_WiDNVi": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<p><strong>Apunta a las ojeras</strong></p><p>Nuestro enfoque de corrección de color utiliza el principio de la rueda de colores, donde los colores opuestos se neutralizan entre sí.<br/><br/>El amarillo es lo opuesto al azul, por lo que hemos incorporado pigmentos amarillos que se adaptan a la piel para contrarrestar los tonos azules y morados debajo del ojo, iluminando y reduciendo las sombras inmediatamente sin dejar un amarillo. elenco.<br/><br/></p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "custom",
-                "font": "var(--font-body--family)",
-                "font_size": "1.5rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
             "text_KrM8BH": {
               "type": "text",
               "name": "t:names.heading",
@@ -2000,6 +1974,32 @@
                 "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 27,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_WiDNVi": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<p><strong>Apunta a las ojeras</strong></p><p>Nuestro enfoque de corrección de color utiliza el principio de la rueda de colores, donde los colores opuestos se neutralizan entre sí.<br/><br/>El amarillo es lo opuesto al azul, por lo que hemos incorporado pigmentos amarillos que se adaptan a la piel para contrarrestar los tonos azules y morados debajo del ojo, iluminando y reduciendo las sombras inmediatamente sin dejar un amarillo. elenco.<br/><br/></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "custom",
+                "font": "var(--font-body--family)",
+                "font_size": "1.5rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -2065,8 +2065,8 @@
           "block_order": [
             "image_comparison_RbD3RK",
             "image_N3nHyX",
-            "text_WiDNVi",
             "text_KrM8BH",
+            "text_WiDNVi",
             "group_zDkLYr",
             "button_rWFN4n"
           ]
@@ -3150,6 +3150,7 @@
         "judge_me_reviews_cards_carousel_YtUVyn",
         "judge_me_reviews_review_widget_Ft3jFW"
       ],
+      "disabled": true,
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -3232,8 +3233,8 @@
     "custom_liquid_McJ9eA",
     "custom_liquid_ACD4NP",
     "custom_liquid_edY7BP",
-    "custom_liquid_tBaptm",
     "section_bakpDE",
+    "custom_liquid_tBaptm",
     "section_3ngkVt",
     "section_fBy3za",
     "section_Kb6irQ",
