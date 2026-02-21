@@ -1508,7 +1508,7 @@
       "type": "custom-liquid",
       "name": "t:names.custom_liquid",
       "settings": {
-        "custom_liquid": "<style>\n  /* ===== ESTILOS GENERALES ===== */\n  .ingredients-section {\n    width: 100%;\n    padding: 60px 20px;\n    font-family: 'Helvetica Neue', Arial, sans-serif;\n    box-sizing: border-box;\n  }\n\n  .ingredients-container {\n    max-width: 1100px;\n    margin: 0 auto;\n  }\n\n  /* ===== VERSIÓN ESCRITORIO (FIJA) ===== */\n  .ingredients-desktop {\n    display: grid;\n    grid-template-columns: 1.1fr 0.9fr;\n    gap: 40px;\n    align-items: center;\n  }\n\n  .ingredients-desktop h2 {\n    font-size: 46px; /* Aumentado de 38px */\n    margin-bottom: 40px;\n    font-weight: 700;\n    color: #000;\n  }\n\n  .desktop-item {\n    margin-bottom: 35px; \n  }\n\n  .desktop-item h3 {\n    font-size: 24px !important; /* Aumentado de 18px */\n    font-weight: 700 !important;\n    margin-bottom: 10px !important;\n    color: #000;\n    line-height: 1.2;\n    display: block;\n  }\n\n  .desktop-item p {\n    font-size: 18px; /* Aumentado de 15px */\n    line-height: 1.6;\n    color: #000;\n    margin: 0;\n  }\n\n  .desktop-image {\n    text-align: right;\n  }\n\n  .desktop-image img {\n    width: 100%;\n    max-width: 450px;\n    height: auto;\n    display: inline-block;\n    border-radius: 8px;\n  }\n\n  /* ===== VERSIÓN MÓVIL (CARRUSEL TÁCTIL) ===== */\n  .ingredients-mobile {\n    display: none;\n  }\n\n  .mobile-slider {\n    display: flex;\n    overflow-x: auto;\n    scroll-snap-type: x mandatory;\n    gap: 15px;\n    scrollbar-width: none;\n    -ms-overflow-style: none;\n    padding: 10px 5px 20px 5px;\n    -webkit-overflow-scrolling: touch;\n  }\n\n  .mobile-slider::-webkit-scrollbar {\n    display: none;\n  }\n\n  .mobile-slide {\n    min-width: 85%; \n    scroll-snap-align: center;\n    background: #fff;\n    padding: 25px;\n    border-radius: 15px;\n    text-align: center;\n    box-shadow: 0 5px 15px rgba(0,0,0,0.1);\n    flex-shrink: 0;\n    box-sizing: border-box;\n  }\n\n  .mobile-slide img {\n    width: 100%;\n    height: 200px;\n    object-fit: contain; \n    border-radius: 10px;\n    margin-bottom: 20px;\n    background: #fff;\n  }\n\n  .mobile-slide h3 {\n    font-size: 24px; /* Aumentado de 19px */\n    font-weight: 700;\n    margin-bottom: 12px;\n    color: #000;\n  }\n\n  .mobile-slide p {\n    font-size: 17px; /* Aumentado de 14px */\n    line-height: 1.5;\n    color: #333;\n    margin: 0;\n  }\n\n  .slider-dots {\n    display:",
+        "custom_liquid": "<style>\n  /* ===== ESTILOS GENERALES ===== */\n  .ingredients-section {\n    width: 100%;\n    padding: 60px 20px;\n    /* Color de fondo eliminado */\n    font-family: 'Helvetica Neue', Arial, sans-serif;\n    box-sizing: border-box;\n  }\n\n  .ingredients-container {\n    max-width: 1100px;\n    margin: 0 auto;\n  }\n\n  /* ===== VERSIÓN ESCRITORIO (FIJA) ===== */\n  .ingredients-desktop {\n    display: grid;\n    grid-template-columns: 1.1fr 0.9fr;\n    gap: 40px;\n    align-items: center;\n  }\n\n  .ingredients-desktop h2 {\n    font-size: 38px;\n    margin-bottom: 40px;\n    font-weight: 700;\n    color: #000;\n  }\n\n  .desktop-item {\n    margin-bottom: 30px; \n  }\n\n  .desktop-item h3 {\n    font-size: 18px !important; \n    font-weight: 700 !important;\n    margin-bottom: 8px !important;\n    color: #000;\n    line-height: 1.2;\n    display: block;\n  }\n\n  .desktop-item p {\n    font-size: 15px;\n    line-height: 1.5;\n    color: #000;\n    margin: 0;\n  }\n\n  .desktop-image {\n    text-align: right;\n  }\n\n  .desktop-image img {\n    width: 100%;\n    max-width: 450px;\n    height: auto;\n    display: inline-block;\n    border-radius: 8px;\n  }\n\n  /* ===== VERSIÓN MÓVIL (CARRUSEL TÁCTIL) ===== */\n  .ingredients-mobile {\n    display: none;\n  }\n\n  .mobile-slider {\n    display: flex;\n    overflow-x: auto;\n    scroll-snap-type: x mandatory;\n    gap: 15px;\n    scrollbar-width: none;\n    -ms-overflow-style: none;\n    padding: 10px 5px 20px 5px;\n    -webkit-overflow-scrolling: touch;\n  }\n\n  .mobile-slider::-webkit-scrollbar {\n    display: none;\n  }\n\n  .mobile-slide {\n    min-width: 80%; \n    scroll-snap-align: center;\n    background: #fff;\n    padding: 20px;\n    border-radius: 15px;\n    text-align: center;\n    box-shadow: 0 5px 15px rgba(0,0,0,0.1);\n    flex-shrink: 0;\n    box-sizing: border-box;\n  }\n\n  .mobile-slide img {\n    width: 100%;\n    height: 180px;\n    object-fit: contain; \n    border-radius: 10px;\n    margin-bottom: 15px;\n    background: #fff;\n  }\n\n  .mobile-slide h3 {\n    font-size: 19px;\n    font-weight: 700;\n    margin-bottom: 8px;\n    color: #000;\n  }\n\n  .mobile-slide p {\n    font-size: 14px;\n    line-height: 1.4;\n    color: #333;\n    margin: 0;\n  }\n\n  .slider-dots {\n    display: flex;\n    justify-content: center;\n    gap: 8px;\n    margin-top: 10px;\n  }\n\n  .dot {\n    width: 8px;\n    height: 8px;\n    background: rgba(0,0,0,0.2);\n    border-radius: 50%;\n    transition: 0.3s ease;\n  }\n\n  .dot.active {\n    background: #000;\n    width: 22px;\n    border-radius: 10px;\n  }\n\n  /* LÓGICA DE CAMBIO DE PANTALLA */\n  @media (max-width: 850px) {\n    .ingredients-desktop { display: none !important; }\n    .ingredients-mobile { display: block !important; }\n    .ingredients-section { padding: 40px 15px; }\n  }\n</style>\n\n<section class=\"ingredients-section\">\n  <div class=\"ingredients-container\">\n    <div class=\"ingredients-desktop\">\n      <div class=\"ingredients-content\">\n        <h2>Ingredientes Clave</h2>\n        <div class=\"desktop-item\">\n          <h3>Cafeína</h3>\n          <p>Reduce la apariencia de hinchazón y ofrece una rápida y visible desinflamación para ojos alertas.</p>\n        </div>\n        <div class=\"desktop-item\">\n          <h3>Ácido Hialurónico</h3>\n          <p>Mantiene tu piel hidratada y suave para un aspecto saludable.</p>\n        </div>\n        <div class=\"desktop-item\">\n          <h3>Extracto de Centella Asiática</h3>\n          <p>Calma la piel, reduce rojeces e inflamación y favorece la cicatrización natural.</p>\n        </div>\n        <div class=\"desktop-item\">\n          <h3>Colágeno</h3>\n          <p>Ayuda a mejorar la firmeza y elasticidad de la piel, aportando un aspecto más terso.</p>\n        </div>\n      </div>\n      <div class=\"desktop-image\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1004/7081/7098/files/IMAGENES_O_CHEAL_PAGINA_927e76f4-82c9-45e1-84e5-f9fd29265cf5.jpg?v=1771616927\" alt=\"Ingredientes Escritorio\">\n      </div>\n    </div>\n\n    <div class=\"ingredients-mobile\">\n      <h2 style=\"text-align:center; margin-bottom: 25px; font-size: 28px; color: #000;\">Ingredientes Clave</h2>\n      <div class=\"mobile-slider\" id=\"mobileSlider\">\n        <div class=\"mobile-slide\">\n          <img src=\"https://cdn.shopify.com/s/files/1/1004/7081/7098/files/Captura_de_pantalla_2026-02-20_212602.png?v=1771619359\" alt=\"Cafeína\">\n          <h3>Cafeína</h3>\n          <p>Efecto de-puff rápido para una mirada fresca y alerta.</p>\n        </div>\n        <div class=\"mobile-slide\">\n          <img src=\"https://cdn.shopify.com/s/files/1/1004/7081/7098/files/Captura_de_pantalla_2026-02-20_212626.png?v=1771619362\" alt=\"Hialurónico\">\n          <h3>Ácido Hialurónico</h3>\n          <p>Hidratación que rellena y suaviza tu piel al instante.</p>\n        </div>\n        <div class=\"mobile-slide\">\n          <img src=\"https://cdn.shopify.com/s/files/1/1004/7081/7098/files/Captura_de_pantalla_2026-02-20_212649.png?v=1771619366\" alt=\"Centella\">\n          <h3>Centella Asiática</h3>\n          <p>Calma y repara profundamente las pieles sensibles.</p>\n        </div>\n        <div class=\"mobile-slide\">\n          <img src=\"https://cdn.shopify.com/s/files/1/1004/7081/7098/files/Captura_de_pantalla_2026-02-20_212718.png?v=1771619373\" alt=\"Colágeno\">\n          <h3>Colágeno</h3>\n          <p>Firmeza y elasticidad para un rostro más rejuvenecido.</p>\n        </div>\n      </div>\n      <div class=\"slider-dots\" id=\"sliderDots\">\n        <span class=\"dot active\"></span>\n        <span class=\"dot\"></span>\n        <span class=\"dot\"></span>\n        <span class=\"dot\"></span>\n      </div>\n    </div>\n  </div>\n</section>\n\n<script>\n  const slider = document.getElementById('mobileSlider');\n  const dots = document.querySelectorAll('#sliderDots .dot');\n  if(slider) {\n    slider.addEventListener('scroll', () => {\n      const slideWidth = slider.querySelector('.mobile-slide').offsetWidth + 15;\n      const index = Math.round(slider.scrollLeft / slideWidth);\n      dots.forEach((dot, i) => {\n        dot.classList.toggle('active', i === index);\n      });\n    });\n  }\n</script>",
         "color_scheme": "scheme-1",
         "section_width": "page-width",
         "padding-block-start": 0,
@@ -1905,6 +1905,31 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "image_comparison_RbD3RK": {
+              "type": "image-comparison",
+              "name": "Comparación de imágenes",
+              "settings": {
+                "image_before": "shopify://shop_images/idcc_pdp_before.webp",
+                "image_after": "shopify://shop_images/idcc_pdp_after.webp",
+                "show_labels": false,
+                "label_before": "Antes",
+                "label_after": "Después",
+                "image_ratio": "adapt",
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "image_N3nHyX": {
               "type": "image",
               "name": "t:names.image",
@@ -1921,6 +1946,32 @@
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_WiDNVi": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<p><strong>Apunta a las ojeras</strong></p><p>Nuestro enfoque de corrección de color utiliza el principio de la rueda de colores, donde los colores opuestos se neutralizan entre sí.<br/><br/>El amarillo es lo opuesto al azul, por lo que hemos incorporado pigmentos amarillos que se adaptan a la piel para contrarrestar los tonos azules y morados debajo del ojo, iluminando y reduciendo las sombras inmediatamente sin dejar un amarillo. elenco.<br/><br/></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "custom",
+                "font": "var(--font-body--family)",
+                "font_size": "1.5rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -1993,37 +2044,7 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "text_LtQ4eJ": {
-                  "type": "text",
-                  "name": "t:names.heading",
-                  "settings": {
-                    "text": "<p><strong>Apunta a las ojeras</strong></p><p>Nuestro enfoque de corrección de color utiliza el principio de la rueda de colores, donde los colores opuestos se neutralizan entre sí.<br/><br/>El amarillo es lo opuesto al azul, por lo que hemos incorporado pigmentos amarillos que se adaptan a la piel para contrarrestar los tonos azules y morados debajo del ojo, iluminando y reduciendo las sombras inmediatamente sin dejar un amarillo. elenco.<br/><br/></p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "custom",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1.5rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_LtQ4eJ"
-              ]
+              "blocks": {}
             },
             "button_rWFN4n": {
               "type": "button",
@@ -2042,41 +2063,17 @@
             }
           },
           "block_order": [
+            "image_comparison_RbD3RK",
             "image_N3nHyX",
+            "text_WiDNVi",
             "text_KrM8BH",
             "group_zDkLYr",
             "button_rWFN4n"
           ]
-        },
-        "image_comparison_HtimVN": {
-          "type": "image-comparison",
-          "name": "Comparación de imágenes",
-          "settings": {
-            "image_before": "shopify://shop_images/idcc_pdp_before.webp",
-            "image_after": "shopify://shop_images/idcc_pdp_after.webp",
-            "show_labels": false,
-            "label_before": "Antes",
-            "label_after": "Después",
-            "image_ratio": "adapt",
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
         }
       },
       "block_order": [
-        "group_CmQ4db",
-        "image_comparison_HtimVN"
+        "group_CmQ4db"
       ],
       "name": "t:names.image_with_text",
       "settings": {
