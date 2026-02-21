@@ -1515,11 +1515,80 @@
         "padding-block-end": 0
       }
     },
+    "section_YzhXTb": {
+      "type": "section",
+      "blocks": {
+        "comparison_slider_zEdVwz": {
+          "type": "comparison-slider",
+          "name": "t:names.comparison_slider",
+          "settings": {
+            "slider_style": "horizontal",
+            "show_text": false,
+            "before_text": "",
+            "after_text": "",
+            "text_preset": "",
+            "text_position_horizontal": "start",
+            "text_position_vertical": "start",
+            "text_background": false,
+            "text_background_color": "#FFFFFF",
+            "text_corner_radius": 0,
+            "image_ratio": "landscape",
+            "width": "custom",
+            "custom_width": 65,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "comparison_slider_zEdVwz"
+      ],
+      "name": "t:names.image_compare",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "space-between",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 46,
+        "section_width": "page-width",
+        "section_height": "small",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
     "custom_liquid_edY7BP": {
       "type": "custom-liquid",
       "name": "t:names.custom_liquid",
       "settings": {
-        "custom_liquid": "<div class=\"custom-section-wrapper\">\n  <div class=\"custom-container\">\n    \n    <div class=\"custom-image-block\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1004/7081/7098/files/IMAGENES_O_CHEAL_PAGINA_927e76f4-82c9-45e1-84e5-f9fd29265cf5.jpg?v=1771616927\" alt=\"Imagen de sección\">\n    </div>\n\n    <div class=\"custom-text-block\">\n      <h2 class=\"custom-title\">Tu Título Aquí</h2>\n      <p class=\"custom-description\">\n        Aquí puedes escribir el texto descriptivo que desees. Este diseño está optimizado para que en ordenadores se mantenga a la derecha de la imagen, y en dispositivos móviles se mueva automáticamente debajo de ella para una mejor lectura.\n      </p>\n      <a href=\"#\" class=\"custom-button\">Saber más</a>\n    </div>\n\n  </div>\n</div>\n\n<style>\n  /* CONFIGURACIÓN GENERAL */\n  .custom-section-wrapper {\n    width: 100%;\n    padding: 50px 20px;\n    box-sizing: border-box;\n  }\n\n  .custom-container {\n    max-width: 1200px;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column; /* Móvil: Todo en columna (uno bajo otro) */\n    align-items: center;\n    gap: 30px;\n    text-align: center; /* Móvil: Texto centrado */\n  }\n\n  .custom-image-block {\n    width: 100%;\n  }\n\n  .custom-image-block img {\n    width: 100%;\n    max-width: 500px; /* Tamaño máximo de la imagen */\n    height: auto;\n    border-radius: 8px;\n    display: block;\n    margin: 0 auto;\n  }\n\n  .custom-text-block {\n    width: 100%;\n  }\n\n  .custom-title {\n    font-size: 28px;\n    font-weight: 700;\n    margin-bottom: 15px;\n    color: #333;\n  }\n\n  .custom-description {\n    font-size: 16px;\n    line-height: 1.6;\n    color: #666;\n    margin-bottom: 20px;\n  }\n\n  .custom-button {\n    display: inline-block;\n    padding: 12px 30px;\n    background-color: #000;\n    color: #fff;\n    text-decoration: none;\n    border-radius: 4px;\n    font-weight: 600;\n  }\n\n  /* CONFIGURACIÓN PARA ORDENADOR (Desktop) */\n  @media (min-width: 768px) {\n    .custom-container {\n      flex-direction: row; /* Ordenador: Imagen izquierda, texto derecha */\n      text-align: left; /* Texto alineado a la izquierda */\n      gap: 60px;\n    }\n\n    .custom-image-block, .custom-text-block {\n      flex: 1; /* Dividir el espacio 50/50 */\n    }\n\n    .custom-title {\n      font-size: 40px;\n    }\n\n    .custom-image-block img {\n      margin: 0; /* Quita el centrado automático en desktop */\n    }\n  }\n</style>",
+        "custom_liquid": "<div class=\"custom-section-wrapper\">\n  <div class=\"custom-container\">\n    \n    <div class=\"custom-image-block\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1004/7081/7098/files/image_1.webp?v=1769968895\" alt=\"Imagen de producto\">\n    </div>\n\n    <div class=\"custom-text-block\">\n      <h2 class=\"custom-title\">Tu Título Aquí</h2>\n      <p class=\"custom-description\">\n        Escribe aquí la descripción de tu producto o servicio. Este diseño garantiza que en pantallas de escritorio la imagen se mantenga a la izquierda, mientras que en dispositivos móviles, la imagen se mostrará primero en la parte superior para captar la atención.\n      </p>\n      <a href=\"#\" class=\"custom-button\">Comprar Ahora</a>\n    </div>\n\n  </div>\n</div>\n\n<style>\n  /* Estilos base y Móvil (Mobile First) */\n  .custom-section-wrapper {\n    width: 100%;\n    padding: 40px 20px;\n    box-sizing: border-box;\n    background-color: #ffffff;\n  }\n\n  .custom-container {\n    max-width: 1100px;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column; /* Móvil: Imagen arriba, texto abajo */\n    align-items: center;\n    gap: 30px;\n  }\n\n  .custom-image-block {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n  }\n\n  .custom-image-block img {\n    width: 100%;\n    max-width: 500px;\n    height: auto;\n    border-radius:",
         "color_scheme": "",
         "section_width": "page-width",
         "padding-block-start": 0,
@@ -1816,11 +1885,47 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "comparison_slider_jMJUc6": {
+          "type": "comparison-slider",
+          "name": "t:names.comparison_slider",
+          "settings": {
+            "before_image": "shopify://shop_images/idcc_pdp_before.webp",
+            "after_image": "shopify://shop_images/idcc_pdp_after.webp",
+            "slider_style": "horizontal",
+            "show_text": false,
+            "before_text": "",
+            "after_text": "",
+            "text_preset": "",
+            "text_position_horizontal": "start",
+            "text_position_vertical": "start",
+            "text_background": false,
+            "text_background_color": "#FFFFFF",
+            "text_corner_radius": 0,
+            "image_ratio": "adapt",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "group_ErCGDU",
-        "image_tM4mzC"
+        "image_tM4mzC",
+        "comparison_slider_jMJUc6"
       ],
       "disabled": true,
       "name": "t:names.image_with_text",
@@ -3232,6 +3337,7 @@
     "section_VUd7jH",
     "custom_liquid_McJ9eA",
     "custom_liquid_ACD4NP",
+    "section_YzhXTb",
     "custom_liquid_edY7BP",
     "section_bakpDE",
     "custom_liquid_tBaptm",
