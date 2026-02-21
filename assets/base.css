@@ -1983,7 +1983,8 @@ deferred-media {
 }
 
 .deferred-media__poster-button.video-pdp {
-  max-height: 178px;
+  max-height: 167px;
+  border-radius: 22px;
 }
 
 deferred-media img {
